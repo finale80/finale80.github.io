@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    {% include head.html %}
+    <body>
+<!--
+<header>
+    <p>
+    <a href="{{site.url}}">Home</a>
+    <a href="">About</a>
+    <a href="">Publications</a></p> 
+</header>
+-->
+        {% include header-top.html %}
+
+        <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+            <article role="article" id="scroll" class="post-item" itemprop="articleBody">
+                {{ content }}
+            </article>
+
+<!--
+            {% include share.html %}
+            {% include author.html %}
+            {% include comments.html %}
+-->
+            {% include footer.html %}
+        </section>
+    </body>
+</html>
