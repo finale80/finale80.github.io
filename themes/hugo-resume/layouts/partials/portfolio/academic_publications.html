@@ -1,0 +1,78 @@
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="academic-publications">
+          <div class="my-auto">
+            <h2 class="mb-5">Publications</h2>
+            {{ range .Site.Data.academic_publications }}
+              <div > <!--class="resume-item d-flex flex-column flex-md-row mb-5">-->
+                {{ $year := .year }}
+                {{ range .entries }}
+                    <div class="middle pubs"> 
+                        <span class="pubs-title">
+                            {{ $pdfurl := print "pubs/" .pdffname | relURL}}
+                            <a href="{{ $pdfurl }}">
+                            {{ .title }}
+                            &sdot; 
+                            {{ .venue }}'{{ substr $year 2 3 }}</a>
+                        </span>
+                        <a href="{{ $pdfurl }}" class="nostyle">
+                        <span class="tag-box tag-pdf">PDF</span>
+                        </a>
+                        {{ with .pptfname }}
+                            {{ $ppturl := print "pubs/" . | relURL}}
+                            <a href="{{ $ppturl }}" class="nostyle">
+                            <span class="tag-box tag-ppt">SLIDES</span>
+                            </a>
+                        {{ end }}
+                        <span class="nostyle"><span class="tag-box tag-details">details</span></span>
+
+                        <p class="pubs-authors">{{ .authors }}</p>
+                        <div class="pubs-details">
+                            <div style="text-align:right"><a href="{{ .officialurl }}">{{ .officialurl }}</a></div>
+                            <div>{{ .abstract }}</div>
+                            <hr>
+                            <div>
+                                <span class="bibtex">{{ .bibtex.command }}{{ .bibtex.name }},</span>
+                                <span class="bibtex ml-10">title={{ .bibtex.title }},</span>
+                                <span class="bibtex ml-10">author={{ .bibtex.author }},</span>
+                                <span class="bibtex ml-10">year={{ .bibtex.year }},</span>
+                                {{ with .bibtex.booktitle }}
+                                <span class="bibtex ml-10">booktitle={{ . }},</span>
+                                {{ end }}
+                                {{ with .bibtex.location }}
+                                <span class="bibtex ml-10">location={{ . }},</span>
+                                {{ end }}
+                                {{ with .bibtex.journal }}
+                                <span class="bibtex ml-10">journal={{ . }},</span>
+                                {{ end }}
+                                {{ with .bibtex.volume }}
+                                <span class="bibtex ml-10">volume={{ . }},</span>
+                                {{ end }}
+                                {{ with .bibtex.number }}
+                                <span class="bibtex ml-10">number={{ . }},</span>
+                                {{ end }}
+                                {{ with .bibtex.pages }}
+                                <span class="bibtex ml-10">pages={{ . }},</span>
+                                {{ end }}
+                                <span class="bibtex ml-10">doi={{ .bibtex.doi }},</span>
+                                <span class="bibtex ml-10">howpublished="{{ $pdfurl | absURL }}"</span>
+                                <span>}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                {{ end }}
+                <!--
+                <div class="resume-content mr-auto">
+                  <h3 class="mb-0">{{ .school | markdownify }}</h3>
+                  <div class="subheading mb-3">{{ .degree }}</div>
+                  <div>{{ .major | markdownify }}</div>
+                  <p>{{ .notes | markdownify }}
+                </div>
+                <div class="resume-date text-md-right">
+                  <span class="text-primary">{{ .range }}</span>
+                </div>
+                -->
+              </div>
+              {{ end }}
+           </div>
+        </section>
+

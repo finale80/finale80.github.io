@@ -1,0 +1,26 @@
+[
+    {
+        "role":"Principal Engineer",
+        "company":"HUAWEI",
+        "summary":"I am part of a team investigating how to integrate AI with data-plane programming to empower network monitoring and distributed telemetry systems.",
+        "range":"September 2019 - Present"
+    },
+    {
+        "role":"Principal Engineer",
+        "company":"Telefonica UK / O2",
+        "summary":"Lead a project to create a customer satisfaction prediction for the 30M+ O2 customers based. The system was powered by a large 250+ nodes hadoop cluster, and based on a combination of Apache Spark and sklearn, and daily prediction were used to drive both marketing campains and radio teams operations.",
+        "range":"January 2018 - September 2020"
+    },
+    {
+        "role":"Associate Researcher",
+        "company":"Telefonica Research",
+        "summary":"I split my time between doing Internet measurements research, and support different Telefonica operational business (OBs) needs for analytics based on network data.",
+        "range":"December 2014 - January 2018"
+    },
+    {
+        "role":"Research assistant (PostDoc) / Contractor",
+        "company":"CNIT - Politecnico di Torino / Narus Inc, Sunnyvale, CA, U.S",
+        "summary":"I worked on different research projects related to network measurements, and spent almost 1 year at Narus Inc (now part of Symantec) focusing on cyber security based on network traffic analytics.",
+        "range":"January 2012 - December 2014"
+    }
+]
