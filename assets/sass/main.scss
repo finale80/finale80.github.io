@@ -402,3 +402,10 @@ a.nostyle :hover, :active, :focus, :link {
 hr {
   border-color: rgba( $color_text, .1 );
 }
+
+.fa-scholar {
+  content: url('/img/google-scholar.svg');
+  height: 1em;
+  width: auto;
+  filter: invert(1);
+}

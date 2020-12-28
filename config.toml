@@ -28,16 +28,20 @@ showSkills = false
 
 [params.google]
 
-[params.google.analytics]
-trackerID = "XX-123446-01"
+#[params.google.analytics]
+#trackerID = "XX-123446-01"
 
 [[params.handles]]
 link = "https://www.linkedin.com/in/alessandro-finamore-a741a45/"
 name = "LinkedIn"
 
-#[[params.handles]]
-#link = "https://github.com/eddiewebb/"
-#name = "GitHub"
+[[params.handles]]
+link = "https://scholar.google.com/citations?user=PDm2yXEAAAAJ&hl=en"
+name = "GoogleScholar"
+
+[[params.handles]]
+link = "https://twitter.com/finale80"
+name = "Twitter"
 
 #[[params.handles]]
 #link = "https://bitbucket.org/eddiewebb/"

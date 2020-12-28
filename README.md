@@ -1,5 +1,7 @@
 
-Build reworking the theme [https://themes.gohugo.io/hugo-resume/#setup--use](https://themes.gohugo.io/hugo-resume/#setup--use)
+Reference links
+- hugo theme [https://themes.gohugo.io/hugo-resume/#setup--use](https://themes.gohugo.io/hugo-resume/#setup--use)
+- colors [https://themes.gohugo.io//theme/hugo-theme-color-your-world/about/](https://themes.gohugo.io//theme/hugo-theme-color-your-world/about/)
 
 ## to compile the website
 Run `hugo` to create the static content, but note that as from [instruction](https://gohugo.io/hosting-and-deployment/hosting-on-github/) the content is saved into `/docs` rather than `/public`
