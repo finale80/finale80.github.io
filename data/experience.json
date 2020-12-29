@@ -8,7 +8,7 @@
     {
         "role":"Principal Engineer",
         "company":"Telefonica UK / O2",
-        "summary":"Lead a project to create a customer satisfaction prediction for the 30M+ O2 customers based. The system was powered by a large 250+ nodes hadoop cluster, and based on a combination of Apache Spark and sklearn, and daily prediction were used to drive both marketing campains and radio teams operations.",
+        "summary":"Lead a project to create a ML model to predict the satisfaction of the 30M+ O2 customers in using data and voice services. The system is based on a combination of Apache Spark analytics and sklearn ML models, running on a 250+ nodes hadoop cluster generating daily predictions using a wide variety of network data feeds from the mobile network packet core. The prediction have been succesfully used to drive operations for both marketing campains and radio teams planning.",
         "range":"January 2018 - September 2020"
     },
     {

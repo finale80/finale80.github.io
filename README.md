@@ -6,5 +6,9 @@ Reference links
 ## to compile the website
 Run `hugo` to create the static content, but note that as from [instruction](https://gohugo.io/hosting-and-deployment/hosting-on-github/) the content is saved into `/docs` rather than `/public`
 
-## to handle new publications
-Still a bit messy as requires to manually edit the JSON `/data/academic_publications.json`, and include the related bibtex info. If a `bibtex` is available, use `python scripts/process_bibtex.py <bibtex.bib>` to rework it
+## update content
+- __add publications__ : Still a bit messy as requires to manually edit the JSON `/data/academic_publications.json`, and include the related bibtex info. If a `bibtex` is available, use `python scripts/process_bibtex.py <bibtex.bib>` to rework it
+- __experience__ : edit `/data/experience.json`
+- __education__ : edit `/data/education.json`
+- __about__ : edit `/content/_about.md`
+
