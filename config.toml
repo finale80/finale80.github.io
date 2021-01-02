@@ -7,7 +7,8 @@ PygmentsCodeFencesGuessSyntax = true
 PygmentsStyle = "monokai"
 enableGitInfo = false
 publishDir = "docs"
-disableKinds = [“categories”, “tags”]
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 address = "Paris, FRANCE"
@@ -26,6 +27,7 @@ showPublications = false
 showAcademicPublications = true
 showQr = false
 showSkills = false
+
 
 [params.google]
 
