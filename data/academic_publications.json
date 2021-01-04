@@ -1,4 +1,25 @@
 [
+    {"year": "2021",
+     "entries": [
+        {
+            "title" : "Are we breaking bubbles as we move? Using a large sample to explore the relationship between urban mobility and segregation",
+            "authors" : "S. Park, T. Oshan, A. El Ali, A. Finamore",
+            "venue" :  "Computers, Environment and Urban Systems",
+            "venueurl" : "https://doi.org/10.1016/j.compenvurbsys.2020.101585",
+            "officialurl" : "https://doi.org/10.1016/j.compenvurbsys.2020.101585",
+            "pdffname" : "CEUS21_mobility.pdf",
+            "abstract": "Segregation often dismantles common activity spaces and isolates people of different backgrounds, leading to irreconcilable inequalities that disfavour the poor and minorities and intensifies societal fragmentation. Therefore, segregation has become an increasing concern and topic of research with studies typically concentrating on the residential communities of a particular racial or socioeconomic group. This paper enhances the residential view of segregation and examines the topic in the context of urban mobility. Specifically, it expands upon prior research by employing large-sample, seamless telecommunication logs of London, UK to provide a holistic view of mobility across the entire socioeconomic spectrum. A method is developed to transform the data to flows between geographic areas with different socioeconomic statuses. Spatial interaction models are then calibrated to examine the impact of both geographical distance and socioeconomic distance on the deterrence of flows and the analysis is extended to analyze the interaction of the two factors. Overall, socioeconomic distance is found to have a subtle effect compared to geographical distance. However, different effects are observed depending on the socioeconomic distance between flows and the deterrence of mobility tends to be the greatest when both physical and socioeconomic distance are high, suggesting that both factors may play a role creating and maintaining segregation.",
+            "bibtex": {
+                "name": "AF:CEUS-21",
+                "command": "@article{",
+                "title": "Are we breaking bubbles as we move? Using a large sample to explore the relationship between urban mobility and segregation",
+                "journal": "Computers, Environment and Urban Systems",
+                "pages": "101585",
+                "year": "2021",
+                "doi": "10.1016/j.compenvurbsys.2020.101585"
+            }
+        }
+    ]},
     {"year": "2020",
      "entries": [
         {
