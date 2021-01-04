@@ -13,7 +13,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
 address = "Paris, FRANCE"
 email = "finale80@gmail.com"
-favicon = "/favicon.ico"
+favicon = "/img/favicon.ico"
 firstName = "Alessandro"
 lastName = "Finamore"
 #phone = "1-555-555-1234"
