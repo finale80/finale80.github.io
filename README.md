@@ -12,4 +12,5 @@ Run `hugo` to create the static content, but note that as from [instruction](htt
 - __experience__ : edit `/data/experience.json`
 - __education__ : edit `/data/education.json`
 - __about__ : edit `/content/_about.md`
+- __baseof__ : `themes/hugo-resume/layouts/_default/baseof.html`
 
