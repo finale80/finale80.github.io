@@ -12,13 +12,13 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 address = "Paris, FRANCE"
-email = "finale80@gmail.com"
+email = "mail@afinamore.io"
 favicon = "/favicon.ico"
 firstName = "Alessandro"
 lastName = "Finamore"
 #phone = "1-555-555-1234"
 profileImage = "img/profile_pic_round.png"
-showEmail = false
+showEmail = true
 showEducation = true
 showExperience = true
 showOpenSource = false
