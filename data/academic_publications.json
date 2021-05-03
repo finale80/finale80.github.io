@@ -14,6 +14,9 @@
                 "command": "@article{",
                 "title": "Are we breaking bubbles as we move? Using a large sample to explore the relationship between urban mobility and segregation",
                 "journal": "Computers, Environment and Urban Systems",
+                "author" : "{S. {Park} and T. {Oshan} and A. {El Ali} and A. {Finamore}}",
+                "pages": "101585",
+                "volume": "86",
                 "pages": "101585",
                 "year": "2021",
                 "doi": "10.1016/j.compenvurbsys.2020.101585"
