@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Alessandro Finamore | Home</title>
   <meta property="og:title" content="Alessandro Finamore | Home" />
-  <meta property="og:image" content="https://finale80.github.io/img/profile_pic_round.png" />
+  <meta property="og:image" content="https://afinamore.io/img/profile_pic_round.png" />
   <meta name="description" content="">
   <meta property="og:description" content="" />
   <meta name="author" content="Alessandro Finamore">
@@ -28,12 +28,12 @@
   
   
   
-<link rel="stylesheet" href="https://finale80.github.io/sass/main.min.ca661fac1ad63b5f3a68338fba1ba16384184dbbb30aa5995d3f2b39e50e2215.css">
+<link rel="stylesheet" href="https://afinamore.io/sass/main.min.ca661fac1ad63b5f3a68338fba1ba16384184dbbb30aa5995d3f2b39e50e2215.css">
 
-  <link rel="preload" href="https://finale80.github.io/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://finale80.github.io/css/tweaks.css"></noscript>
-  <link rel="preload" href="https://finale80.github.io/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://finale80.github.io/css/resume-override.css"></noscript>
+  <link rel="preload" href="https://afinamore.io/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://afinamore.io/css/tweaks.css"></noscript>
+  <link rel="preload" href="https://afinamore.io/css/resume-override.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://afinamore.io/css/resume-override.css"></noscript>
   <meta name="generator" content="Hugo 0.79.1" />
   
    
@@ -164,7 +164,7 @@
                             <a href="/pubs/SEC21_fenxi.pdf">
                             FENXI: Deep-learning Traffic Analytics at the Edge
                             &sdot; 
-                            ACM/IEEE Symposium on Edge Computing (SEC&#39;21)'21</a>
+                            SEC'21</a>
                         </span>
                         <a href="/pubs/SEC21_fenxi.pdf" class="nostyle">
                         <span class="tag-box tag-pdf">PDF</span>
@@ -178,12 +178,12 @@
                             <div>Live traffic analysis at the first aggregation point in the ISP network enables the implementation of complex traffic engineering policies but is limited by the scarce processing capabilities, especially for Deep Learning (DL) based analytics. The introduction of specialized hardware accelerators i.e., Tensor Processing Unit (TPU), offers the opportunity to enhance the processing capabilities of network devices at the edge. Yet, to date, no packet processing pipeline is capable of offering DL-based analysis capabilities in the data-plane, without interfering with network operations. In this paper, we present FENXI, a system to run complex analytics by leveraging TPU. The design of FENXI decouples forwarding operations and traffic analytics which operates at different granularities i.e., packet and flow levels. We conceive two independent modules that asynchronously communicate to exchange network data and analytics results, and design data structures to extract flow level statistics without impacting per-packet processing. We prototyped and evaluated FENXI on general-purpose servers considering both adversarial and realistic network conditions. Our analysis shows that FENXI can sustain 100 Gbps line rate traffic processing requiring only limited resources, while also dynamically adapting to variable network conditions.</div>
                             <hr>
                             <div>
-                                <span class="bibtex">@inproceedings{AF:CORR-21,</span>
+                                <span class="bibtex">@inproceedings{AF:CORR-21b,</span>
                                 <span class="bibtex ml-10">title={FENXI: Deep-learning Traffic Analytics at the Edge},</span>
                                 <span class="bibtex ml-10">author={M. {Gallo} and A. {Finamore} and G. {Simon} and D. {Rossi},</span>
                                 <span class="bibtex ml-10">year={2021},</span>
                                 
-                                <span class="bibtex ml-10">booktitle={Symposium on Edge Computing (SEC&#39;21)},</span>
+                                <span class="bibtex ml-10">booktitle={Symposium on Edge Computing (SEC)},</span>
                                 
                                 
                                 <span class="bibtex ml-10">location={Virtual Event, USA},</span>
@@ -193,7 +193,53 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi=,</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/SEC21_fenxi.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/SEC21_fenxi.pdf"</span>
+                                <span>}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                
+                
+              </div>
+              
+              <div > 
+                
+                
+                    <div class="middle pubs"> 
+                        <span class="pubs-title">
+                            
+                            <a href="/pubs/CORR21_traffic_classification.pdf">
+                            Deep Learning and Traffic Classification: Lessons learned from a commercial-grade dataset with hundreds of encrypted and zero-day applications
+                            &sdot; 
+                            CoRR'21</a>
+                        </span>
+                        <a href="/pubs/CORR21_traffic_classification.pdf" class="nostyle">
+                        <span class="tag-box tag-pdf">PDF</span>
+                        </a>
+                        
+                        <span class="nostyle"><span class="tag-box tag-details">details</span></span>
+
+                        <p class="pubs-authors">L. Yang, A. Finamore, F. Jun, D. Rossi</p>
+                        <div class="pubs-details">
+                            <div style="text-align:right"><a href="https://arxiv.org/abs/2104.03182">https://arxiv.org/abs/2104.03182</a></div>
+                            <div>The increasing success of Machine Learning (ML) and Deep Learning (DL) has recently re-sparked interest towards traffic classification. While classification of known traffic is a well investigated subject with supervised classification tools (such as ML and DL models) are known to provide satisfactory performance, detection of unknown (or zero-day) traffic is more challenging and typically handled by unsupervised techniques (such as clustering algorithms). In this paper, we share our experience on a commercial-grade DL traffic classification engine that is able to (i) identify known applications from encrypted traffic, as well as (ii) handle unknown zero-day applications. In particular, our contribution for (i) is to perform a thorough assessment of state of the art traffic classifiers in commercial-grade settings comprising few thousands of very fine grained application labels, as opposite to the few tens of classes generally targeted in academic evaluations. Additionally, we contribute to the problem of (ii) detection of zero-day applications by proposing a novel technique, tailored for DL models, that is significantly more accurate and light-weight than the state of the art.  Summarizing our main findings, we gather that (i) while ML and DL models are both equally able to provide satisfactory solution for classification of known traffic, however (ii) the non-linear feature extraction process of the DL backbone provides sizeable advantages for the detection of unknown classes.</div>
+                            <hr>
+                            <div>
+                                <span class="bibtex">@article{AF:CORR-21a,</span>
+                                <span class="bibtex ml-10">title={Deep Learning and Traffic Classification: Lessons learned from a commercial-grade dataset with hundreds of encrypted and zero-day applications},</span>
+                                <span class="bibtex ml-10">author={L. {Yang} and A. {Finamore} and F. {Jun} and D. {Rossi}},</span>
+                                <span class="bibtex ml-10">year={2021},</span>
+                                
+                                
+                                
+                                <span class="bibtex ml-10">journal={CoRR},</span>
+                                
+                                
+                                
+                                
+                                <span class="bibtex ml-10">doi=,</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/CORR21_traffic_classification.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -243,7 +289,7 @@
                                 <span class="bibtex ml-10">pages=101585,</span>
                                 
                                 <span class="bibtex ml-10">doi=10.1016/j.compenvurbsys.2020.101585,</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/CEUS21_mobility.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/CEUS21_mobility.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -291,7 +337,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1145/3419394.3423661},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/IMC20_roaming.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/IMC20_roaming.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -333,7 +379,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/INFOCOMWKSHPS50562.2020.9162704},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/INFOCOM20_poster.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/INFOCOM20_poster.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -375,7 +421,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi=,</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/SIGCOMM20_poster.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/SIGCOMM20_poster.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -415,7 +461,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi=,</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/CORR20_mbz.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/CORR20_mbz.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -463,7 +509,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.23919/TMA.2019.8784636},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TMA19_mcpa.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TMA19_mcpa.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -503,7 +549,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi=,</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/CORR19_mcpa.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/CORR19_mcpa.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -551,7 +597,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1145/3178876.3186035},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/WWW18_chimp.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/WWW18_chimp.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -601,7 +647,7 @@
                                 <span class="bibtex ml-10">pages={163-169},</span>
                                 
                                 <span class="bibtex ml-10">doi={10.1109/MCOM.2017.1600756CM},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/IEEECOM17_tstat-dpdk.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/IEEECOM17_tstat-dpdk.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -648,7 +694,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1145/3143361.3143375},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/CONEXT17_dns.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/CONEXT17_dns.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -690,7 +736,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/ICDE.2017.89},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/ICDE17_kpis.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/ICDE17_kpis.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -737,7 +783,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1007/978-3-319-54328-4_16},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/PAM17_https.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/PAM17_https.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -779,7 +825,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1007/978-3-319-54328-4_16},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/IMC17_vins.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/IMC17_vins.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -827,7 +873,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1007/978-3-319-30505-9_17},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/PAM16_http2.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/PAM16_http2.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -869,7 +915,7 @@
                                 <span class="bibtex ml-10">pages={20 - 35},</span>
                                 
                                 <span class="bibtex ml-10">doi=10.1016/j.comnet.2016.06.018,</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/COMNET16_CGNAT.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/COMNET16_CGNAT.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -911,7 +957,7 @@
                                 <span class="bibtex ml-10">pages={200 - 210},</span>
                                 
                                 <span class="bibtex ml-10">doi=10.1016/j.comnet.2016.06.023,</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/%3Cnil%3E"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/%3Cnil%3E"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -955,7 +1001,7 @@
                                 <span class="bibtex ml-10">pages={1862-1876},</span>
                                 
                                 <span class="bibtex ml-10">doi={10.1109/JSAC.2016.2559218},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/JSAC14_lost-in-space.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/JSAC14_lost-in-space.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -995,7 +1041,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi=,</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TMA16_anycast.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TMA16_anycast.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1043,7 +1089,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/ITC.2015.9},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/ITC15_DNS.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/ITC15_DNS.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1087,7 +1133,7 @@
                                 <span class="bibtex ml-10">pages={532-537},</span>
                                 
                                 <span class="bibtex ml-10">doi={10.1109/IWCMC.2015.7289140},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TRAC15_CGNAT.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TRAC15_CGNAT.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1129,7 +1175,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/CCNC.2015.7157987},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/CCNC15-malware.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/CCNC15-malware.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1177,7 +1223,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1145/2674005.2674991},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/CONEXT15_costofthes.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/CONEXT15_costofthes.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1219,7 +1265,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/BigData.2014.7004227},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/BIGDATA14_dbstream.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/BIGDATA14_dbstream.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1261,7 +1307,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/IWCMC.2014.6906396},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TRAC14_youtube.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TRAC14_youtube.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1303,7 +1349,7 @@
                                 <span class="bibtex ml-10">pages={151 - 166},</span>
                                 
                                 <span class="bibtex ml-10">doi={10.1016/j.comnet.2014.03.008},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/COMNET14_energy.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/COMNET14_energy.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1347,7 +1393,7 @@
                                 <span class="bibtex ml-10">pages={441-457},</span>
                                 
                                 <span class="bibtex ml-10">doi={10.1109/TNSM.2014.2377691},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TNSM14_youtube.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TNSM14_youtube.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1391,7 +1437,7 @@
                                 <span class="bibtex ml-10">pages={1-9},</span>
                                 
                                 <span class="bibtex ml-10">doi={10.1109/CNSM.2014.7014135},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/%3Cnil%3E"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/%3Cnil%3E"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1433,7 +1479,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/EuCNC.2014.6882697},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/EUCNC14_youtube.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/EUCNC14_youtube.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1475,7 +1521,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/IWCMC.2014.6906426},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TRAC14_dbstream.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TRAC14_dbstream.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1517,7 +1563,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/ITC.2014.6932930},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/ITC14_anomalies.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/ITC14_anomalies.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1559,7 +1605,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1007/978-3-642-54999-1_8},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TMA14_content-curation.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TMA14_content-curation.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1607,7 +1653,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1145/2535372.2535414},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/CONEXT13_prestaging.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/CONEXT13_prestaging.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1651,7 +1697,7 @@
                                 <span class="bibtex ml-10">pages={3–14},</span>
                                 
                                 <span class="bibtex ml-10">doi={10.1145/2557968.2557970},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/MC2R13_agps.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/MC2R13_agps.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1693,7 +1739,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/P2P.2013.6688724},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/P2P13_poster.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/P2P13_poster.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1733,7 +1779,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1007/978-3-642-36784-7_6},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/%3Cnil%3E"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/%3Cnil%3E"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1771,7 +1817,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi=,</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/techreport13_dns.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/techreport13_dns.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1821,7 +1867,7 @@
                                 <span class="bibtex ml-10">pages={142-155},</span>
                                 
                                 <span class="bibtex ml-10">doi={10.1109/TNSM.2012.022412.110184},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TON12_charisp.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TON12_charisp.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1859,7 +1905,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi=,</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/IMC12_mobileads.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/IMC12_mobileads.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1901,7 +1947,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1145/2398776.2398812},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TMA12_bigplayers.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TMA12_bigplayers.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1951,7 +1997,7 @@
                                 <span class="bibtex ml-10">pages={8-14},</span>
                                 
                                 <span class="bibtex ml-10">doi={10.1109/MNET.2011.5772055},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/IEEENET11_tstat.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/IEEENET11_tstat.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -1993,7 +2039,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/ICDCS.2011.43},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/ICDS11_youtube.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/ICDS11_youtube.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -2035,7 +2081,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1145/2068816.2068849},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/IMC12_youtube.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/IMC12_youtube.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -2077,7 +2123,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1007/978-3-642-20305-3_13},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TMA11_clustering.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TMA11_clustering.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -2127,7 +2173,7 @@
                                 <span class="bibtex ml-10">pages={1505-1515},</span>
                                 
                                 <span class="bibtex ml-10">doi={10.1109/TNET.2010.2044046},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TON10_kiss.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TON10_kiss.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -2169,7 +2215,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/ICC.2010.5501744},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/ICC10_ciscorfp.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/ICC10_ciscorfp.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -2211,7 +2257,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1109/ICC.2010.5502280},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/ICC10_kiss.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/ICC10_kiss.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -2253,7 +2299,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1007/978-3-642-12365-8_9},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TMA10_kiss-to-abacus.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TMA10_kiss-to-abacus.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -2295,7 +2341,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1007/978-3-642-13315-2_24},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/%3Cnil%3E"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/%3Cnil%3E"</span>
                                 <span>}</span>
                             </div>
                         </div>
@@ -2343,7 +2389,7 @@
                                 
                                 
                                 <span class="bibtex ml-10">doi={10.1007/978-3-642-01645-5_14},</span>
-                                <span class="bibtex ml-10">howpublished="https://finale80.github.io/pubs/TMA09_kiss.pdf"</span>
+                                <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/TMA09_kiss.pdf"</span>
                                 <span>}</span>
                             </div>
                         </div>
