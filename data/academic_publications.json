@@ -4,20 +4,40 @@
         {
             "title" : "FENXI: Deep-learning Traffic Analytics at the Edge", 
             "authors" : "M. Gallo, A. Finamore, G. Simon, D. Rossi",
-            "venue" :  "ACM/IEEE Symposium on Edge Computing (SEC'21)",
-            "venueurl" : "https://arxiv.org/abs/2105.11738",
+            "venue" :  "SEC",
+            "venueurl" : "http://acm-ieee-sec.org/2021/", 
             "officialurl" : "preprint :: https://arxiv.org/abs/2105.11738",
             "pdffname" : "SEC21_fenxi.pdf",
             "abstract": "Live traffic analysis at the first aggregation point in the ISP network enables the implementation of complex traffic engineering policies but is limited by the scarce processing capabilities, especially for Deep Learning (DL) based analytics. The introduction of specialized hardware accelerators i.e., Tensor Processing Unit (TPU), offers the opportunity to enhance the processing capabilities of network devices at the edge. Yet, to date, no packet processing pipeline is capable of offering DL-based analysis capabilities in the data-plane, without interfering with network operations. In this paper, we present FENXI, a system to run complex analytics by leveraging TPU. The design of FENXI decouples forwarding operations and traffic analytics which operates at different granularities i.e., packet and flow levels. We conceive two independent modules that asynchronously communicate to exchange network data and analytics results, and design data structures to extract flow level statistics without impacting per-packet processing. We prototyped and evaluated FENXI on general-purpose servers considering both adversarial and realistic network conditions. Our analysis shows that FENXI can sustain 100 Gbps line rate traffic processing requiring only limited resources, while also dynamically adapting to variable network conditions.",
             "bibtex": {
-                "name": "AF:CORR-21",
+                "name": "AF:CORR-21b",
                 "command": "@inproceedings{",
                 "author": "{M. {Gallo} and A. {Finamore} and G. {Simon} and D. {Rossi}",
                 "title" : "{FENXI: Deep-learning Traffic Analytics at the Edge}", 
                 "year": "{2021}",
                 "doi": "",
-                "booktitle": "{Symposium on Edge Computing (SEC'21)}", 
+                "booktitle": "{Symposium on Edge Computing (SEC)}", 
                 "location": "{Virtual Event, USA}"
+            }
+        }
+    ]},
+    {"year": "2021",
+     "entries": [
+        {
+            "title" : "Deep Learning and Traffic Classification: Lessons learned from a commercial-grade dataset with hundreds of encrypted and zero-day applications",
+            "authors" : "L. Yang, A. Finamore, F. Jun, D. Rossi",
+            "venue" :  "CoRR",
+            "venueurl" : "CoRR", 
+            "officialurl" : "https://arxiv.org/abs/2104.03182",
+            "pdffname" : "CORR21_traffic_classification.pdf",
+            "abstract": "The increasing success of Machine Learning (ML) and Deep Learning (DL) has recently re-sparked interest towards traffic classification. While classification of known traffic is a well investigated subject with supervised classification tools (such as ML and DL models) are known to provide satisfactory performance, detection of unknown (or zero-day) traffic is more challenging and typically handled by unsupervised techniques (such as clustering algorithms). In this paper, we share our experience on a commercial-grade DL traffic classification engine that is able to (i) identify known applications from encrypted traffic, as well as (ii) handle unknown zero-day applications. In particular, our contribution for (i) is to perform a thorough assessment of state of the art traffic classifiers in commercial-grade settings comprising few thousands of very fine grained application labels, as opposite to the few tens of classes generally targeted in academic evaluations. Additionally, we contribute to the problem of (ii) detection of zero-day applications by proposing a novel technique, tailored for DL models, that is significantly more accurate and light-weight than the state of the art.  Summarizing our main findings, we gather that (i) while ML and DL models are both equally able to provide satisfactory solution for classification of known traffic, however (ii) the non-linear feature extraction process of the DL backbone provides sizeable advantages for the detection of unknown classes.",
+            "bibtex": {
+                "name": "AF:CORR-21a",
+                "command": "@article{",
+                "author": "{L. {Yang} and A. {Finamore} and F. {Jun} and D. {Rossi}}",
+                "title": "{Deep Learning and Traffic Classification: Lessons learned from a commercial-grade dataset with hundreds of encrypted and zero-day applications}",
+                "journal": "{CoRR}",
+                "year": "{2021}"
             }
         }
     ]},
