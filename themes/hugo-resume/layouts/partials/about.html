@@ -11,7 +11,7 @@
               <div class="subheading mb-5">{{ .Site.Params.address }} 
                {{ if .Site.Params.showEmail }}
                 ·
-                <a href="mailto:{{ substr .Site.Params.email 0 5}}-remove-{{ substr .Site.Params.email 5 }}">{{ substr .Site.Params.email 0 5}}<span style="display:none">-remove-</span>{{ substr .Site.Params.email 5 }}</a>
+                <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
                {{ end }}
               </div>
 
