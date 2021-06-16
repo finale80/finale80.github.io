@@ -278,6 +278,10 @@ div.skills-heading{
     vertical-align:middle;
 }
 
+li.pubs {
+    margin-top: 5px;
+}
+
 .pubs-authors {
     font-family: open sans,serif !important;
     font-size: 0.8rem;
@@ -369,6 +373,7 @@ div.skills-heading{
   background-color: rgba( $color_text, .01 );
   border-radius: 3px;
   font-size: 0.8rem;
+  font-family: 'Open Sans';
   padding: 0.3rem 1.5rem;
   margin-left: 2rem;
   margin-bottom: 1rem;

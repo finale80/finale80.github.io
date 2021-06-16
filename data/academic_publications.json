@@ -4,7 +4,7 @@
         {
             "title" : "FENXI: Deep-learning Traffic Analytics at the Edge", 
             "authors" : "M. Gallo, A. Finamore, G. Simon, D. Rossi",
-            "venue" :  "SEC",
+            "venue" :  "ACM/IEEE Symposium on Edge Computing (SEC)",
             "venueurl" : "http://acm-ieee-sec.org/2021/", 
             "officialurl" : "preprint :: https://arxiv.org/abs/2105.11738",
             "pdffname" : "SEC21_fenxi.pdf",
@@ -19,15 +19,12 @@
                 "booktitle": "{Symposium on Edge Computing (SEC)}", 
                 "location": "{Virtual Event, USA}"
             }
-        }
-    ]},
-    {"year": "2021",
-     "entries": [
+        },
         {
             "title" : "Deep Learning and Traffic Classification: Lessons learned from a commercial-grade dataset with hundreds of encrypted and zero-day applications",
             "authors" : "L. Yang, A. Finamore, F. Jun, D. Rossi",
-            "venue" :  "CoRR",
-            "venueurl" : "CoRR", 
+            "venue" :  "arXiv/CoRR",
+            "venueurl" : "arXiv/CoRR", 
             "officialurl" : "https://arxiv.org/abs/2104.03182",
             "pdffname" : "CORR21_traffic_classification.pdf",
             "abstract": "The increasing success of Machine Learning (ML) and Deep Learning (DL) has recently re-sparked interest towards traffic classification. While classification of known traffic is a well investigated subject with supervised classification tools (such as ML and DL models) are known to provide satisfactory performance, detection of unknown (or zero-day) traffic is more challenging and typically handled by unsupervised techniques (such as clustering algorithms). In this paper, we share our experience on a commercial-grade DL traffic classification engine that is able to (i) identify known applications from encrypted traffic, as well as (ii) handle unknown zero-day applications. In particular, our contribution for (i) is to perform a thorough assessment of state of the art traffic classifiers in commercial-grade settings comprising few thousands of very fine grained application labels, as opposite to the few tens of classes generally targeted in academic evaluations. Additionally, we contribute to the problem of (ii) detection of zero-day applications by proposing a novel technique, tailored for DL models, that is significantly more accurate and light-weight than the state of the art.  Summarizing our main findings, we gather that (i) while ML and DL models are both equally able to provide satisfactory solution for classification of known traffic, however (ii) the non-linear feature extraction process of the DL backbone provides sizeable advantages for the detection of unknown classes.",
@@ -39,14 +36,11 @@
                 "journal": "{CoRR}",
                 "year": "{2021}"
             }
-        }
-    ]},
-    {"year": "2021",
-     "entries": [
+        },
         {
             "title" : "Are we breaking bubbles as we move? Using a large sample to explore the relationship between urban mobility and segregation",
             "authors" : "S. Park, T. Oshan, A. El Ali, A. Finamore",
-            "venue" :  "Computers, Environment and Urban Systems",
+            "venue" :  "Journal of Computers, Environment and Urban Systems (CEUS)",
             "venueurl" : "https://doi.org/10.1016/j.compenvurbsys.2020.101585",
             "officialurl" : "https://doi.org/10.1016/j.compenvurbsys.2020.101585",
             "pdffname" : "CEUS21_mobility.pdf",
@@ -55,7 +49,7 @@
                 "name": "AF:CEUS-21",
                 "command": "@article{",
                 "title": "Are we breaking bubbles as we move? Using a large sample to explore the relationship between urban mobility and segregation",
-                "journal": "Computers, Environment and Urban Systems",
+                "journal": "Computers, Environment and Urban Systems (CEUS)",
                 "author" : "{S. {Park} and T. {Oshan} and A. {El Ali} and A. {Finamore}}",
                 "pages": "101585",
                 "volume": "86",
@@ -70,7 +64,7 @@
         {
             "title" : "Where Things Roam: Uncovering Cellular IoT/M2M Connectivity",
             "authors" : "A. Lutu, B. Jun, A. Finamore, F. Bustamante, D. Perino",
-            "venue" : "IMC",
+            "venue" : "ACM Internet Measurement Conference (IMC)",
             "venueurl" : "https://conferences.sigcomm.org/imc/2020/",
             "officialurl" : "https://dl.acm.org/doi/10.1145/3419394.3423661",
             "pdffname" : "IMC20_roaming.pdf",
@@ -89,7 +83,7 @@
         {
             "title": "Opening the Deep Pandora Box: Explainable Traffic Classification (poster)",
             "authors": "C. Beliard, A. Finamore, D. Rossi",
-            "venue": "INFOCOM",
+            "venue": "IEEE International Conference on Computer Communications (INFOCOM)",
             "venueurl" : "https://infocom2020.ieee-infocom.org", 
             "officialurl" : "https://doi.org/10.1109/INFOCOMWKSHPS50562.2020.9162704",
             "pdffname" : "INFOCOM20_poster.pdf",
@@ -98,7 +92,7 @@
                 "name": "AF:INFOCOM-20",
                 "command": "@INPROCEEDINGS{",
                 "author": "{C. {Beliard} and A. {Finamore} and D. {Rossi}}",
-                "booktitle": "{INFOCOM}",
+                "booktitle": "{IEEE International Conference on Computer Communications (INFOCOM)}",
                 "title": "{Opening the Deep Pandora Box: Explainable Traffic Classification}",
                 "year": "{2020}",
                 "doi": "{10.1109/INFOCOMWKSHPS50562.2020.9162704}",
@@ -108,7 +102,7 @@
         {
             "title": "Real-time Deep Learning based Traffic Analytics (poster)",
             "authors": "M. Gallo, A. Finamore, G. Simon, D. Rossi",
-            "venue": "SIGCOMM",
+            "venue": "ACM Special Interest Group on Data Communications (SIGCOMM)",
             "venueurl": "https://conferences.sigcomm.org/sigcomm/2020/cf-posters.html",
             "officialurl": "https://conferences.sigcomm.org/sigcomm/2020/cf-posters.html",
             "pdffname": "SIGCOMM20_poster.pdf",
@@ -117,7 +111,7 @@
                 "name": "AF:SIGCOMM-20",
                 "command": "@INPROCEEDINGS{",
                 "author": "{M. {Gallo} and A. {Finamore} and G. {Simon} and D. {Rossi}}",
-                "booktitle": "{SIGCOMM}",
+                "booktitle": "{ACM Special Interest Group on Data Communications (SIGCOMM)}",
                 "title": "{Real-time Deep Learning based Traffic Analytics}",
                 "year": "{2020}",
                 "location": "{Virtual conference}"
@@ -126,7 +120,7 @@
         {
             "title" : "Back in control -- An extensible middle-box on your phone",
             "authors" : "J. Newman, A. Razaghpanah, N. Vallina-Rodriguez, F. Bustamante, M. Allman, D. Perino, A. Finamore",
-            "venue" : "arXiv / CoRR",
+            "venue" : "arXiv/CoRR",
             "venueurl" : "https://arxiv.org/abs/2012.07695",
             "officialurl" : "https://arxiv.org/abs/2012.07695",
             "pdffname" : "CORR20_mbz.pdf",
@@ -145,7 +139,7 @@
         {
             "title" : "Tackling Mobile Traffic Critical Path Analysis With Passive and Active Measurements",
             "authors" : "G. Tangari, D. Perino, A. Finamore, M. Charalambides, G. Pavlou",
-            "venue" : "TMA",
+            "venue" : "IEEE Network Traffic Measurement and Analysis Conference (TMA)",
             "venueurl" : "",
             "officialurl" : "https://doi.org/10.23919/TMA.2019.8784636",
             "pdffname" : "TMA19_mcpa.pdf",
@@ -154,7 +148,7 @@
                 "name": "AF:TMA-19",
                 "command": "@INPROCEEDINGS{",
                 "author": "{G. {Tangari} and D. {Perino} and A. {Finamore} and M. {Charalambides} and G. {Pavlou}}",
-                "booktitle": "{2019 Network Traffic Measurement and Analysis Conference (TMA)}",
+                "booktitle": "{IEEE Network Traffic Measurement and Analysis Conference (TMA)}",
                 "title": "{Tackling Mobile Traffic Critical Path Analysis With Passive and Active Measurements}",
                 "year": "{2019}",
                 "doi": "{10.23919/TMA.2019.8784636}",
@@ -164,7 +158,7 @@
         {
             "title" : "Generalizing Critical Path Analysis on Mobile Traffic",
             "authors" : "G. Tangari, D. Perino, A. Finamore",
-            "venue" : "arXiv / CoRR",
+            "venue" : "arXiv/CoRR",
             "venueurl" : "https://arxiv.org/abs/1906.07674",
             "officialurl" : "https://arxiv.org/abs/1906.07674",
             "pdffname" : "CORR19_mcpa.pdf",
@@ -184,7 +178,7 @@
         {
             "title" : "CHIMP: Crowdsourcing Human Inputs for Mobile Phones",
             "authors" : "M. Almeida, M. Bilal, A. Finamore, I. Leontiadis, Y. Grunenberger, M. Varvello, J. Blackburn",
-            "venue" : "WWW",
+            "venue" : "ACM International World Wide Web Conference (WWW)",
             "venueurl" : "https://www2018.thewebconf.org/program/crowdsourcing",
             "officialurl" : "https://doi.org/10.1145/3178876.3186035",
             "pdffname" : "WWW18_chimp.pdf",
@@ -196,7 +190,7 @@
                 "title" : "{CHIMP: Crowdsourcing Human Inputs for Mobile Phones}",
                 "year" : "{2018}",
                 "doi" : "{10.1145/3178876.3186035}",
-                "booktitle" : "{World Wide Web Conference (WWW)}",
+                "booktitle" : "{ACM International World Wide Web Conference (WWW)}",
                 "location" : "{Lyon, France}"
             }
         }
@@ -225,7 +219,7 @@
         {
           "title" : "Dissecting DNS Stakeholders in Mobile Networks",
           "authors" : "M. Almeida, A. Finamore, D. Perino, N. Vallina-Rodriguez, M. Varvello",
-          "venue" : "CoNEXT",
+          "venue" : "ACM Conference on emerging Networking EXperiments and Technologies (CoNEXT)",
           "officialurl" : "https://doi.org/10.1145/3143361.3143375",
           "venueurl" : "http://conferences.sigcomm.org/co-next/2017/#!/program",
           "pdffname" : "CONEXT17_dns.pdf",
@@ -238,14 +232,14 @@
                 "title": "{Dissecting DNS Stakeholders in Mobile Networks}",
                 "year": "{2017}",
                 "doi": "{10.1145/3143361.3143375}",
-                "booktitle": "{Conference on Emerging Networking EXperiments and Technologies (CoNEXT)}",
+                "booktitle": "{ACM Conference on Emerging Networking EXperiments and Technologies (CoNEXT)}",
                 "location": "{Incheon, Republic of Korea}"
             }
         },
         {
           "title" : "The Good, the Bad, and the KPIs: How to Combine Performance Metrics to Better Capture Underperforming Sectors in Mobile Networks",
           "authors" : "I. Leontiadis, Joan Serra, A. Finamore, G. Dimopoulos, K. Papagiannaki",
-          "venue" : "ICDE",
+          "venue" : "IEEE International Conference on Data Engineering (ICDE)",
           "officialurl" : "https://doi.org/10.1109/ICDE.2017.89",
           "venueurl" : "http://icde2017.sdsc.edu/",
           "pdffname" : "ICDE17_kpis.pdf",
@@ -254,7 +248,7 @@
                 "name": "AF:ICDE-17",
                 "command": "@INPROCEEDINGS{",
                 "author": "{I. {Leontiadis} and J. {Serrà} and A. {Finamore} and G. {Dimopoulos} and K. {Papagiannaki}}",
-                "booktitle": "{International Conference on Data Engineering (ICDE)}",
+                "booktitle": "{IEEE International Conference on Data Engineering (ICDE)}",
                 "title": "{The Good, the Bad, and the KPIs: How to Combine Performance Metrics to Better Capture Underperforming Sectors in Mobile Networks}",
                 "year": "{2017}",
                 "location": "{SanDiego, CA, USA}",
@@ -264,7 +258,7 @@
         {
           "title" : "Mind the Gap Between HTTP and HTTPS in Mobile Networks",
           "authors" : "A. Finamore, M. Varvello, K. Papagiannaki",
-          "venue" : "PAM",
+          "venue" : "Passive and Active Measurement Conference (PAM)",
           "officialurl" : "https://link.springer.com/chapter/10.1007/978-3-319-54328-4_16",
           "venueurl" : "https://research.csiro.au/pam2017/papers/accepted-papers/",
           "pptfname" : "PAM17_https_presentation.pdf",
@@ -274,7 +268,7 @@
                 "name": "AF:PAM-17",
                 "command": "@INPROCEEDINGS{",
                 "author": "{A. {Finamore} and M. {Varvello} and K. {Papagiannaki}}",
-                "booktitle": "{Passive and Active Measurements (PAM)}",
+                "booktitle": "{Passive and Active Measurements Conference (PAM)}",
                 "title": "{Mind the Gap Between HTTP and HTTPS in Mobile Networks}",
                 "year": "{2017}",
                 "location": "{Sydney, Australia}",
@@ -284,7 +278,7 @@
         {
           "title" : "Characterising users experience and critical path in mobile applications (poster)",
           "authors" : "A. Finamore, J. Newman, D. Perino, N. Rattanavipanon, C. Soriente, N. Vallina-Rodriguez",
-          "venue" : "IMC",
+          "venue" : "ACM Internet Measurement Conference (IMC)",
           "venueurl" : "https://conferences.sigcomm.org/imc/2017/posters/",
           "pdffname" : "IMC17_vins.pdf",
           "abstract": "Users Quality of Experience (QoE) analysis is paramount for telcos to drive business, and for users to verify their SLAs with the operators. Over the years both academia and industry put a lot of efforts to define methodologies and create tools to monitor QoE. In particular, web traffic QoE analysis is a well understood and ``standardized'' research area, and a varied set of tools and metrics are available to understand how content is delivered. For instance, it is easy to capture the interaction of a browser with a website (e.g., as HAR objects), to inspect content delivery critical path via the download waterfall (e.g., via Chrome, or tools like WProf), or quantify webpage retrieval performance via page load time (PLT), or Google speed index. These tools and techniques suit well fixed access networks but cannot be directly applied to analyze mobile user QoE. Indeed, most of mobile traffic is generated by large number of applications and do not resemble to traditional web browsing traffic. Also, mobile architectures are more complex than fixed infrastructures and their main performance bottleneck is latency. In this work, we consider QoE for mobile applications by focusing on network level metrics and taking into account application level information. The main goal is to identify network activities (as DNS lookup, TCP and TLS handshake, content download, etc.) which are bottlenecks for application performance and propose countermeasures. To achieve this objective we combine active and passive on-device measurements. On the one hand, we developed an app that leverages the Android VPN APIs (i.e., it does not require rooted devices) to monitor network traffic, while collecting also info about user activity with the device. This enable us to analyze mobile apps traffic in different scenarios (e.g., application startup, application in background/foreground without user activity, user interaction) and develop techniques to reconstruct the networking waterfall for each of them, similarly to what is currently possible for generic web browsing traffic. However, we envision a generic mobile device system component capable to inspect all traffic, and possibly tapping into user engagement (e.g., interactivity with the screen). By analysing the waterfall we aim to identify activities constituting the critical path for each scenario and application. On the other hand, the monitoring app allows to schedule active experiments. This allows us to define a comparison baseline to contrast against other analysis, as well as further diagnose problems when the waterfall analysis suggests there may be a bottleneck. In the poster, we present the methodology and preliminary results on a small set of applications in a testbed with real devices.",
@@ -292,7 +286,7 @@
                 "name": "AF:IMC-17",
                 "command": "@INPROCEEDINGS{",
                 "author": "{A. {Finamore} and J. {Newman} and D. {Perino} and N. {Rattanavipanon} and C. {Soriente} and N. {Vallina-Rodriguez}}",
-                "booktitle": "{Internet Measurements Conference (IMC)}",
+                "booktitle": "{ACM Internet Measurements Conference (IMC)}",
                 "title": "{Characterising users experience and critical path in mobile applications}",
                 "year": "{2017}",
                 "doi": "{10.1007/978-3-319-54328-4_16}",
@@ -306,7 +300,7 @@
           "title": "Is the Web HTTP/2 Yet?",
           "titleurl" : "https://link.springer.com/chapter/10.1007/978-3-319-30505-9_17",
           "authors" : "M. Varvello , K. Schomp , D. Naylor , J. Blackburn , A. Finamore , K. Papagiannaki",
-          "venue" : "PAM",
+          "venue" : "Passive and Active Measurement Conference (PAM)",
           "venueurl" : "https://www.ics.forth.gr/pam2016/program.html",
           "officialurl" : "https://link.springer.com/chapter/10.1007/978-3-319-30505-9_17",
           "pdffname" : "PAM16_http2.pdf",
@@ -315,7 +309,7 @@
                 "name": "AF:PAM-16",
                 "command": "@INPROCEEDINGS{",
                 "author": "{A. {Finamore} and J. {Newman} and D. {Perino} and N. {Rattanavipanon} and C. {Soriente} and N. {Vallina-Rodriguez}}",
-                "booktitle": "{Passive and Active Measurements (PAM)}",
+                "booktitle": "{Passive and Active Measurements Conference (PAM)}",
                 "title": "{Is the Web HTTP/2 Yet?}",
                 "year": "{2016}",
                 "doi": "{10.1007/978-3-319-30505-9_17}",
@@ -325,7 +319,7 @@
         {
           "title" : "Statistical Network Monitoring: Methodology and Application to Carrier-Grade NAT",
           "authors" : "E. Bocchi, A. Safari Khatouni, S. Traverso, A. Finamore, M. M. Munafo, M. Mellia, D. Rossi",
-          "venue" : "Computer Networks",
+          "venue" : "International Journal of Computer and Telecommunications Networking (ComNet)",
           "pdffname" : "COMNET16_CGNAT.pdf",
           "elsevierurl" : "https://doi.org/10.1016/j.comnet.2016.06.018",
           "abstract": "When considering to passively collect and then process network traffic traces, the need to analyze raw data at several Gbps and to extract higher level indexes from the stream of packets poses typical BigData-like challenges. In this paper, we engineer a methodology to extract, collect and process passive traffic traces. In particular, we design and implement analytics that, based on a filtering process and on the building of empirical distributions, enable the comparison between two generic collections, e.g., data gathered from two different vantage points, from different populations, or at different times. The ultimate goal is to highlight statistically significant differences that could be useful to flag to incidents for the network manager. After introducing the methodology, we apply it to assess the impact of Carrier-Grade NAT (CGN), a technology that Internet Service Providers (ISPs) deploy to limit the usage of expensive public IP addresses. Since CGN may introduce connectivity issues and performance degradation, we process a large dataset of passive measurements collected from an ISP using CGN for part of its customers. We first extract detailed per-flow information by processing packets from live links. Then, we derive higher level statistics that are significant for the end-users, e.g., TCP connection setup time, HTTP response time, or BitTorrent average download throughput. At last, we contrast figures of customers being offered public or private addresses, and look for statistically significant differences. Results show that CGN does not impair quality of service in the analyzed ISP deployment. In addition, we use the collected data to derive useful figures for the proper dimensioning of the CGN and the configuration of its parameters in order to avoid impairments on end-users’ experience.",
@@ -334,7 +328,7 @@
                 "command": "@article{",
                 "title": "{Statistical network monitoring: Methodology and application to carrier-grade NAT}",
                 "author": "{E. {Bocchi} and A. {Safari} and S. {Traverso} and A. {Finamore} and M. {Munafò} and M. {Mellia} and D. {Rossi}",
-                "journal": "{Computer Networks}",
+                "journal": "{International Journal of Computer and Telecommunications Networking (ComNet)}",
                 "pages": "{20 - 35}",
                 "year": "{2016}",
                 "doi": "10.1016/j.comnet.2016.06.018"
@@ -343,7 +337,7 @@
         {
           "title" : "A study of the impact of DNS Resolvers on CDN Performance Using a Causal Approach",
           "authors" : "H. Hours, E. Biersack, P. Loiseau, A. Finamore, M. Mellia",
-          "venue" : "Computer Networks",
+          "venue" : "International Journal of Computer and Telecommunications Networking (ComNet)",
           "officialurl" : "https://doi.org/10.1016/j.comnet.2016.06.023",
           "abstract": "Resources such as Web pages or videos that are published in the Internet are referred to by their Uniform Resource Locator (URL). If a user accesses a resource via its URL, the host name part of the URL needs to be translated into a routable IP address. This translation is performed by the Domain Name System service (DNS). DNS also plays an important role when Content Distribution Networks (CDNs) are used to host replicas of popular objects on multiple servers that are located in geographically different areas. A CDN makes use of the DNS service to infer client location and direct the client request to the optimal server. While most Internet Service Providers (ISPs) offer a DNS service to their customers, clients may instead use a public DNS service. The choice of the DNS service can impact the performance of clients when retrieving a resource from a given CDN. In this paper we study the impact on download performance for clients using either the DNS service of their ISP or the public DNS service provided by Google DNS. We adopt a causal approach that exposes the structural dependencies of the different parameters impacted by the DNS service used and we show how to model these dependencies with a Bayesian network. The Bayesian network allows us to explain and quantify the performance benefits seen by clients when using the DNS service of their ISP. We also discuss how the further improve client performance.",
             "bibtex": {
@@ -351,7 +345,7 @@
                 "command": "@article{",
                 "title": "{A study of the impact of DNS resolvers on CDN performance using a causal approach}",
                 "author": "H. {Hours} and E. {Biersack} and P. {Loiseau} and A. {Finamore} and M. {Mellia}",
-                "journal": "{Computer Networks}",
+                "journal": "{International Journal of Computer and Telecommunications Networking (ComNet)}",
                 "pages": "{200 - 210}",
                 "year": "{2016}",
                 "doi": "10.1016/j.comnet.2016.06.023"
@@ -360,7 +354,7 @@
         {
           "title" : "Lost in Space: Improving Inference of IPv4 Address Space Utilization",
           "authors" : "A. Dainotti, K. Benson, A. King, B. Huffaker, E. Glatz, X. A. Dimitropoulos, P. Richter, A. Finamore, A. C. Snoeren",
-          "venue" : "IEEE Journal on Selected Areas in Communications",
+          "venue" : "IEEE Journal on Selected Areas in Communications (JSAC)",
           "officialurl" : "https://doi.org/10.1109/JSAC.2016.2559218",
           "pdffname" : "JSAC14_lost-in-space.pdf",
           "abstract": "One challenge in understanding the evolution of the Internet infrastructure is the lack of systematic mechanisms for monitoring the extent to which allocated IP addresses are actually used. In this paper, we advance the science of inferring IPv4 address space utilization by proposing a novel taxonomy and analyzing and correlating results obtained through different types of measurements. We have previously studied an approach based on passive measurements that can reveal used portions of the address space unseen by active approaches. In this paper, we study such passive approaches in detail, extending our methodology to new types of vantage points and identifying traffic components that most significantly contribute to discovering used IPv4 network blocks. We then combine the results we obtained through passive measurements together with data from active measurement studies, as well as measurements from Border Gateway Protocol and additional data sets available to researchers. Through the analysis of this large collection of heterogeneous data sets, we substantially improve the state of the art in terms of: 1) understanding the challenges and opportunities in using passive and active techniques to study address utilization and 2) knowledge of the utilization of the IPv4 space.",
@@ -368,7 +362,7 @@
                 "name": "AF:JSAC-16",
                 "command": "@ARTICLE{",
                 "author": "{A. {Dainotti} and K. {Benson} and A. {King} and B. {Huffaker} and E. {Glatz} and X. {Dimitropoulos} and P. {Richter} and A. {Finamore} and A. C. {Snoeren}}",
-                "journal": "{IEEE Journal on Selected Areas in Communications}",
+                "journal": "{IEEE Journal on Selected Areas in Communications (JSAC)}",
                 "title": "{Lost in Space: Improving Inference of IPv4 Address Space Utilization}",
                 "year": "{2016}",
                 "number": "{6}",
@@ -379,7 +373,7 @@
         {
           "title" : "A First Characterization of Anycast Traffic from Passive Traces",
           "authors" : "D. Giordano, D. Cicalese, A. Finamore, M. Mellia, M. M. Munafo, D. Zeaiter Joumblatt, D. Rossi",
-          "venue" : "TMA",
+          "venue" : "IEEE Network Traffic Measurement and Analysis Conference (TMA)",
           "venueurl" : "http://tma.ifip.org/2016/",
           "pdffname" : "TMA16_anycast.pdf",
           "abstract": "IP anycast routes packets to the topologically nearest server according to BGP proximity. In the last years, new players have started adopting this technology to serve web content via Anycast-enabled CDNs (A-CDN). To the best of our knowledge, in the literature, there are studies that focus on a specific A-CDN deployment, but little is known about the users and the services that A-CDNs are serving in the Internet at large. This prompted us to perform a passive characterization study, bringing out the principal A-CDN actors in our monitored setup, the services they offer, their penetration, etc. Results show a very heterogeneous picture, with A-CDN empowered services that are very popular (e.g., Twitter or Bing), serve a lot of different contents (e.g., Wordpress or adult content), and even include audio/video streaming (e.g., Soundcloud, or Vine). Our measurements show that the A-CDN technology is quite mature and popular, with more than 50% of web users that access content served by a A-CDN during peak time.",
@@ -388,6 +382,7 @@
                 "command": "@ARTICLE{",
                 "author": "{D. {Giordano} and D. {Cicalese} and A. {Finamore} and M. {Mellia} and M. {Munafo} and D. {Joumblatt} and D. {Rossi}",
                 "title": "{A First Characterization of Anycast Traffic from Passive Traces}",
+                "booktitle": "{IEEE Network Traffic Measurement and Analysis Conference (TMA)}",
                 "year": "{2016}",
                 "location": "{Louvain La Neuve, Belgium}"
             }
@@ -398,7 +393,7 @@
         {
           "title" : "A Study of the Impact of DNS Resolvers on Performance Using a Causal Approach",
           "authors" : "H. Hours, E. Biersack, P. Loiseau, A. Finamore, M. Mellia",
-          "venue" : "ITC",
+          "venue" : "IEEE International Teletraffic Conference (ITC)",
           "venueurl" : "http://www.itc27.org/",
           "officialurl" : "https://doi.org/10.1109/ITC.2015.9",
           "pdffname" : "ITC15_DNS.pdf",
@@ -417,7 +412,7 @@
         {
           "title" : "Impact of Carrier-Grade NAT on Web Browsing",
           "authors" : "E. Bocchi, A. Safari Khatouni, S. Traverso, A. Finamore, V. Di Gennaro, M. Mellia, M. Munafò, D. Rossi",
-          "venue" : "TRAC",
+          "venue" : "IEEE International Wireless Communications and Mobile Computing Conference (IWCMC)}",
           "venueurl" : "http://conferences.telecom-bretagne.eu/trac2016/trac2015_program.html",
           "officialurl" : "https://doi.org/10.1109/IWCMC.2015.7289140",
           "pdffname" : "TRAC15_CGNAT.pdf",
@@ -426,7 +421,7 @@
                 "name": "AF:IWCMC-15",
                 "command": "@INPROCEEDINGS{",
                 "author": "{E. {Bocchi} and A. S. {Khatouni} and S. {Traverso} and A. {Finamore} and V. {Di Gennaro} and M. {Mellia} and M. {Munafò} and D. {Rossi}}",
-                "booktitle": "{nternational Wireless Communications and Mobile Computing Conference (IWCMC)}",
+                "booktitle": "{IEEE International Wireless Communications and Mobile Computing Conference (IWCMC)}",
                 "title": "{Impact of Carrier-Grade NAT on web browsing}",
                 "year": "{2015}",
                 "pages": "{532-537}",
@@ -437,7 +432,7 @@
         {
           "title" : "Macroscopic View of Malware in Home Networks",
           "authors" : "A. Finamore, S. Saha, G. Modelo-Howard, S.J. Lee, E. Bocchi, L. Grimaudo, M. Mellia, E. Baralis",
-          "venue" : "CCNC",
+          "venue" : "IEEE Consumer Communications and Networking Conference (CCNC)",
           "venueurl" : "http://ccnc2015.ieee-ccnc.org/content/technical-sessions",
           "officialurl" : "https://doi.org/10.1109/CCNC.2015.7157987",
           "pdffname" : "CCNC15-malware.pdf",
@@ -446,7 +441,7 @@
                 "name": "AF:CCNC-15",
                 "command": "@INPROCEEDINGS{",
                 "author": "{A. {Finamore} and S. {Saha} and G. {Modelo-Howard} and S. {Lee} and E. {Bocchi} and L. {Grimaudo} and M. {Mellia} and E. {Baralis}}",
-                "booktitle": "{2015 12th Annual IEEE Consumer Communications and Networking Conference (CCNC)}",
+                "booktitle": "{IEEE Consumer Communications and Networking Conference (CCNC)}",
                 "title": "{Macroscopic view of malware in home networks}",
                 "year": "{2015}",
                 "doi": "{10.1109/CCNC.2015.7157987}",
@@ -459,7 +454,7 @@
         {
           "title" : "The Cost of the 'S' in HTTPS",
           "authors" : "D. Naylor, A. Finamore, I. Leontiadis, Y. Grunenberger, M. Mellia, M. M. Munafo, K. Papagiannaki, P. Steenkiste",
-          "venue" : "CoNEXT",
+          "venue" : "ACM Conference on emerging Networking EXperiments and Technologies. (CoNEXT)",
           "venueurl" : "http://conferences2.sigcomm.org/co-next/2014/program.html",
           "officialurl" : "https://doi.org/10.1145/2674005.2674991",
           "pdffname" : "CONEXT15_costofthes.pdf",
@@ -471,14 +466,14 @@
                 "title": "{The Cost of the \"S\" in HTTPS}",
                 "year": "{2014}",
                 "doi": "{10.1145/2674005.2674991}",
-                "booktitle": "{Conference on Emerging Networking Experiments and Technologies (CoNEXT)}",
+                "booktitle": "{ACM Conference on Emerging Networking Experiments and Technologies (CoNEXT)}",
                 "location": "{Sydney, Australia}"
             }
         },
         {
           "title" : "Large-Scale Network Traffic Monitoring with DBStream, a System for Rolling Big Data Analysis",
           "authors" : "A. Bar, A. Finamore, P. Casas, L. Golab, M. Mellia",
-          "venue" : "BigData",
+          "venue" : "IEEE International Conference on Big Data (Big Data)",
           "venueurl" : "http://cci.drexel.edu/bigdata/bigdata2014/programschedule.htm",
           "officialurl" : "https://doi.org/10.1109/BigData.2014.7004227",
           "pdffname" : "BIGDATA14_dbstream.pdf",
@@ -487,7 +482,7 @@
                 "name": "AF-BIGDATA-14",
                 "command": "@INPROCEEDINGS{",
                 "author": "{A. {Bär} and A. {Finamore} and P. {Casas} and L. {Golab} and M. {Mellia}}",
-                "booktitle": "{International Conference on Big Data (Big Data)}",
+                "booktitle": "{IEEE International Conference on Big Data (Big Data)}",
                 "title": "{Large-scale network traffic monitoring with DBStream, a system for rolling big data analysis}",
                 "year": "{2014}",
                 "doi": "{10.1109/BigData.2014.7004227}",
@@ -497,7 +492,7 @@
         {
           "title" : "Who to Blame when YouTube is not Working? Detecting Anomalies in CDN-Provisioned Services",
           "authors" : "A. D'Alconzo, P. Casas, P. Fiadino, A. Bar, A. Finamore",
-          "venue" : "TRAC",
+          "venue" : "IEEE International Wireless Communications and Mobile Computing Conference (IWCMC)",
           "officialurl" : "https://doi.org/10.1109/IWCMC.2014.6906396",
           "pdffname" : "TRAC14_youtube.pdf",
           "abstract": "Internet-scale services like YouTube are provisioned by large Content Delivery Networks (CDNs), which push content as close as possible to the end-users to improve their Quality of Experience (QoE) and to pursue their own optimization goals. Adopting space and time variant traffic delivery policies, CDNs serve users' requests from multiple servers/caches at different physical locations and different times. CDNs traffic distribution policies can have a relevant impact on the traffic routed through the Internet Service Provider (ISP), as well as unexpected negative effects on the end-user QoE. In the event of poor QoE due to faulty CDN server selection, a major problem for the ISP is to avoid being blamed by its customers. In this paper we show a real case study in which Google CDN server selection policies negatively impact the QoE of the customers of a major European ISP watching YouTube. We argue that it is extremely important for the ISP to rapidly and automatically detect such events to increase its visibility on the overall operation of the network, as well as to promptly answer possible customer complaints. We therefore present an Anomaly Detection (AD) system for detecting unexpected cache-selection changes in the traffic delivered by CDNs. The proposed algorithm improves over traditional AD approaches by analyzing the complete probability distribution of the monitored features, as well as by self-adapting its functioning to dynamic environments, providing better detection capabilities.",
@@ -505,7 +500,7 @@
                 "name": "AF:IWCMC-14a",
                 "command": "@INPROCEEDINGS{",
                 "author": "{A. {D'Alconzo} and P. {Casas} and P. {Fiadino} and A. {Bar} and A. {Finamore}}",
-                "booktitle": "{International Wireless Communications and Mobile Computing Conference (IWCMC)}",
+                "booktitle": "{IEEE International Wireless Communications and Mobile Computing Conference (IWCMC)}",
                 "title": "{Who to blame when YouTube is not working? detecting anomalies in CDN-provisioned services}",
                 "year": "{2014}",
                 "doi": "{10.1109/IWCMC.2014.6906396}",
@@ -515,7 +510,7 @@
         {
           "title" : "Energy Efficiency in Access And Aggregation Networks: From Current Traffic to Potential Savings",
           "authors" : "E. Bonetto, A. Finamore, M. Mellia, R. Fiandra",
-          "venue" : "Computer Networks",
+          "venue" : "International Journal of Computer and Telecommunications Networking (ComNet)",
           "elsevierurl" : "https://doi.org/10.1016/j.comnet.2014.03.008",
           "pdffname" : "COMNET14_energy.pdf",
           "abstract": "Access and aggregation networks account nowadays for a large share of the consumed energy in communication networks, and actions to ameliorate their energy cost are under investigation by the research community. In this work, we present a study of the possible savings that could be achieved if such technologies were in place. We take advantage of large datasets of measurements collected from the network of FASTWEB, a national-wide Internet Service Provider in Italy. We first perform a detailed characterization of the energy consumption of Points of Presence (PoPs) investigating on how factors such as external temperature, cooling technology and traffic load influence the consumed energy. Our measurements precisely quantify how the power consumption in today networks is practically independent from the traffic volume, while it is correlated only with the external temperature. We then narrow down our analysis to consider the traffic generated by each household. More specifically, by observing about 10,000 ADSL customers, we characterize the typical traffic patterns generated by users who access the Internet. Using the available real data, we thus investigate if the energy consumption can be significantly reduced by applying simple energy-efficient policies that are currently under studies. We investigate energy-to-traffic proportional and resource consolidation technologies for the PoP, while sleep modes policies are considered at the ADSL lines. All these energy-efficient policies, even if they are not yet available, are currently being widely investigated by both manufacturers and researchers. At the PoP level, our dataset shows that it would be possible to save up to 50% of energy, and that even simple mechanisms would easily allow to save 30% of energy. Considering the ADSL lines, it results that sleep mode policies can be effectively implemented, reducing the energy consumption of ADSL modems with little or marginal impact on the Quality of Service offered to users. We make available all datasets used in this paper to allow other researchers to benchmark their proposals considering actual traffic traces.",
@@ -524,7 +519,7 @@
                 "command": "@article{",
                 "author": "{E. {Bonetto} and A. {Finamore} and M. {Mellia} and R. {Fiandra}",
                 "title": "{Energy efficiency in access and aggregation networks: From current traffic to potential savings}",
-                "journal": "{Computer Networks}",
+                "journal": "{International Journal of Computer and Telecommunications Networking (ComNet)}",
                 "pages": "{151 - 166}",
                 "year": "{2014}",
                 "doi": "{10.1016/j.comnet.2014.03.008}"
@@ -533,7 +528,7 @@
         {
           "title" : "When YouTube Does Not Work - Analysis of QoE-Relevant Degradation in Google CDN Traffic",
           "authors" : "P. Casas, A. D'Alconzo, P. Fiadino, A. Bar, A. Finamore, T. Zseby",
-          "venue" : "IEEE Transactions on Network and Service Management",
+          "venue" : "IEEE Transactions on Network and Service Management (TNSM)",
           "officialurl" : "https://doi.org/10.1109/TNSM.2014.2377691",
           "pdffname" : "TNSM14_youtube.pdf",
           "abstract": "YouTube is the most popular service in today's Internet. Google relies on its massive content delivery network (CDN) to push YouTube videos as close as possible to the end-users, both to improve their watching experience as well as to reduce the load on the core of the network, using dynamic server selection strategies. However, we show that such a dynamic approach can actually have negative effects on the end-user quality of experience (QoE). Through the comprehensive analysis of one month of YouTube flow traces collected at the network of a large European ISP, we report a real case study in which YouTube QoE-relevant degradation affecting a large number of users occurs as a result of Google's server selection strategies. We present an iterative and structured process to detect, characterize, and diagnose QoE-relevant anomalies in CDN distributed services such as YouTube. The overall process uses statistical analysis methodologies to unveil the root causes behind automatically detected problems linked to the dynamics of CDNs' server selection strategies.",
@@ -541,7 +536,7 @@
                 "name": "AF:TNSM-14",
                 "command": "@ARTICLE{",
                 "author": "{P. {Casas} and A. {D'Alconzo} and P. {Fiadino} and A. {Bär} and A. {Finamore} and T. {Zseby}}",
-                "journal": "{IEEE Transactions on Network and Service Management}",
+                "journal": "{IEEE Transactions on Network and Service Management (TNSM)}",
                 "title": "{When YouTube Does not Work—Analysis of QoE-Relevant Degradation in Google CDN Traffic}",
                 "year": "{2014}",
                 "number": "{4}",
@@ -552,7 +547,7 @@
         {
           "title" : "On the Analysis of QoE-Based Performance Degradation in YouTube Traffic",
           "authors" : "P. Casas, A. D'Alconzo, P. Fiadino, A. Bar, A. Finamore",
-          "venue" : "CNSM",
+          "venue" : "{IEEE International Conference on Network and Service Management (CNSM)}",
           "venueurl" : "http://www.cnsm-conf.org/2014/program-detail.html",
           "officialurl" : "https://doi.org/10.1109/CNSM.2014.7014135",
           "abstract": "YouTube is the most popular service in today's Internet. Google relies on its massive Content Delivery Network (CDN) to push YouTube videos as close as possible to the end-users to improve their Quality of Experience (QoE), using dynamic server selection strategies. Such traffic delivery policies can have a relevant impact on the traffic routed through the Internet Service Providers (ISPs) providing the access, but most importantly, they can have negative effects on the end-user QoE. In this paper we shed light on the problem of diagnosing QoE-based performance degradation events in YouTube's traffic. Through the analysis of one month of YouTube flow traces collected at the network of a large European ISP, we particularly identify and drill down a Google's CDN server selection policy negatively impacting the watching experience of YouTube users during several days at peak-load times. The analysis combines both the user-side perspective and the CDN perspective of the end-to-end YouTube delivery service to diagnose the problem. The main contributions of the paper are threefold: firstly, we provide a large-scale characterization of the YouTube service in terms of traffic characteristics and provisioning behavior of the Google CDN servers. Secondly, we introduce simple yet effective QoE-based KPIs to monitor YouTube videos from the end-user perspective. Finally and most important, we analyze and provide evidence of the occurrence of QoE-based YouTube anomalies induced by CDN server selection policies, which are somehow normally hidden from the common knowledge of the end-user. This is a main issue for ISPs, who see their reputation degrade when such events occur, even if Google is the culprit.",
@@ -560,7 +555,7 @@
                 "name": "AF:CNSM-14",
                 "command": "@INPROCEEDINGS{",
                 "author": "{P. {Casas} and A. {D'Alconzo} and P. {Fiadino} and A. {Bär} and A. {Finamore}}",
-                "booktitle": "{International Conference on Network and Service Management (CNSM) and Workshop}",
+                "booktitle": "{IEEE International Conference on Network and Service Management (CNSM)}",
                 "title": "{On the analysis of QoE-based performance degradation in YouTube traffic}",
                 "year": "{2014}",
                 "pages": "{1-9}",
@@ -571,7 +566,7 @@
         {
           "title" : "YouTube All Around: Characterizing YouTube From Mobile and Fixed-Line Network Vantage Points",
           "authors" : "P. Casas, P. Fiadino, A. Bar, A. D'Alconzo, A. Finamore, M. Mellia",
-          "venue" : "EuCNC",
+          "venue" : "{IEEE European Conference on Networks and Communications (EuCNC)}",
           "venueurl" : "https://www.eucnc.eu/2014/www.eucnc.eu/indexd037.html?q=node/146",
           "officialurl" : "https://doi.org/10.1109/EuCNC.2014.6882697",
           "pdffname" : "EUCNC14_youtube.pdf",
@@ -590,7 +585,7 @@
         {
           "title" : "DBStream: An Online Aggregation, Filtering and Processing System for Network Traffic Monitoring",
           "authors" : "A. Bar, P. Casas, L. Golab, A. Finamore",
-          "venue" : "TRAC",
+          "venue" : "IEEE International Wireless Communications and Mobile Computing Conference (IWCMC)",
           "officialurl" : "https://doi.org/10.1109/IWCMC.2014.6906426",
           "pdffname" : "TRAC14_dbstream.pdf",
           "abstract": "Network traffic monitoring systems generate high volumes of heterogeneous data streams which have to be processed and analyzed with different time constraints for daily network management operations. Some monitoring applications such as anomaly detection, performance tracking and alerting require fast processing of specific incoming real-time data. Other applications like fault diagnosis and trend analysis need to process historical data and perform deep analysis on generally heterogeneous sources of data. The Data Stream Warehousing (DSW) paradigm provides the means to handle both types of monitoring applications within a single system, providing fast and rich data analysis capabilities as well as data persistence. In this paper, we introduce DBStream, a novel online traffic monitoring system based on the DSW paradigm, which allows fast and flexible analysis across multiple heterogeneous data sources. DBStream provides a novel stream processing language for implementing data processing modules, as well as aggregation, filtering, and storage capabilities for further data analysis. We show multiple traffic monitoring applications running on DBStream, processing real traffic from operational ISPs.",
@@ -608,7 +603,7 @@
         {
           "title" : "On the Detection of Network Traffic Anomalies in Content Delivery Network Services",
           "authors" : "P. Fiadino, A. D'Alconzo, A. Bar, A. Finamore, P. Casas",
-          "venue" : "ITC",
+          "venue" : "IEEE International Teletraffic Congress (ITC)",
           "venueurl" : "http://www.itc26.org/technical-program/main-track/",
           "officialurl" : "https://doi.org/10.1109/ITC.2014.6932930",
           "pdffname" : "ITC14_anomalies.pdf",
@@ -617,7 +612,7 @@
                 "name": "AF:ITC-14",
                 "command": "@INPROCEEDINGS{",
                 "author": "{P. {Fiadino} and A. {D'Alconzo} and A. {Bär} and A. {Finamore} and P. {Casas}}",
-                "booktitle": "{International Teletraffic Congress (ITC)}",
+                "booktitle": "{IEEE International Teletraffic Congress (ITC)}",
                 "title": "{On the detection of network traffic anomalies in content delivery network services}",
                 "year": "{2014}",
                 "doi": "{10.1109/ITC.2014.6932930}",
@@ -648,7 +643,7 @@
         {
           "title" : "Is There a Case for Mobile Phone Content Pre-staging?",
           "authors" : "A. Finamore, M. Mellia, Z. Gilani, K. Papagiannaki, V. Erramilli, Y. Grunenberger",
-          "venue" : "CoNEXT",
+          "venue" : "ACM Conference on emerging Networking EXperiments and Technologies (CoNEXT)",
           "venueurl" : "http://conferences.sigcomm.org/co-next/2013/program.html",
           "officialurl" : "https://doi.org/10.1145/2535372.2535414",
           "pdffname" : "CONEXT13_prestaging.pdf",
@@ -660,14 +655,14 @@
                 "title": "{Is There a Case for Mobile Phone Content Pre-Staging?}",
                 "year": "{2013}",
                 "doi": "{10.1145/2535372.2535414}",
-                "booktitle": "{Conference on Emerging Networking Experiments and Technologies (CoNEXT)}",
+                "booktitle": "{ACM Conference on Emerging Networking Experiments and Technologies (CoNEXT)}",
                 "location": "{Santa Barbara, California, USA}"
             }
         },
         {
           "title" : "When Assistance Becomes Dependence: Characterizing the Costs and Inefficiencies of A-GPS",
           "authors" : "N. Vallina-Rodriguez, J. Crowcroft, A. Finamore, Y. Grunenberger, K. Papagiannaki",
-          "venue" : "ACM SIGMOBILE Mobile Computing and Communications Review",
+          "venue" : "ACM SIGMOBILE Mobile Computing and Communications Review (MCCR)",
           "officialurl" : "https://doi.org/10.1145/2557968.2557970",
           "pdffname" : "MC2R13_agps.pdf",
           "abstract": "Location based services are a vital component of the mobile ecosystem. Among all the location technologies used behind the scenes, A-GPS (Assisted-GPS) is considered to be the most accurate. Unlike standalone GPS systems, A-GPS uses network support to speed nup position fix. However, it can be a dangerous strategy due to varying cell conditions which may impair performance, sometimes potentially neglecting the expected benefits of the original design. We present the characterization of the accuracy, location acquisition speed, energy cost, and network dependency of the state of the art A-GPS receivers shipped in popular mobile devices. Our analysis is based on active measurements, an exhaustive on-device analysis, and cellular traffic traces processing. The results reveals a number of inefficiencies as a result of the strong dependence on the cellular network to obtain assisting data, implementation, and integration problems.",
@@ -679,14 +674,14 @@
                 "year": "{2013}",
                 "number": "{4}",
                 "doi": "{10.1145/2557968.2557970}",
-                "journal": "{SIGMOBILE Mob. Comput. Commun. Rev.}",
+                "journal": "{SIGMOBILE Mobile Computing and Communications Review (MCCR)}",
                 "pages": "{3–14}"
             }
         },
         {
           "title" : "I Tube, YouTube, P2PTube: Assessing ISP Benefits of Peer-Assisted Caching of YouTube Content (poster)",
           "authors" : "Y. Nicolas, D. Wolff, D. Rossi, A. Finamore",
-          "venue" : "P2P",
+          "venue" : "IEEE International Conference on Peer-to-Peer Computing (P2P)",
           "venueurl" : "http://www.p2p13.org/",
           "officialurl" : "https://doi.org/10.1109/P2P.2013.6688724",
           "pdffname" : "P2P13_poster.pdf",
@@ -695,7 +690,7 @@
                 "name": "AF:P2P-13",
                 "command": "@INPROCEEDINGS{",
                 "author": "{Y. {Nicolas} and D. {Wolff} and D. {Rossi} and A. {Finamore}}",
-                "booktitle": "{Peer to Peer (P2P)}",
+                "booktitle": "{IEEE International Conference on Peer-to-Peer Computing (P2P)}",
                 "title": "{I Tube, YouTube, P2PTube: Assessing ISP benefits of peer-assisted caching of YouTube content}",
                 "year": "{2013}",
                 "doi": "{10.1109/P2P.2013.6688724}",
@@ -730,7 +725,7 @@
         {
           "title" : "Characterization of ISP Traffic: Trends, User Habits, and Access Technology Impact",
           "authors" : "J. L. Garcia-Dorado, A. Finamore, M. Mellia, M. Meo, M. M. Munafo",
-          "venue" :  "IEEE Transactions on Network and Service Management",
+          "venue" :  "IEEE Transactions on Network and Service Management (TNSM)",
           "officialurl" : "https://doi.org/10.1109/TNSM.2012.022412.110184",
           "pdffname" : "TON12_charisp.pdf",
           "abstract": "In the recent years, the research community has increased its focus on network monitoring which is seen as a key tool to understand the Internet and the Internet users. Several studies have presented a deep characterization of a particular application, or a particular network, considering the point of view of either the ISP, or the Internet user. In this paper, we take a different perspective. We focus on three European countries where we have been collecting traffic for more than a year and a half through 5 vantage points with different access technologies. This humongous amount of information allows us not only to provide precise, multiple, and quantitative measurements of \"What the user do with the Internet\" in each country but also to identify common/uncommon patterns and habits across different countries and nations. Considering different time scales, we start presenting the trend of application popularity; then we focus our attention to a one-month long period, and further drill into a typical daily characterization of users activity. Results depict an evolving scenario due to the consolidation of new services as Video Streaming and File Hosting and to the adoption of new P2P technologies. Despite the heterogeneity of the users, some common tendencies emerge that can be leveraged by the ISPs to improve their service.",
@@ -738,7 +733,7 @@
                 "name": "AF:TNSM-12",
                 "command": "@ARTICLE{",
                 "author": "{J. L. {Garcia-Dorado} and A. {Finamore} and M. {Mellia} and M. {Meo} and M. {Munafo}}",
-                "journal": "{IEEE Transactions on Network and Service Management}",
+                "journal": "{IEEE Transactions on Network and Service Management (TNSM)}",
                 "title": "{Characterization of ISP Traffic: Trends, User Habits, and Access Technology Impact}",
                 "year": "{2012}",
                 "number": "{2}",
@@ -757,7 +752,7 @@
         {
           "title" : "Uncovering the Big Players of the Web",
           "authors" : "V. Gehlen, A. Finamore, M. Mellia, M. M. Munafo",
-          "venue" : "TMA",
+          "venue" : "IEEE Traffic Monitoring and Analysis Conference (TMA)",
           "officialurl" : "https://link.springer.com/chapter/10.1007/978-3-642-28534-9_2",
           "pdffname" : "TMA12_bigplayers.pdf",
           "abstract": "Mobile phones and tablets can be considered as the first incarnation of the post-PC era. Their explosive adoption rate has been driven by a number of factors, with the most signifcant influence being applications (apps) and app markets. Individuals and organizations are able to develop and publish apps, and the most popular form of monetization is mobile advertising. The mobile advertisement (ad) ecosystem has been the target of prior research, but these works typically focused on a small set of apps or are from a user privacy perspective. In this work we make use of a unique, anonymized data set corresponding to one day of traffic for a major European mobile carrier with more than 3 million subscribers. We further take a principled approach to characterize mobile ad traffic along a number of dimensions, such as overall traffic, frequency, as well as possible implications in terms of energy on a mobile device. Our analysis demonstrates a number of inefficiencies in today's ad delivery. We discuss the benefits of well-known techniques, such as pre-fetching and caching, to limit the energy and network signalling overhead caused by current systems. A prototype implementation on Android devices demonstrates an improvement of 50 % in terms of energy consumption for offline ad-sponsored apps while limiting the amount of ad related traffic.",
@@ -768,7 +763,7 @@
                 "title": "{Breaking for Commercials: Characterizing Mobile Advertising}",
                 "year": "{2012}",
                 "doi": "{10.1145/2398776.2398812}",
-                "booktitle": "{Internet Measurement Conference (IMC)}",
+                "booktitle": "{IEEE Traffic Monitoring and Analysis Conference (TMA)}",
                 "location": "{Boston, Massachusetts, USA}"
             }
         }
@@ -778,7 +773,7 @@
         {
           "title" : "Experiences of Internet Traffic Monitoring with Tstat",
           "authors" : "A. Finamore, M. Mellia, M. Meo, M. M. Munafo, D. Rossi",
-          "venue" :  "IEEE Network",
+          "venue" :  "IEEE Network magazine",
           "pdffname" : "IEEENET11_tstat.pdf",
           "officialurl": "https://doi.org/10.1109/MNET.2011.5772055",
           "abstract": "Since the early days of the Internet, network traffic monitoring has always played a strategic role in understanding and characterizing users¿ activities. In this article, we present our experience in engineering and deploying Tstat, an open source passive monitoring tool that has been developed in the past 10 years. Started as a scalable tool to continuously monitor packets that flow on a link, Tstat has evolved into a complex application that gives network researchers and operators the possibility to derive extended and complex measurements thanks to advanced traffic classifiers. After discussing Tstat capabilities and internal design, we present some examples of measurements collected deploying Tstat at the edge of several ISP networks in past years. While other works report a continuous decline of P2P traffic with streaming and file hosting services rapidly increasing in popularity, the results presented in this article picture a different scenario. First, P2P decline has stopped, and in the last months of 2010 there was a counter tendency to increase P2P traffic over UDP, so the common belief that UDP traffic is negligible is not true anymore. Furthermore, streaming and file hosting applications have either stabilized or are experiencing decreasing traffic shares. We then discuss the scalability issues software-based tools have to cope with when deployed in real networks, showing the importance of properly identifying bottlenecks.",
@@ -786,7 +781,7 @@
                 "name": "AF:IEEENET-11",
                 "command": "@ARTICLE{",
                 "author": "{A. {Finamore} and M. {Mellia} and M. {Meo} and M. M. {Munafo} and P. D. {Torino} and D. {Rossi}}",
-                "journal": "{IEEE Network}",
+                "journal": "{IEEE Network magazine}",
                 "title": "{Experiences of Internet traffic monitoring with tstat}",
                 "year": "{2011}",
                 "number": "{3}",
@@ -797,7 +792,7 @@
         {
           "title" : "Dissecting Video Server Selection Strategies in the YouTube CDN",
           "authors" : "R. Torres, A. Finamore, J. Ryong Kim, M. Mellia, M. M. Munafo, S. G. Rao",
-          "venue" : "ICDCS",
+          "venue" : "IEEE International Conference on Distributed Computing Systems (ICDCS)",
           "venueurl" : "https://www2.seas.gwu.edu/~cheng/ICDCS2011/Program.html",
           "officialurl" : "https://doi.org/10.1109/ICDCS.2011.43",
           "pdffname" : "ICDS11_youtube.pdf",
@@ -806,7 +801,7 @@
                 "name": "AF:CDCS-11",
                 "command": "@INPROCEEDINGS{",
                 "author": "{R. {Torres} and A. {Finamore} and J. R. {Kim} and M. {Mellia} and M. M. {Munafo} and S. {Rao}}",
-                "booktitle": "{Conference on Distributed Computing Systems (CDCS)}",
+                "booktitle": "{IEEE International Conference on Distributed Computing Systems (ICDCS)}",
                 "title": "{Dissecting Video Server Selection Strategies in the YouTube CDN}",
                 "year": "{2011}",
                 "doi": "{10.1109/ICDCS.2011.43}",
@@ -816,7 +811,7 @@
         {
           "title" : "YouTube Everywhere: Impact of Device and Infrastructure Synergies on User Experience",
           "authors" : "A. Finamore, M. Mellia, M. M. Munafo, R. Torres, S. G. Rao",
-          "venue" : "IMC",
+          "venue" : "ACM Internet Measurement Conference (IMC)",
           "venueurl" : "https://conferences.sigcomm.org/imc/2011/program.htm",
           "officialurl" : "https://doi.org/10.1145/2068816.2068849",
           "pdffname" : "IMC12_youtube.pdf",
@@ -828,14 +823,14 @@
                 "title": "{YouTube Everywhere: Impact of Device and Infrastructure Synergies on User Experience}",
                 "year": "{2011}",
                 "doi": "{10.1145/2068816.2068849}",
-                "booktitle": "{Internet Measurement Conference (IMC)}",
+                "booktitle": "{ACM Internet Measurement Conference (IMC)}",
                 "location": "{Berlin, Germany}"
             }
         },
         {
           "title" : "Mining Unclassified Traffic Using Automatic Clustering Techniques",
           "authors" : "A. Finamore, M. Mellia, M. Meo",
-          "venue" : "TMA",
+          "venue" : "IEEE Traffic Monitoring and Analysis Conference (TMA)",
           "officialurl" : "https://link.springer.com/chapter/10.1007/978-3-642-20305-3_13",
           "pdffname" : "TMA11_clustering.pdf",
           "abstract": "In this paper we present a fully unsupervised algorithm to identify classes of traffic inside an aggregate. The algorithm leverages on the K-means clustering algorithm, augmented with a mechanism to automatically determine the number of traffic clusters. The signatures used for clustering are statistical representations of the application layer protocols. The proposed technique is extensively tested considering UDP traffic traces collected from operative networks. Performance tests show that it can clusterize the traffic in few tens of pure clusters, achieving an accuracy above 95%. Results are promising and suggest that the proposed approach might effectively be used for automatic traffic monitoring, e.g., to identify the birth of new applications and protocols, or the presence of anomalous or unexpected traffic.",
@@ -846,7 +841,7 @@
                 "title": "{Mining Unclassified Traffic Using Automatic Clustering Techniques}",
                 "year": "{2011}",
                 "doi": "{10.1007/978-3-642-20305-3_13}",
-                "booktitle": "{Traffic Monitoring and Analysis (TMA)}",
+                "booktitle": "{IEEE Traffic Monitoring and Analysis Conference (TMA)}",
                 "location": "{Wien, Austria}"
             }
         }
@@ -856,7 +851,7 @@
         {
           "title" : "KISS: Stochastic Packet Inspection Classifier for UDP Traffic",
           "authors" : "A. Finamore, M. Mellia, M. Meo, D. Rossi",
-          "venue" :  "IEEE/ACM Transactions on Networking",
+          "venue" :  "IEEE/ACM Transactions on Networking (ToN)",
           "officialurl" : "https://doi.org/10.1109/TNET.2010.2044046",
           "pdffname" : "TON10_kiss.pdf",
           "abstract": "This paper proposes KISS, a novel Internet classification engine. Motivated by the expected raise of UDP traffic, which stems from the momentum of Peer-to-Peer (P2P) streaming applications, we propose a novel classification framework that leverages on statistical characterization of payload. Statistical signatures are derived by the means of a Chi-Square (χ 2 )-like test, which extracts the protocol “format,” but ignores the protocol “semantic” and “synchronization” rules. The signatures feed a decision process based either on the geometric distance among samples, or on Support Vector Machines. KISS is very accurate, and its signatures are intrinsically robust to packet sampling, reordering, and flow asymmetry, so that it can be used on almost any network. KISS is tested in different scenarios, considering traditional client-server protocols, VoIP, and both traditional and new P2P Internet applications. Results are astonishing. The average True Positive percentage is 99.6%, with the worst case equal to 98.1,% while results are almost perfect when dealing with new P2P streaming applications.",
@@ -864,7 +859,7 @@
                 "name": "AF:ToN-10",
                 "command": "@ARTICLE{",
                 "author": "{A. {Finamore} and M. {Mellia} and M. {Meo} and D. {Rossi}}",
-                "journal": "{IEEE/ACM Transactions on Networking}",
+                "journal": "{IEEE/ACM Transactions on Networking (ToN)}",
                 "title": "{KISS: Stochastic Packet Inspection Classifier for UDP Traffic}",
                 "year": "{2010}",
                 "number": "{5}",
@@ -875,7 +870,7 @@
         {
           "title" : "Comparing P2PTV Traffic Classifiers",
           "authors" : "N. Cascarano, F. Risso, A. Este, F. Gringoli, L. Salgarelli, A. Finamore, M. Mellia",
-          "venue" : "ICC",
+          "venue" : "International Conference on Communications (ICC)",
           "venueurl" : "http://icc2010.ieee-icc.org/Programme.html",
           "officialurl" : "https://doi.org/10.1109/ICC.2010.5501744",
           "pdffname" : "ICC10_ciscorfp.pdf",
@@ -894,7 +889,7 @@
         {
           "title" : "Stochastic Packet Inspection for TCP Traffic",
           "authors" : "G. La Mantia, D. Rossi, A. Finamore, M. Mellia, M. Meo",
-          "venue" : "ICC",
+          "venue" : "IEEE International Conference on Communications (ICC)",
           "venueurl" : "http://icc2010.ieee-icc.org/Programme.html",
           "officialurl" : "https://doi.org/10.1109/ICC.2010.5502280",
           "pdffname" : "ICC10_kiss.pdf",
@@ -903,7 +898,7 @@
                 "name": "AF:ICC-10",
                 "command": "@INPROCEEDINGS{",
                 "author": "{G. {La Mantia} and D. {Rossi} and A. {Finamore} and M. {Mellia} and M. {Meo}}",
-                "booktitle": "{2010 IEEE International Conference on Communications}",
+                "booktitle": "{IEEE International Conference on Communications (ICC)}",
                 "title": "{Stochastic Packet Inspection for TCP Traffic}",
                 "year": "{2010}",
                 "doi": "{10.1109/ICC.2010.5502280}",
@@ -913,7 +908,7 @@
         {
           "title" : "Kiss to Abacus: A Comparison of P2P-TV Traffic Classifiers",
           "authors" : "A. Finamore, M. Meo, D. Rossi, S. Valenti",
-          "venue" : "TMA",
+          "venue" : "IEEE Traffic Monitoring and Analysis Conference (TMA)",
           "officialurl" : "https://link.springer.com/chapter/10.1007%2F978-3-642-12365-8_9",
           "pdffname" : "TMA10_kiss-to-abacus.pdf",
           "abstract": "In the last few years the research community has proposed several techniques for network traffic classification. While the performance of these methods is promising especially for specific classes of traffic and particular network conditions, the lack of accurate comparisons among them makes it difficult to choose between them and find the most suitable technique for given needs. Motivated also by the increase of P2P-TV traffic, this work compares Abacus, a novel behavioral classification algorithm specific for P2P-TV traffic, and Kiss, an extremely accurate statistical payload-based classifier. We first evaluate their performance on a common set of traces and later we analyze their requirements in terms of both memory occupation and CPU consumption. Our results show that the behavioral classifier can be as accurate as the payload-based with also a substantial gain in terms of computational cost, although it can deal only with a very specific type of traffic.",
@@ -921,7 +916,7 @@
                 "name": "AF:ICC-10",
                 "command": "@INPROCEEDINGS{",
                 "author": "{A. {Finamore} and M. {Meo} and D. {Rossi} and S. {Valenti}}",
-                "booktitle": "{Traffic Monitoring and Analysis (TMA)}",
+                "booktitle": "{IEEE Traffic Monitoring and Analysis Conference (TMA)}",
                 "title": "{Kiss to Abacus: A Comparison of P2P-TV Traffic Classifiers}",
                 "year": "{2010}",
                 "doi": "{10.1007/978-3-642-12365-8_9}",
@@ -951,7 +946,7 @@
         {
           "title" : "KISS: Stochastic Packet Inspection",
           "authors" : "A. Finamore, M. Mellia, M. Meo, D. Rossi",
-          "venue" : "TMA",
+          "venue" : "IEEE Traffic Monitoring and Analysis Conference (TMA)",
           "officialurl" : "https://link.springer.com/chapter/10.1007/978-3-642-01645-5_14",
           "pdffname" : "TMA09_kiss.pdf",
           "abstract": "This paper proposes KISS, a new Internet classification method. Motivated by the expected raise of UDP traffic volume, which stems from the momentum of P2P streaming applications, we propose a novel statistical payload-based classification framework, targeted to UDP traffic. Statistical signatures are automatically inferred from training data, by the means of a Chi-Square like test, which extracts the protocol “syntax”, but ignores the protocol semantic and synchronization rules. The signatures feed a decision engine based on Support Vector Machines. KISS is tested in different scenarios, considering both data, VoIP, and traditional P2P Internet applications. Results are astonishing. The average True Positive percentage is 99.6%, with the worst case equal 98.7%. Less than 0.05% of False Positives are detected.",
@@ -959,7 +954,7 @@
                 "name": "AF:TMA-09",
                 "command": "@INPROCEEDINGS{",
                 "author": "{A. {Finamore} and M. {Mellia} and M. {Meo} and D. {Rossi}}",
-                "booktitle": "{Traffic Monitoring and Analysis (TMA)}",
+                "booktitle": "{IEEE Traffic Monitoring and Analysis Conference (TMA)}",
                 "title": "{KISS: Stochastic Packet Inspection}",
                 "year": "{2009}",
                 "doi": "{10.1007/978-3-642-01645-5_14}",

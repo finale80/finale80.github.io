@@ -1,7 +1,7 @@
 title = "Alessandro Finamore"
 #baseURL = "https://finale80.github.io/"
 baseURL = "https://afinamore.io/"
-theme = "hugo-resume"
+#theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
 PygmentsCodeFencesGuessSyntax = true
@@ -24,7 +24,7 @@ showEducation = true
 showExperience = true
 showOpenSource = false
 showProjects = false
-showPublications = false
+showPublications = true
 showAcademicPublications = true
 showQr = false
 showSkills = false

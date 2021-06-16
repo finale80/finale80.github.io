@@ -9,6 +9,6 @@ outputs:
 - rss
 - json
 ---
-I am currently a Principal Engineer at the HUAWEI research center in Paris. Before, I was as Researcher at Telefonica Research, and a Principal Engineer at Telefonica UK/O2. 
+I am a researcher working in __Internet measurements__ at the intersection between __Deep Learning__, __BigData__, and __data-plane programming__. Currently, I am a Principal Engineer working in AI4NET Datacom lab lead by Dario Rossi, at the Huawei Research center in Paris (France), and I focus on the integration of Deep Learning into traffic monitoring systems, targeting __continuous learning__ and __network automation__. 
 
-My research interests are at the intersection between BigData and Deep Learning with application to computer networks. At HUAWEI I am part of a team investigating how to integrate AI with data-plane programming to empower network monitoring and distributed telemetry systems.
+Previously, I was an associate researcher at Telefonica Research, and a Principal Engineer at Telefonica UK/O2, where I designed and deployed an ML product to predict daily customer satisfaction for 30M+ O2 customers using a variety of live network logs.
