@@ -14,7 +14,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [params]
 address = "Paris, FRANCE"
 email = "mail@afinamore.io"
-favicon = "/favicon.ico"
+favicon = "/favicon/favicon.ico"
 firstName = "Alessandro"
 lastName = "Finamore"
 #phone = "1-555-555-1234"
