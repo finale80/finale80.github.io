@@ -1,0 +1,18 @@
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ $posts := where $posts "Draft" false }}
+{{ $count_posts := len ($posts) }}
+{{ if gt $count_posts 0 }}
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="posts">
+
+
+    <h2 class="mb-5">Recent Posts: {{ $count_posts }}</h2>
+
+    {{ range first .Site.Params.maxPostsInHome ( $posts ) }}
+        <h1> XXX {{ .Title }} XXX</h1>
+    {{ end }}
+
+
+</section>
+
+{{ end }}

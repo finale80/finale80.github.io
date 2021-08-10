@@ -33,6 +33,11 @@
             <a class="nav-link js-scroll-trigger" href="/#{{ default "Posts" .Site.Params.publicationsAlternateName }}">{{ default "Posts" .Site.Params.publicationsAlternateName }}</a>
           </li>
       {{ end }}
+      {{ if .Site.Params.showBlog }}
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#posts">Posts</a>
+          </li>
+      {{ end }}
       {{ if .Site.Params.showAcademicPublications }}
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/#academic-publications">Research Papers</a>
@@ -46,11 +51,6 @@
       {{ if .Site.Params.showEducation }}
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
-          </li>
-      {{ end }}
-      {{ if .Site.Params.showBlog }}
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
           </li>
       {{ end }}
     </ul>
