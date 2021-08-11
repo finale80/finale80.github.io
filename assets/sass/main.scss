@@ -5,6 +5,7 @@ $color_firstname: $color_text;
 $color_highlight: #DD587C;
 $color_ppt: #00b36b;
 $color_details: #555;
+$color_borders_light: rgba(187,187,187,.1);
 
 body {
   font-family: 'Open Sans', serif;
@@ -413,4 +414,40 @@ hr {
   height: 1em;
   width: auto;
   filter: invert(1);
+}
+
+/***************
+* POSTS
+***************/
+.posts-summary hr {
+    width:100%;
+    border: 0;
+    height: 3px;
+    background: $color_borders_light;
+    margin: 25px 0px;
+}
+
+.posts-summary ul {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.posts-summary li {
+    display: inline;
+    border-radius: 100px;
+    border: solid 2px $color_details;
+    color: $color_details;
+    font-size: 0.8rem;
+    padding: 3px 10px;
+    //padding: 20px; 
+    //width: 200px;
+    //height: 150px; 
+}
+
+.posts-summary p {
+    margin-bottom:0px;
+}
+
+.posts-summary h3 {
+    margin-top: 0px;
 }

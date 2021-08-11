@@ -1,17 +1,34 @@
-{{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ $posts := where .Site.RegularPages "Section" "posts_summary" }}
 {{ $posts := where $posts "Draft" false }}
+{{ $posts := first .Site.Params.maxPostsInHome ( $posts ) }}
 {{ $count_posts := len ($posts) }}
+
+
 {{ if gt $count_posts 0 }}
 
 <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="posts">
 
+    <h2 class="mb-5">Recent Posts</h2>
 
-    <h2 class="mb-5">Recent Posts: {{ $count_posts }}</h2>
+    <span class="posts-summary">
+    {{ range $idx, $post := $posts }}
+        <h3> {{ $post.Title }} </h3>
+        {{ $post.Content }}
 
-    {{ range first .Site.Params.maxPostsInHome ( $posts ) }}
-        <h1> XXX {{ .Title }} XXX</h1>
+
+        {{ if isset $post.Params "tags" }} 
+        <ul>
+            {{ range $post.Params.Tags }}
+                <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+        {{ end }}
+
+        {{ if ne $idx (sub $count_posts 1) }}
+        <hr>
+        {{ end }}
     {{ end }}
-
+    </span>
 
 </section>
 
