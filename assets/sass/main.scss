@@ -201,6 +201,7 @@ div.skills-heading{
 
 /* From https://codepen.io/wbeeftink/pen/dIaDH */
 
+/*
 .tags {
     font: 12px/1.5 'PT Sans', serif;
   list-style: none;
@@ -258,6 +259,7 @@ div.skills-heading{
 .tag:hover::after {
    border-left-color: crimson;
 }
+*/
 
 .project-fact{
   font-size:80%;
@@ -427,18 +429,13 @@ hr {
     margin: 25px 0px;
 }
 
-.posts-summary ul {
-    padding: 0;
-    margin-top: 10px;
-}
-
-.posts-summary li {
-    display: inline;
+.posts-summary span.post-tag{
+    //display: inline;
     border-radius: 100px;
     border: solid 2px $color_details;
     color: $color_details;
-    font-size: 0.8rem;
     padding: 3px 10px;
+    float: left;
     //padding: 20px; 
     //width: 200px;
     //height: 150px; 
@@ -449,5 +446,30 @@ hr {
 }
 
 .posts-summary h3 {
-    margin-top: 0px;
+    margin: 0px;
 }
+
+.posts-summary div.header {
+    margin-bottom: 10px;
+}
+
+.posts-summary div.footer {
+    padding-top: 0px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    vertical-align: middle;
+}
+
+.posts-summary div.footer a.readmore {
+    display: inline;
+    float: right;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+/*
+.posts-summary div.footer a.readmore:hover {
+    border: solid 2px $color_highlight;
+    color: $color_highlight;
+}
+*/

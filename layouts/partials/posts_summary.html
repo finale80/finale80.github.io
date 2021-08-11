@@ -12,21 +12,41 @@
 
     <span class="posts-summary">
     {{ range $idx, $post := $posts }}
-        <h3> {{ $post.Title }} </h3>
+        <!-- HEADER -->
+        <div class="header">
+            <h3> {{ $post.Title }} </h3>
+            <i class="far fa-calendar-alt"></i>
+            {{ $post.Date.Format "March 3, 2010" }}
+
+            {{ if isset $post.Params "readingtime" }}
+            | <i class="far fa-clock"></i>
+            {{ $post.Params.Readingtime }}
+            {{ end }}
+        </div>
+
+        <!-- CONTENT -->
         {{ $post.Content }}
 
-
-        {{ if isset $post.Params "tags" }} 
-        <ul>
-            {{ range $post.Params.Tags }}
-                <li>{{ . }}</li>
+        <!-- FOOTER -->
+        <div class="footer">
+            {{ if isset $post.Params "tags" }} 
+            <!--
+            <ul>
+                {{ range $post.Params.Tags }}
+                    <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+            -->
+                {{ range $post.Params.Tags }}
+                    <span class="post-tag">{{ . }}</span>
+                {{ end }}
             {{ end }}
-        </ul>
-        {{ end }}
+            <a href="" class="tag-pdf tag-box readmore">READ</a>
 
-        {{ if ne $idx (sub $count_posts 1) }}
-        <hr>
-        {{ end }}
+            {{ if ne $idx (sub $count_posts 1) }}
+                <hr>
+            {{ end }}
+        </div>
     {{ end }}
     </span>
 
