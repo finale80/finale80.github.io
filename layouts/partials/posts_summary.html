@@ -30,18 +30,12 @@
         <!-- FOOTER -->
         <div class="footer">
             {{ if isset $post.Params "tags" }} 
-            <!--
-            <ul>
-                {{ range $post.Params.Tags }}
-                    <li>{{ . }}</li>
-                {{ end }}
-            </ul>
-            -->
                 {{ range $post.Params.Tags }}
                     <span class="post-tag">{{ . }}</span>
                 {{ end }}
             {{ end }}
-            <a href="" class="tag-pdf tag-box readmore">READ</a>
+
+            <a href="" class="tab-box tag-pdf readmore">READ</a>
 
             {{ if ne $idx (sub $count_posts 1) }}
                 <hr>

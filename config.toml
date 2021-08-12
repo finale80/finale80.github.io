@@ -30,7 +30,7 @@ showPublications = false
 showAcademicPublications = true
 showQr = false
 showSkills = false
-showPosts = true
+showPosts = false
 ## section configs
 maxPostsInHome = 10
 
