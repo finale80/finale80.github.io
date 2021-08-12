@@ -25,11 +25,14 @@ $color_background_left: $color_very_dark_gray;
 $color_background_right: $color_very_dark_gray_alternate;
 $color_firstname: $color_text;
 //$color_highlight: #DD587C;  // pink
-$color_highlight: $color_pink;
-//$color_highlight: $color_blue;
+//$color_highlight: $color_pink;
+$color_highlight: $color_blue;
 $color_ppt: #00b36b;    // green
 $color_details: #555;
 $color_borders_light: rgba(187,187,187,.1);
+
+$color_tagbox_pdf: $color_pink;
+
 
 body {
   font-family: 'Open Sans', serif;
@@ -83,7 +86,8 @@ h2 {
 
 .list-social-icons a:hover {
   //color: $color_background_right; 
-  color: $color_blue;
+  //color: $color_blue;
+  color: $color_pink;
 }
 
 .list-social-icons a .fa-lg {
@@ -188,7 +192,8 @@ a {
 
 a:hover, a:focus, a:active {
   //color: $color_text;
-  color: $color_blue;
+  //color: $color_blue;
+  color: $color_pink;
 }
 
 img {
@@ -338,7 +343,7 @@ li.pubs {
 }
 
 .pubs-title:hover{
-  color: $color_highlight;
+  //color: $color_highlight;
   cursor: pointer;
 }
 
@@ -347,7 +352,8 @@ li.pubs {
 }
 
 .pubs-title a:hover{
-    color: $color_blue;
+    //color: $color_blue;
+    color: $color_pink;
 }
 
 .tag-box {
@@ -371,12 +377,14 @@ li.pubs {
 }
 
 .tag-pdf {
-    border: solid 2px $color_blue;
-    color: $color_blue;
+    //border: solid 2px $color_blue;
+    //color: $color_blue;
+    border: solid 2px $color_tagbox_pdf;
+    color: $color_tagbox_pdf;
 }
 
 .tag-pdf:hover {
-    background-color: rgba( $color_blue, .7 );
+    background-color: rgba( $color_tagbox_pdf, .7 );
     color: $color_text;
 }
 
