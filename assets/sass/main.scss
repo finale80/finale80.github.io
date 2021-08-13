@@ -25,8 +25,8 @@ $color_background_left: $color_very_dark_gray;
 $color_background_right: $color_very_dark_gray_alternate;
 $color_firstname: $color_text;
 //$color_highlight: #DD587C;  // pink
-//$color_highlight: $color_pink;
-$color_highlight: $color_blue;
+$color_highlight: $color_pink;
+//$color_highlight: $color_blue;
 $color_ppt: #00b36b;    // green
 $color_details: #555;
 $color_borders_light: rgba(187,187,187,.1);
@@ -308,10 +308,15 @@ div.skills-heading{
 	width: 100%
 }
 
+/*
 p strong {
     //color: $color_pink;
     font-style: italic;
 }
+p em {
+   border-bottom: solid 1px $color-highlight; 
+}
+*/
 
 .pubs {
     vertical-align:middle;
