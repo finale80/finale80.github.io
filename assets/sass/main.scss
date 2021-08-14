@@ -589,16 +589,26 @@ img#logo {
   text-decoration: none;
   color: $color_text;
   text-align: center;
-  padding: 0 5px;
+  padding-left: 3px;
   height: 100%;
   display: inline-block;
+}
+
+#navbar-right a::before{
+    content: "•";
+    padding-right: 2px;
+    color: $color_very_dark_gray_alternate;
 }
 
 #navbar-right a:hover {
     //background: $color_highlight;
     cursor: pointer;   
-    text-decoration: underline;
-    text-decoration-color: $color_highlight;
+    //text-decoration: underline;
+    //text-decoration-color: $color_highlight;
+}
+
+#navbar-right a:hover::before {
+    color: $color_highlight;
 }
 
 
