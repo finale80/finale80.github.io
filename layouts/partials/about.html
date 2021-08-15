@@ -22,16 +22,19 @@
         </div>
         <div>
           {{ .Content }}
+          <br>
           <ul class="list-inline list-social-icons mb-0">
             {{ range .Site.Params.handles }}
                 <li class="list-inline-item">
                   <a href="{{ .link }}" data-toggle="tooltip" title="{{ .name }}" data-offset="0,10" rel="me">
                     <span class="fa-stack fa-lg">
                       <i class="fa fa-circle fa-stack-2x"></i>
-                      {{ if ne .name "GoogleScholar" }}
-                      <i class="fab {{ if .icon}}fa-{{ .icon }}{{ else }}fa-{{ lower .name }}{{ end }} fa-stack-1x fa-inverse"></i>
-                      {{ else }}
+                      {{ if eq .name "GoogleScholar" }}
                       <span class="fab fa-scholar fa-stack-2x"></span>
+                      {{ else if eq .name "Mail" }}
+                      <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+                      {{ else }}
+                      <i class="fab {{ if .icon}}fa-{{ .icon }}{{ else }}fa-{{ lower .name }}{{ end }} fa-stack-1x fa-inverse"></i>
                       {{ end }}
                     </span>
                   </a>

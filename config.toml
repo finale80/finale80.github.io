@@ -52,6 +52,10 @@ name = "GoogleScholar"
 link = "https://twitter.com/finale80"
 name = "Twitter"
 
+[[params.handles]]
+link = "mailto:mail@afinamore.io"
+name = "Mail"
+
 #[[params.handles]]
 #link = "https://bitbucket.org/eddiewebb/"
 #name = "Bitbucket"
