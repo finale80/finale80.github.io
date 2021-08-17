@@ -1,3 +1,6 @@
+/*
+ reside elements, and fade in/out avatar
+*/
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -5,15 +8,103 @@ function scrollFunction() {
     $("#logo").addClass("logo-reducedsize");
     $("#navbar-right").addClass("navbar-right-reducedsize");
     $("#avatar").addClass("hidden");
-    //document.getElementById("logo").style.height = "25px";
-    //document.getElementById("navbar-right").style.height = "35px";
-    //document.getElementById("navbar-right").style.lineHeight = "35px";
   } else {
     $("#logo").removeClass("logo-reducedsize");
     $("#navbar-right").removeClass("navbar-right-reducedsize");
     $("#avatar").removeClass("hidden");
-    //document.getElementById("logo").style.height = "50px";
-    //document.getElementById("navbar-right").style.height = "60px";
-    //document.getElementById("navbar-right").style.lineHeight = "60px";
   }
 }
+
+/*
+*/
+
+//const sectionIDs = ['home', 'research', 'experience', 'education'];
+
+const sections = [
+  document.querySelector("#home"),
+  document.querySelector("#research"),
+  document.querySelector("#experience"),
+  document.querySelector("#education"),
+];
+
+const navItems = {
+  home: document.querySelector("#navbar-link-home"),
+  research: document.querySelector("#navbar-link-research"),
+  experience: document.querySelector("#navbar-link-experience"),
+  education: document.querySelector("#navbar-link-education"),
+};
+
+/*
+var sections = [];
+var navItems = {};
+
+for (link of document.querySelectorAll("#navbar-right > a")) {
+    secID = link.id.replace('navbar-link-', '');
+    sec = document.querySelector("#" + secID);
+    sections.push(sec);
+    navItems[secID] = link;
+}
+*/
+
+
+// intersection observer setup
+const observerOptions = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.7,
+};
+
+function observerCallback(entries, observer) {
+    var s = "";
+    for (entry of entries)
+        s += "," + entry.target.id;
+    window.alert(s);
+
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      // get the nav item corresponding to the id of the section
+      // that is currently in view
+      const navItem = navItems[entry.target.id];
+      // add 'active' class on the navItem
+      navItem.classList.add('navbar-link-active');
+      // remove 'active' class from any navItem that is not
+      // same as 'navItem' defined above
+      Object.values(navItems).forEach((item) => {
+        if (item != navItem) {
+          item.classList.remove('navbar-link-active');
+        }
+      });
+    }
+  });
+}
+
+
+const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+//sections.forEach((sec) => observer.observe(sec));
+//observer.observe(sections[0]);
+//observer.observe(sections[1]);
+
+///////////////////
+/*
+function handleIntersection(entries) {
+  entries.map((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('experiment-visible')
+    } else {
+      entry.target.classList.remove('experiment-visible')
+    }
+  });
+}
+
+const observerOptions2 = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.5,
+};
+const observer2 = new IntersectionObserver(handleIntersection, observerOptions2);
+observer2.observe(document.querySelector("#home"));
+observer2.observe(document.querySelector("#research"));
+observer2.observe(document.querySelector("#experience"));
+observer2.observe(document.querySelector("#education"));
+*/
