@@ -51,20 +51,17 @@ for (link of document.querySelectorAll("#navbar-right > a")) {
 const observerOptions = {
   root: null,
   rootMargin: '0px',
-  threshold: 0.7,
+  threshold: [0.5, 0.35, 0.5, 0.5],
 };
 
 function observerCallback(entries, observer) {
-    var s = "";
-    for (entry of entries)
-        s += "," + entry.target.id;
-    window.alert(s);
 
   entries.forEach((entry) => {
     if (entry.isIntersecting) {
       // get the nav item corresponding to the id of the section
       // that is currently in view
       const navItem = navItems[entry.target.id];
+      //navItem.focus();
       // add 'active' class on the navItem
       navItem.classList.add('navbar-link-active');
       // remove 'active' class from any navItem that is not
@@ -81,7 +78,7 @@ function observerCallback(entries, observer) {
 
 const observer = new IntersectionObserver(observerCallback, observerOptions);
 
-//sections.forEach((sec) => observer.observe(sec));
+sections.forEach((sec) => observer.observe(sec));
 //observer.observe(sections[0]);
 //observer.observe(sections[1]);
 
