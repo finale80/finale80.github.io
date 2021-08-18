@@ -35,6 +35,9 @@ $color_ppt: #00b36b;    // green
 $color_details: #555;
 $color_borders_light: rgba(187,187,187,.1);
 
+$color_navbar: $color_very_dark_gray_alternate;
+
+
 $color_tagbox_pdf: $color_pink;
 
 ///////////////////
@@ -558,17 +561,14 @@ navbar
 /* Create a sticky/fixed navbar */
 #navbar {
   //overflow: hidden;
-  background-color: $color_very_dark_gray_alternate;
+  background-color: $color_navbar; //$color_very_dark_gray_alternate;
   color: $color_text;
-  padding: 0px 16px; /* Large padding which will shrink on scroll (using JS) */
-  //margin: 0 16px;
-  //transition: 0.4s; /* Adds a transition effect when the padding is decreased */
-  position: fixed; /* Sticky/fixed navbar */
+  padding: 0px 16px; 
+  position: fixed; 
   width: 100%;
-  top: 0; /* At the top */
+  top: 0; 
   z-index: 99;
   max-height:60px;
-  //max-height: 50px;
   border-bottom: solid 2px #333;
 }
 
@@ -633,19 +633,38 @@ img#logo {
   display: inline-block;
 }
 
+/*
 #navbar-right a::before{
     content: "•";
     padding-right: 2px;
     color: $color_very_dark_gray_alternate;
 }
+*/
 
 #navbar-right a:hover {
     cursor: pointer;   
 }
 
+/*
 #navbar-right a:hover::before {
     color: $color_highlight;
 }
+*/
+
+#navbar-right span.navbar-link-marker {
+    color: $color_navbar;
+}
+
+#navbar-right span.navbar-link-active {
+    color: $color_highlight;
+}
+
+/*
+#navbar-right span.navbar-link-inactive {
+    color: $color_navbar;
+}
+*/
+
 
 #navbar-right a.navbar-link-active {
     text-decoration: underline;

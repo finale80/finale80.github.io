@@ -18,8 +18,17 @@ function scrollFunction() {
 /*
 */
 
-//const sectionIDs = ['home', 'research', 'experience', 'education'];
+const sectionIDs = ['home', 'research', 'experience', 'education'];
 
+var sections = [];
+var navItems = {};
+
+for (secID of sectionIDs) {
+    sections.push(document.querySelector("#" + secID));
+    navItems[secID] = document.querySelector("#navbar-link-" + secID);
+}
+
+/*
 const sections = [
   document.querySelector("#home"),
   document.querySelector("#research"),
@@ -33,17 +42,6 @@ const navItems = {
   experience: document.querySelector("#navbar-link-experience"),
   education: document.querySelector("#navbar-link-education"),
 };
-
-/*
-var sections = [];
-var navItems = {};
-
-for (link of document.querySelectorAll("#navbar-right > a")) {
-    secID = link.id.replace('navbar-link-', '');
-    sec = document.querySelector("#" + secID);
-    sections.push(sec);
-    navItems[secID] = link;
-}
 */
 
 
