@@ -628,7 +628,7 @@ img#logo {
   text-decoration: none;
   color: $color_text;
   text-align: center;
-  padding-left: 3px;
+  padding-left: 2px;
   height: 100%;
   display: inline-block;
 }
@@ -653,6 +653,7 @@ img#logo {
 
 #navbar-right span.navbar-link-marker {
     color: $color_navbar;
+    margin-left: 2px;
 }
 
 #navbar-right span.navbar-link-active {
