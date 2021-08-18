@@ -16,6 +16,7 @@ function scrollFunction() {
 }
 
 /*
+marker activation based on scrolling
 */
 
 const sectionIDs = ['home', 'research', 'experience', 'education'];
@@ -27,22 +28,6 @@ for (secID of sectionIDs) {
     sections.push(document.querySelector("#" + secID));
     navItems[secID] = document.querySelector("#navbar-link-" + secID);
 }
-
-/*
-const sections = [
-  document.querySelector("#home"),
-  document.querySelector("#research"),
-  document.querySelector("#experience"),
-  document.querySelector("#education"),
-];
-
-const navItems = {
-  home: document.querySelector("#navbar-link-home"),
-  research: document.querySelector("#navbar-link-research"),
-  experience: document.querySelector("#navbar-link-experience"),
-  education: document.querySelector("#navbar-link-education"),
-};
-*/
 
 
 // intersection observer setup
@@ -77,29 +62,3 @@ function observerCallback(entries, observer) {
 const observer = new IntersectionObserver(observerCallback, observerOptions);
 
 sections.forEach((sec) => observer.observe(sec));
-//observer.observe(sections[0]);
-//observer.observe(sections[1]);
-
-///////////////////
-/*
-function handleIntersection(entries) {
-  entries.map((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('experiment-visible')
-    } else {
-      entry.target.classList.remove('experiment-visible')
-    }
-  });
-}
-
-const observerOptions2 = {
-  root: null,
-  rootMargin: '0px',
-  threshold: 0.5,
-};
-const observer2 = new IntersectionObserver(handleIntersection, observerOptions2);
-observer2.observe(document.querySelector("#home"));
-observer2.observe(document.querySelector("#research"));
-observer2.observe(document.querySelector("#experience"));
-observer2.observe(document.querySelector("#education"));
-*/
