@@ -25,6 +25,14 @@
       {{ end }}
    {{ end }}
    {{ if .Site.Params.showAcademicPublications }}
+        <!-- input parameters -->
+      {{ .Scratch.Set "nyears" (len ( .Site.Data.academic_publications )) }}
+      {{ .Scratch.Set "showmore" false }}
+      {{ if isset .Site.Params "maxresearchpaperyearsinhome" }}
+            {{ .Scratch.Set "nyears" .Site.Params.maxResearchPaperYearsInHome }}
+            {{ .Scratch.Set "showmore" true }}
+      {{ end }}
+
       {{ partial "portfolio/academic_publications.html" . }}
    {{ end }}
    {{ if .Site.Params.showPublications }}

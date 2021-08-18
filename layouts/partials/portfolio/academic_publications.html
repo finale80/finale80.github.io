@@ -1,16 +1,14 @@
+        <!-- pull input parameters -->
+        {{ $nyears := .Scratch.Get "nyears" }}
+        {{ $showmore := .Scratch.Get "showmore" }}
+
+        {{ $academic_publications := first $nyears .Site.Data.academic_publications }}
+
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="research">
           <div class="my-auto">
             <h2 class="mb-5">Research Papers</h2>
 
-            {{ $academic_publications := .Site.Data.academic_publications }}
-            {{ .Scratch.Set "years_to_filter" (len ( $academic_publications )) }}
-            {{ .Scratch.Set "show_more" false }}
-            {{ if isset .Site.Params "maxresearchpaperyearsinhome" }}
-                {{ .Scratch.Set "years_to_filter" .Site.Params.maxResearchPaperYearsInHome }}
-                {{ .Scratch.Set "show_more" true }}
-            {{ end }}
 
-            {{ $academic_publications := first (.Scratch.Get "years_to_filter") $academic_publications }}
 
             {{ range $academic_publications }}
               {{ $year := .year }}
@@ -84,8 +82,8 @@
               </div>
               {{ end }}
                 
-              {{ if (.Scratch.Get "show_more") }}
-              <a href="" class="pubs-showmore">full list</a>
+              {{ if $showmore }}
+              <a href="/research" class="pubs-showmore">full list</a>
               {{ end }}
            </div>
         </section>
