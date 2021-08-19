@@ -1,0 +1,7 @@
+{{ define "main" }}
+      <div class="single-page-body">
+      {{ .Scratch.Set "nyears" (len ( .Site.Data.academic_publications )) }}
+      {{ .Scratch.Set "showmore" false }}
+      {{ partial "portfolio/academic_publications.html" . }}
+      </div>
+{{ end }}

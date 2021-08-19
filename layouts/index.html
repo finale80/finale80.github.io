@@ -3,6 +3,15 @@
    {{ if .Site.Params.showSkills }}
        {{ partial "portfolio/skills.html" . }}
    {{ end }}
+   {{ if .Site.Params.showPosts }}
+      <!--
+      {{ with .Site.GetPage "section" "blog" }}
+         {{ .Scratch.Set "sectionId" "blog" }}
+         {{ partial "sectionSummary" . }}
+      {{ end }}
+      -->
+      {{ partial "posts_summary.html" . }}
+   {{ end }}
    {{ if .Site.Params.showProjects }}
       {{ with .Site.GetPage "section" "projects/creations" }}
          {{ .Scratch.Set "sectionId" "projects" }}
@@ -16,6 +25,14 @@
       {{ end }}
    {{ end }}
    {{ if .Site.Params.showAcademicPublications }}
+        <!-- input parameters -->
+      {{ .Scratch.Set "nyears" (len ( .Site.Data.academic_publications )) }}
+      {{ .Scratch.Set "showmore" false }}
+      {{ if isset .Site.Params "maxresearchpaperyearsinhome" }}
+            {{ .Scratch.Set "nyears" .Site.Params.maxResearchPaperYearsInHome }}
+            {{ .Scratch.Set "showmore" true }}
+      {{ end }}
+
       {{ partial "portfolio/academic_publications.html" . }}
    {{ end }}
    {{ if .Site.Params.showPublications }}
@@ -29,11 +46,5 @@
    {{ end }}
    {{ if .Site.Params.showEducation }}
        {{ partial "portfolio/education.html" . }}
-   {{ end }}
-   {{ if .Site.Params.showBlog }}
-      {{ with .Site.GetPage "section" "blog" }}
-         {{ .Scratch.Set "sectionId" "blog" }}
-         {{ partial "sectionSummary" . }}
-      {{ end }}
    {{ end }}
 {{ end }}

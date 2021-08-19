@@ -12,6 +12,7 @@ publishDir = "docs"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
+## personal info
 address = "Paris, FRANCE"
 email = "mail@afinamore.io"
 favicon = "/favicon/favicon.ico"
@@ -19,6 +20,7 @@ firstName = "Alessandro"
 lastName = "Finamore"
 #phone = "1-555-555-1234"
 profileImage = "img/profile_pic_round.png"
+## enable/disable sections
 showEmail = true
 showEducation = true
 showExperience = true
@@ -28,6 +30,10 @@ showPublications = false
 showAcademicPublications = true
 showQr = false
 showSkills = false
+showPosts = false
+## section configs
+maxPostsInHome = 10
+maxResearchPaperYearsInHome = 2
 
 
 [params.google]
@@ -46,6 +52,10 @@ name = "GoogleScholar"
 [[params.handles]]
 link = "https://twitter.com/finale80"
 name = "Twitter"
+
+[[params.handles]]
+link = "mailto:mail@afinamore.io"
+name = "Mail"
 
 #[[params.handles]]
 #link = "https://bitbucket.org/eddiewebb/"

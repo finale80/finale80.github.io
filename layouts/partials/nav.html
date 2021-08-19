@@ -1,3 +1,33 @@
+<div id="navbar">
+  <div id="navbar-left"><a href="/"><img src="/favicon/favicon_exagon_light.svg" id="logo" class="logo-fullsize"></a></div>
+
+  <div id="avatar" ><img src="/img/me/avatar_round.png"/></div>
+
+  <div id="navbar-right" class="navbar-right-fullsize">
+    {{ $currURL := .Permalink | relURL }}
+    {{ if eq $currURL "/" }}
+        <span class="navbar-link-marker" id="navbar-link-home">•</span><a href="/#home">Home</a>
+        <span class="navbar-link-marker" id="navbar-link-research">•</span><a href="/#research">Research</a>
+        <span class="navbar-link-marker" id="navbar-link-experience">•</span><a href="/#experience">Experience</a>
+        <span class="navbar-link-marker" id="navbar-link-education">•</span><a href="/#education">Education</a>
+    {{ else }}
+        <a href="/#home" class="navbar-link">Home</a>
+        <a href="/#research" class="navbar-link">Research</a>
+        <a href="/#experience" class="navbar-link">Experience</a>
+        <a href="/#education" class="navbar-link">Education</a>
+    {{ end }}
+  </div>
+
+</div>
+
+
+<!--
+TO FIX:
+remove this (is the original code) once the new navbar 
+can also collapse to a menu
+-->
+
+<!--
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
   <a class="navbar-brand js-scroll-trigger" href="#page-top">
     <span class="d-block d-lg-none text-noprimary">{{ .Site.Params.firstName }} {{ .Site.Params.lastName }}</span>
@@ -33,6 +63,11 @@
             <a class="nav-link js-scroll-trigger" href="/#{{ default "Posts" .Site.Params.publicationsAlternateName }}">{{ default "Posts" .Site.Params.publicationsAlternateName }}</a>
           </li>
       {{ end }}
+      {{ if .Site.Params.showBlog }}
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#posts">Posts</a>
+          </li>
+      {{ end }}
       {{ if .Site.Params.showAcademicPublications }}
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/#academic-publications">Research Papers</a>
@@ -48,11 +83,7 @@
             <a class="nav-link js-scroll-trigger" href="/#education">Education</a>
           </li>
       {{ end }}
-      {{ if .Site.Params.showBlog }}
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/#blog">Blog</a>
-          </li>
-      {{ end }}
     </ul>
   </div>
 </nav>
+-->

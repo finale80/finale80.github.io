@@ -1,0 +1,49 @@
+{{ $posts := where .Site.RegularPages "Section" "posts_summary" }}
+{{ $posts := where $posts "Draft" false }}
+{{ $posts := first .Site.Params.maxPostsInHome ( $posts ) }}
+{{ $count_posts := len ($posts) }}
+
+
+{{ if gt $count_posts 0 }}
+
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="posts">
+
+    <h2 class="mb-5">Recent Posts</h2>
+
+    <span class="posts-summary">
+    {{ range $idx, $post := $posts }}
+        <!-- HEADER -->
+        <div class="header">
+            <h3> {{ $post.Title }} </h3>
+            <i class="far fa-calendar-alt"></i>
+            {{ $post.Date.Format "March 3, 2010" }}
+
+            {{ if isset $post.Params "readingtime" }}
+            | <i class="far fa-clock"></i>
+            {{ $post.Params.Readingtime }}
+            {{ end }}
+        </div>
+
+        <!-- CONTENT -->
+        {{ $post.Content }}
+
+        <!-- FOOTER -->
+        <div class="footer">
+            {{ if isset $post.Params "tags" }} 
+                {{ range $post.Params.Tags }}
+                    <span class="post-tag">{{ . }}</span>
+                {{ end }}
+            {{ end }}
+
+            <a href="" class="tab-box tag-pdf readmore">READ</a>
+
+            {{ if ne $idx (sub $count_posts 1) }}
+                <hr>
+            {{ end }}
+        </div>
+    {{ end }}
+    </span>
+
+</section>
+
+{{ end }}

@@ -13,7 +13,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.1 (c497b03c, 2020-09-10)"
-   sodipodi:docname="favicon_exagon.svg">
+   sodipodi:docname="favicon_exagon_light.svg">
   <defs
      id="defs2">
     <marker
@@ -186,7 +186,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -197,7 +197,7 @@
      transform="translate(5.0363714,-21.668868)">
     <path
        sodipodi:type="star"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:4.49068;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       style="fill:none;fill-opacity:1;stroke:#bbbbbb;stroke-width:4.49068;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="path833"
        sodipodi:sides="6"
        sodipodi:cx="28.217934"
@@ -216,7 +216,7 @@
        style="stroke-width:4.06596;stroke-miterlimit:4;stroke-dasharray:none">
       <path
          id="path879"
-         style="fill:none;stroke:#000000;stroke-width:4.06596;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:none;stroke:#bbbbbb;stroke-width:4.06596;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 28.196135,33.488123 21.80939,12.593494 m -43.5414108,0 L 28.196135,33.393629 28.007147,85.696382 6.0585907,73.09166 5.6806145,63.910257 28.032533,76.322855 m -0.02539,9.373527 0.188988,-52.208259 21.809392,12.593494 M 28.032533,76.322855 48.801074,63.910257"
          sodipodi:nodetypes="ccccccccccccc" />
     </g>
