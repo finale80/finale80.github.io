@@ -165,7 +165,8 @@ section.resume-section {
 
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
-  max-width: 900px;
+  //max-width: 800px;
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -633,23 +634,10 @@ img#logo {
   display: inline-block;
 }
 
-/*
-#navbar-right a::before{
-    content: "•";
-    padding-right: 2px;
-    color: $color_very_dark_gray_alternate;
-}
-*/
 
 #navbar-right a:hover {
     cursor: pointer;   
 }
-
-/*
-#navbar-right a:hover::before {
-    color: $color_highlight;
-}
-*/
 
 #navbar-right span.navbar-link-marker {
     color: $color_navbar;
@@ -660,11 +648,16 @@ img#logo {
     color: $color_highlight;
 }
 
-/*
-#navbar-right span.navbar-link-inactive {
+#navbar-right a.navbar-link::before {
+    content: "•";
     color: $color_navbar;
+    padding-right: 2px;
 }
-*/
+
+#navbar-right a.navbar-link:hover::before {
+    color: $color_highlight;
+}
+
 
 
 #navbar-right a.navbar-link-active {
