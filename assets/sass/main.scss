@@ -573,6 +573,22 @@ navbar
   border-bottom: solid 2px #333;
 }
 
+#navbar button.navbar-toggler  {
+    color: $color_text;
+    width: auto;
+    height: auto;
+}
+
+#navbar button.navbar-toggler:focus button.navbar-toggler:active {
+    border: none;
+}
+
+#navbar span.navbar-toggler-icon {
+    width: auto;
+    height: auto;
+}
+
+
 /*
 a#logo {
     margin:0;
@@ -608,6 +624,11 @@ img#logo {
   //border: solid 1px red;
 }
 
+nav.navbar-reduced-size {
+  line-height: 35px;
+  border: solid 1px red;
+}
+
 .navbar-right-fullsize {
   height:60px;
   line-height: 60px;
@@ -618,6 +639,10 @@ img#logo {
   height: 35px;
   line-height: 35px;
   font-size: 1.2rem;
+}
+
+#navbar.navbar-reducedsize {
+    height: 35px;
 }
 
 
@@ -733,3 +758,39 @@ img#logo {
 .single-page-body {
     margin-top: 100px;
 }
+
+#navbarSupportedContent {
+    text-align: right;
+    //border: solid 1px $color_text;
+}
+
+/*
+#navbarSupportedContent ul {
+    width: 100px;
+    border: solid 1px red;
+}
+*/
+
+#navbarSupportedContent  a {
+  font-family: 'Saira Extra Condensed', serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $color_text;
+  font-size: 1.5rem;
+}
+
+#navbarSupportedContent a.navbar-link::after {
+    content: "•";
+    color: $color_navbar;
+    padding-left: 4px;
+}
+
+#navbarSupportedContent a.navbar-link:hover::after {
+    color: $color_highlight;
+}
+
+#navbarSupportedContent .navbar-nav {
+    float: right;
+    font-size: 1.5rem;
+}
+

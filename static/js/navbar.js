@@ -8,10 +8,12 @@ function scrollFunction() {
     $("#logo").addClass("logo-reducedsize");
     $("#navbar-right").addClass("navbar-right-reducedsize");
     $("#avatar").addClass("hidden");
+    $("#navbar").addClass("navbar-reducedsize");
   } else {
     $("#logo").removeClass("logo-reducedsize");
     $("#navbar-right").removeClass("navbar-right-reducedsize");
     $("#avatar").removeClass("hidden");
+    $("#navbar").removeClass("navbar-reducedsize");
   }
 }
 
