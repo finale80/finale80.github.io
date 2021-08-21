@@ -577,10 +577,7 @@ navbar
     color: $color_text;
     width: auto;
     height: auto;
-}
-
-#navbar button.navbar-toggler:focus button.navbar-toggler:active {
-    border: none;
+    outline: none;
 }
 
 #navbar span.navbar-toggler-icon {
@@ -777,20 +774,35 @@ nav.navbar-reduced-size {
   text-decoration: none;
   color: $color_text;
   font-size: 1.5rem;
+  width: 100%;
 }
 
+/*
 #navbarSupportedContent a.navbar-link::after {
     content: "•";
     color: $color_navbar;
     padding-left: 4px;
 }
+*/
 
+/*
 #navbarSupportedContent a.navbar-link:hover::after {
-    color: $color_highlight;
+    color: $color_navbar;
 }
+*/
 
 #navbarSupportedContent .navbar-nav {
     float: right;
     font-size: 1.5rem;
+    background-color: $color_navbar;
 }
 
+#navbarSupportedContent .nav-item {
+    border-bottom: solid 3px $color_very_dark_gray;
+    padding: 0px 10px 0px 20px;
+}
+
+#navbarSupportedContent .nav-item:hover {
+    background-color: rgba( $color_highlight, .7 );
+    border-bottom: solid 3px $color_highlight;
+}
