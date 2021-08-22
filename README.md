@@ -1,4 +1,4 @@
-The repo of my personal website [afinamore.io](https://afinamore.io)
+# :spider_web: My personal website repo [afinamore.io](https://afinamore.io)
 
 It is powered by Hugo and Github pages, and its structure is a work in progress.
 
