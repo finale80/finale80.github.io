@@ -33,7 +33,7 @@ showSkills = false
 showPosts = false
 ## section configs
 maxPostsInHome = 10
-maxResearchPaperYearsInHome = 2
+maxResearchPaperYearsInHome = 3
 
 
 [params.google]
