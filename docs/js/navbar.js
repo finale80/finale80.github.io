@@ -48,7 +48,7 @@ if (sections.length > 0) {
     const observerOptions = {
       root: null,
       rootMargin: '0px',
-      threshold: [0.5, 0.35, 0.5, 0.5],
+      threshold: [0.8, 0.7, 0.35, 0.5, 0.5],
     };
 
     function observerCallback(entries, observer) {
