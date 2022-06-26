@@ -28,6 +28,7 @@ showOpenSource = false
 showProjects = false
 showPublications = false
 showAcademicPublications = true
+showTalks = true
 showQr = false
 showSkills = false
 showPosts = false

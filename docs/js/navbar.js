@@ -23,7 +23,7 @@ function scrollFunction() {
 marker activation based on scrolling
 */
 
-const sectionIDs = ['home', 'research', 'experience', 'education'];
+const sectionIDs = ['home', 'talks', 'research', 'experience', 'education'];
 
 var sections = [];
 var navItems = {};

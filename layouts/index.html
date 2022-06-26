@@ -24,6 +24,9 @@
          {{ partial "sectionSummary" . }}
       {{ end }}
    {{ end }}
+   {{ if .Site.Params.showTalks }}
+      {{ partial "portfolio/talks.html" . }}
+   {{ end }}
    {{ if .Site.Params.showAcademicPublications }}
         <!-- input parameters -->
       {{ .Scratch.Set "nyears" (len ( .Site.Data.academic_publications )) }}

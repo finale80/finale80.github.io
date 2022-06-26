@@ -1,0 +1,36 @@
+        <!-- pull input parameters -->
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="talks">
+          <div class="my-auto">
+            <h2 class="mb-5">Talks</h2>
+
+
+
+            {{ range .Site.Data.talks }}
+              <div > <!--class="resume-item d-flex flex-column flex-md-row mb-5">-->
+                    <span class="middle pubs"> 
+                        <span class="pubs-title">
+                            {{ $ppturl := print "pubs/" .pptfname | relURL}}
+                            <a href="{{ $ppturl }}">{{ .title }}</a>
+                            <a href="{{ $ppturl }}" class="nostyle">
+                                <span class="tag-box tag-ppt">SLIDES</span>
+                            </a>
+                            {{ $tagid := print .talk_type "-" .date }}
+                            {{ with .abstract }}
+                                <span class="nostyle">
+                                    <span class="tag-box tag-details" id="{{ $tagid }}">details <i class="fas fa-chevron-down"></i></span>
+                                </span>
+                            {{ end }}
+                        </span>
+                        <div>{{ .venue }} &sdot; {{ .talk_type }} &sdot; {{ .talk_dt }}</div>
+                        {{ with .abstract }}
+                        <div class="pubs-details" id="content-{{ $tagid }}">
+                            {{ . }}
+                        </div>
+                        {{ end }}
+                        <br>
+                    </span>
+              </div>
+              {{ end }}
+           </div>
+        </section>
+
