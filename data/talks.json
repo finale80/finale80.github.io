@@ -3,7 +3,7 @@
             "title" : "Taming the Data Divide to Enable AI-Driven Networks",
             "venue" :  "IFIP Traffic Measurements and Analysis (TMA)",
             "venueurl" : "https://tma.ifip.org/2022/tma-program/",
-            "pptfname" : "slides-are-pending",
+            "pptfname" : "keynote-TMA22-Jun2022.pdf",
             "talk_dt" : "Jun, 2022",
             "talk_type" : "keynote",
             "abstract": "Artificial Intelligence (AI) is more and more penetrating networks design and operation. Yet, if/what we need to and how/where to integrate AI in networks is still largely a debate, arguably due to the fundamental need for effective sharing of data and measurements. In this talk we review the challenges surrounding this renewed “data divide” and discuss possible ways to mitigate them."
