@@ -6,7 +6,12 @@
     },
     {
         "school":"Politecnico di Torino", 
-        "degree":"M.S. in Computer Engineering",
+        "degree":"Bachelor of Science in Computer Engineering (110/110)",
         "range":"2005 - 2008"
+    },
+    {
+        "school":"Politecnico di Torino", 
+        "degree":"Master of Science in Computer Engineering (110L/110)",
+        "range":"2001 - 2005"
     }
 ]
