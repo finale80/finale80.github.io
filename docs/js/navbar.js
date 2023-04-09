@@ -23,7 +23,15 @@ function scrollFunction() {
 marker activation based on scrolling
 */
 
-const sectionIDs = ['home', 'talks', 'research', 'experience', 'education'];
+const sectionData = {
+    "home": 0.7,
+    "talks": 0.7,
+    "research": 0.4,
+    "experience": 0.2,
+    "education": 0.4,
+}
+const sectionIDs = Object.keys(sectionData);
+const intersectionThresholds = Object.values(sectionData);
 
 var sections = [];
 var navItems = {};
@@ -48,13 +56,16 @@ if (sections.length > 0) {
     const observerOptions = {
       root: null,
       rootMargin: '0px',
-      threshold: [0.8, 0.7, 0.35, 0.5, 0.5],
+      threshold: intersectionThresholds,
     };
 
+
+/*
     function observerCallback(entries, observer) {
 
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
+          console.log(entry);
           // get the nav item corresponding to the id of the section
           // that is currently in view
           const navItem = navItems[entry.target.id];
@@ -71,7 +82,27 @@ if (sections.length > 0) {
         }
       });
     }
+*/
+    function observerCallback(entries, observer) {
 
+      entries.forEach((entry) => {
+        console.log(entry);
+        if (entry.isIntersecting && entry.intersectionRatio >= sectionData[entry.target.id]) {
+          // get the nav item corresponding to the id of the section
+          // that is currently in view
+          const navItem = navItems[entry.target.id];
+          // add 'active' class on the navItem
+          navItem.classList.add('navbar-link-active');
+          // remove 'active' class from any navItem that is not
+          // same as 'navItem' defined above
+          Object.values(navItems).forEach((item) => {
+            if (item != navItem) {
+              item.classList.remove('navbar-link-active');
+            }
+          });
+        }
+      });
+    }
 
     const observer = new IntersectionObserver(observerCallback, observerOptions);
 
