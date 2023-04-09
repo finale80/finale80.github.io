@@ -15,7 +15,7 @@
                 "authors" : "{R. {Azorin} and M. {Gallo} and A. {Finamore} and D. {Rossi} and P. {Michiardi}}",
                 "title" : "{\"It's a Match!\" -- A Benchmark of Task Affinity Scores for Joint Learning}",
                 "year": "{2023}",
-                "doi": "https://doi.org/10.48550/arXiv.2301.02873",
+                "doi": "{10.48550/arXiv.2301.02873}",
                 "booktitle": "{International Workshop on Practical Deep Learning in the Wild (PracticalDL)}",
                 "location": "{Washington, US}"
             }
@@ -38,7 +38,7 @@
                 "authors" : "{A. {Finamore} and J. {Roberts} and M. {Gallo} and D. {Rossi}}",
                 "title" : "{Accelerating Deep Learning Classification with Error-controlled Approximate-key Caching}",
                 "year": "{2022}",
-                "doi": "https://doi.org/10.1109/INFOCOM48880.2022.9796677",
+                "doi": "{10.1109/INFOCOM48880.2022.9796677}",
                 "booktitle": "{IEEE International Conference on Computer Communications (INFOCOM)}",
                 "location": "{Virtual Event}"
             }
@@ -56,7 +56,7 @@
                 "authors" : "{Z. B. {Houidi} and R. {Azorin} and M. {Gallo} and A. {Finamore} and D. {Rossi}}",
                 "title" : "{Towards a systematic multi-modal representation learning for network data}",
                 "year": "{2022}",
-                "doi": "https://doi.org/10.1145/3563766.3564108",
+                "doi": "{10.1145/3563766.3564108}",
                 "booktitle": "{ACM Workshop on Hot Topics in Networks (HotNets)}"
             }
         },
@@ -74,7 +74,7 @@
                 "authors" : "{C. {Wang} and A. {Finamore} and L. {Yang} and K. {Fauvel} and D. {Rossi}}",
                 "title" : "{AppClassNet: a commercial-grade dataset for application identification research}",
                 "year": "{2022}",
-                "doi": "https://doi.org/10.1145/3561954.3561958",
+                "doi": "{10.1145/3561954.3561958}",
                 "booktitle": "{ACM Computer Communication Review (CCR)}"
             }
         }
@@ -93,10 +93,10 @@
             "bibtex": {
                 "name": "AF:CORR-21c",
                 "command": "@inproceedings{",
-                "authors" : "G. {Bovenzi} and L. {Yang} and A. {Finamore} and G. {Aceto} and D. {Ciuonzo} and A. {Pescapè} and D. {Rossi}",
+                "author" : "G. {Bovenzi} and L. {Yang} and A. {Finamore} and G. {Aceto} and D. {Ciuonzo} and A. {Pescapè} and D. {Rossi}",
                 "title" : "{A First Look at Class Incremental Learning in Deep Learning Mobile Traffic Classification}",
                 "year": "{2021}",
-                "doi": "",
+                "doi": "{10.48550/arXiv.2107.04464}",
                 "booktitle": "Traffic Measurement and Analysis (TMA)",
                 "location": "{Virtual Event}"
             }
@@ -110,14 +110,14 @@
             "pdffname" : "SEC21_fenxi.pdf",
             "abstract": "Live traffic analysis at the first aggregation point in the ISP network enables the implementation of complex traffic engineering policies but is limited by the scarce processing capabilities, especially for Deep Learning (DL) based analytics. The introduction of specialized hardware accelerators i.e., Tensor Processing Unit (TPU), offers the opportunity to enhance the processing capabilities of network devices at the edge. Yet, to date, no packet processing pipeline is capable of offering DL-based analysis capabilities in the data-plane, without interfering with network operations. In this paper, we present FENXI, a system to run complex analytics by leveraging TPU. The design of FENXI decouples forwarding operations and traffic analytics which operates at different granularities i.e., packet and flow levels. We conceive two independent modules that asynchronously communicate to exchange network data and analytics results, and design data structures to extract flow level statistics without impacting per-packet processing. We prototyped and evaluated FENXI on general-purpose servers considering both adversarial and realistic network conditions. Our analysis shows that FENXI can sustain 100 Gbps line rate traffic processing requiring only limited resources, while also dynamically adapting to variable network conditions.",
             "bibtex": {
-                "name": "AF:CORR-21b",
+                "name": "AF:SEC-21",
                 "command": "@inproceedings{",
                 "author": "{M. {Gallo} and A. {Finamore} and G. {Simon} and D. {Rossi}",
                 "title" : "{FENXI: Deep-learning Traffic Analytics at the Edge}", 
                 "year": "{2021}",
-                "doi": "",
+                "doi": "{10.1145/3453142.3491273}",
                 "booktitle": "{Symposium on Edge Computing (SEC)}", 
-                "location": "{Virtual Event}"
+                "location": "{San Jose, CA, U.S}"
             }
         },
         {
@@ -155,7 +155,7 @@
                 "author": "{R. {Azorin} and M. {Gallo} and A. {Finamore} and M. {Filippone} and P. {Michiardi} and D. {Rossi}}",
                 "title" : "{Towards a Generic Deep Learning Pipeline for Traffic Measurements}",
                 "year": "{2021}",
-                "doi": "",
+                "doi": "{10.1145/3488658.3493785}",
                 "booktitle": "{ACM CoNEXT Student Workshop}",
                 "location": "{Virtual Event}"
             }
@@ -178,7 +178,7 @@
                 "volume": "86",
                 "pages": "101585",
                 "year": "2021",
-                "doi": "10.1016/j.compenvurbsys.2020.101585"
+                "doi": "{10.1016/j.compenvurbsys.2020.101585}"
             }
         }
     ]},
@@ -870,15 +870,8 @@
           "venue" : "IMC",
           "venueurl" : "http://www-net.cs.umass.edu/imc2012/program.htm",
           "officialurl" : "https://doi.org/10.1145/2398776.2398812",
-          "pdffname" : "IMC12_mobileads.pdf"
-        },
-        {
-          "title" : "Uncovering the Big Players of the Web",
-          "authors" : "V. Gehlen, A. Finamore, M. Mellia, M. M. Munafo",
-          "venue" : "IEEE Traffic Monitoring and Analysis Conference (TMA)",
-          "officialurl" : "https://link.springer.com/chapter/10.1007/978-3-642-28534-9_2",
-          "pdffname" : "TMA12_bigplayers.pdf",
-          "abstract": "Mobile phones and tablets can be considered as the first incarnation of the post-PC era. Their explosive adoption rate has been driven by a number of factors, with the most signifcant influence being applications (apps) and app markets. Individuals and organizations are able to develop and publish apps, and the most popular form of monetization is mobile advertising. The mobile advertisement (ad) ecosystem has been the target of prior research, but these works typically focused on a small set of apps or are from a user privacy perspective. In this work we make use of a unique, anonymized data set corresponding to one day of traffic for a major European mobile carrier with more than 3 million subscribers. We further take a principled approach to characterize mobile ad traffic along a number of dimensions, such as overall traffic, frequency, as well as possible implications in terms of energy on a mobile device. Our analysis demonstrates a number of inefficiencies in today's ad delivery. We discuss the benefits of well-known techniques, such as pre-fetching and caching, to limit the energy and network signalling overhead caused by current systems. A prototype implementation on Android devices demonstrates an improvement of 50 % in terms of energy consumption for offline ad-sponsored apps while limiting the amount of ad related traffic.",
+          "pdffname" : "IMC12_mobileads.pdf",
+          "abstract": "Mobile phones and tablets can be considered as the first incarnation of the post-PC era. Their explosive adoption rate has been driven by a number of factors, with the most signifcant influence being applications (apps) and app markets. Individuals and organizations are able to develop and publish apps, and the most popular form of monetization is mobile advertising. The mobile advertisement (ad) ecosystem has been the target of prior research, but these works typically focused on a small set of apps or are from a user privacy perspective. In this work we make use of a unique, anonymized data set corresponding to one day of traffic for a major European mobile carrier with more than 3 million subscribers. We further take a principled approach to characterize mobile ad traffic along a number of dimensions, such as overall traffic, frequency, as well as possible implications in terms of energy on a mobile device. Our analysis demonstrates a number of inefficiencies in today's ad delivery. We discuss the benefits of well-known techniques, such as pre-fetching and caching, to limit the energy and network signalling overhead caused by current systems. A prototype implementation on Android devices demonstrates an improvement of 50% in terms of energy consumption for offline ad-sponsored apps while limiting the amount of ad related traffic.",
             "bibtex": {
                 "name": "AF:IMC-12",
                 "command": "@inproceedings{",
@@ -887,6 +880,24 @@
                 "year": "{2012}",
                 "doi": "{10.1145/2398776.2398812}",
                 "booktitle": "{IEEE Traffic Monitoring and Analysis Conference (TMA)}",
+                "location": "{Boston, Massachusetts, USA}"
+            }
+        },
+        {
+          "title" : "Uncovering the Big Players of the Web",
+          "authors" : "V. Gehlen, A. Finamore, M. Mellia, M. M. Munafo",
+          "venue" : "IEEE Traffic Monitoring and Analysis Conference (TMA)",
+          "officialurl" : "https://link.springer.com/chapter/10.1007/978-3-642-28534-9_2",
+          "pdffname" : "TMA12_bigplayers.pdf",
+          "abstract": "In this paper we aim at observing how today the Internet large organizations deliver web content to end users. Using one-week long data sets collected at three vantage points aggregating more than 30,000 Internet customers, we characterize the offered services precisely quantifying and comparing the performance of different players. Results show that today 65% of the web traffic is handled by the top 10 organizations. We observe that, while all of them serve the same type of content, different server architectures have been adopted considering load balancing schemes, servers number and location: some organizations handle thousands of servers with the closest being few milliseconds far away from the end user, while others manage few data centers. Despite this, the performance of bulk transfer rate offered to end users are typically good, but impairment can arise when content is not readily available at the server and has to be retrieved from the CDN back-end.",
+            "bibtex": {
+                "name": "AF:TMA-12",
+                "command": "@inproceedings{",
+                "author": "{V. {Gehlen} and A. {Finamore} and M. {Mellia} and M. M. {Munafo}",
+                "title": "{Uncovering the Big Players of the Web}",
+                "year": "{2012}",
+                "doi": "{10.1007/978-3-642-28534-9_2}",
+                "booktitle": "{Traffic Monitoring and Analysis Conference (TMA)}",
                 "location": "{Boston, Massachusetts, USA}"
             }
         }
