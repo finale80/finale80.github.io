@@ -38,7 +38,7 @@
                 "authors" : "{A. {Finamore} and J. {Roberts} and M. {Gallo} and D. {Rossi}}",
                 "title" : "{Accelerating Deep Learning Classification with Error-controlled Approximate-key Caching}",
                 "year": "{2022}",
-                "doi": "",
+                "doi": "https://doi.org/10.1109/INFOCOM48880.2022.9796677",
                 "booktitle": "{IEEE International Conference on Computer Communications (INFOCOM)}",
                 "location": "{Virtual Event}"
             }
