@@ -2,6 +2,25 @@
     {"year": "2023",
      "entries": [
         {
+            "title" : "Many or Few Samples? Comparing Transfer, Contrastive and Meta-Learning in Encrypted Traffic Classification",
+            "authors" : "I. Guarino, C. Wang, A. Finamore, A. Pescape, D. Rossi",
+            "venue" :  "IEEE/IFIP Traffic Measurement and Analysis (TMA)",
+            "venueurl" : "https://tma.ifip.org/2023/",
+            "officialurl" : "preprint :: https://arxiv.org/abs/2305.12432",
+            "pdffname" : "TMA23_manyorfew.pdf",
+            "abstract": "The popularity of Deep Learning (DL), coupled with network traffic visibility reduction due to the increased adoption of HTTPS, QUIC and DNS-SEC, re-ignited interest towards Traffic Classification (TC). However, to tame the dependency from task-specific large labeled datasets we need to find better ways to learn representations that are valid across tasks. In this work we investigate this problem comparing transfer learning, meta-learning and contrastive learning against reference Machine Learning (ML) tree-based and monolithic DL models (16 methods total). Using two publicly available datasets, namely MIRAGE19 (40 classes) and AppClassNet (500 classes), we show that (i) using large datasets we can obtain more general representations, (ii) contrastive learning is the best methodology and (iii) meta-learning the worst one, and (iv) while ML tree-based cannot handle large tasks but fits well small tasks, by means of reusing learned representations, DL methods are reaching tree-based models performance also for small tasks.",
+            "bibtex": {
+                "name": "AF:TMA23",
+                "command": "@article{",
+                "authors" : "{I. {Guarino} and C. {Want} and A. {Finamore} and A. {Pescape} and D. {Rossi}}",
+                "title" : "{Many or Few Samples? Comparing Transfer, Contrastive and Meta-Learning in Encrypted Traffic Classification}",
+                "year": "{2023}",
+                "doi": "{10.48550/arXiv.2305.12432}",
+                "booktitle": "Traffic Measurement and Analysis (TMA)",
+                "location": "{Naples, Italy}"
+            }
+        },
+        {
             "title" : "\"It's a Match!\" -- A Benchmark of Task Affinity Scores for Joint Learning",
             "authors" : "R. Azorin, M. Gallo, A. Finamore, D. Rossi, P. Michiardi",
             "venue" :  "International Workshop on Practical Deep Learning in the Wild (PracticalDL) - colocated with AAAI",
