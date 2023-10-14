@@ -28,7 +28,7 @@
   
   
   
-<link rel="stylesheet" href="https://afinamore.io/sass/main.min.0e074b797dae88b7d8abb7c38185c8131cfabbcd7d1a26205cb24ec3a3bedede.css">
+<link rel="stylesheet" href="https://afinamore.io/sass/main.min.fb68689a5d4e876bb1023640caaceef0175cc14036e94a308d4704dda2ec7603.css">
 
   <link rel="preload" href="https://afinamore.io/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://afinamore.io/css/tweaks.css"></noscript>
@@ -56,6 +56,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
         <li class="nav-item"><a href="/#home" class="navbar-link">Home</a></li>
+        <li class="nav-item"><a href="/#projects" class="navbar-link">Projects</a></li>
         <li class="nav-item"><a href="/#talks" class="navbar-link">Talks</a></li>
         <li class="nav-item"><a href="/#research" class="navbar-link">Research</a></li>
         <li class="nav-item"><a href="/#experience" class="navbar-link">Experience</a></li>
@@ -68,6 +69,7 @@
     
     
         <a href="/#home" class="navbar-link">Home</a>
+        <a href="/#projects" class="navbar-link">Projects</a>
         <a href="/#talks" class="navbar-link">Talks</a>
         <a href="/#research" class="navbar-link">Research</a>
         <a href="/#experience" class="navbar-link">Experience</a>
@@ -104,9 +106,9 @@
                     <span class="middle pubs"> 
                         <span class="pubs-title">
                             
-                            <a href="/pubs/TMA23_manyorfew.pdf">Many or Few Samples? Comparing Transfer, Contrastive and Meta-Learning in Encrypted Traffic Classification</a>
+                            <a href="/pubs/IMC23_replication.pdf">Replication: Contrastive Learning and Data Augmentation in Traffic Classification Using a Flowpic Input Representation</a>
 
-                            <a href="/pubs/TMA23_manyorfew.pdf" class="nostyle">
+                            <a href="/pubs/IMC23_replication.pdf" class="nostyle">
                                 <span class="tag-box tag-pdf">PDF</span>
                             </a>
 
@@ -118,11 +120,61 @@
                             </span>
                         </span>
 
+                        <div class="pubs-authors">A. Finamore, C. Wang, J. Krolikowski, J. M. Navarro, F. Chen, D. Rossi</div>
+
+                        <span>ACM Internet Measurement Conference (IMC)</span>
+                            <div class="pubs-details" id="content-2023-0">
+                                
+                                <div style="text-align:right"><a href="https://arxiv.org/abs/2309.09733">preprint :: https://arxiv.org/abs/2309.09733</a></div>
+                                <div>The popularity of Deep Learning (DL), coupled with network traffic visibility reduction due to the increased adoption of HTTPS, QUIC and DNS-SEC, re-ignited interest towards Traffic Classification (TC). However, to tame the dependency from task-specific large labeled datasets we need to find better ways to learn representations that are valid across tasks. In this work we investigate this problem comparing transfer learning, meta-learning and contrastive learning against reference Machine Learning (ML) tree-based and monolithic DL models (16 methods total). Using two publicly available datasets, namely MIRAGE19 (40 classes) and AppClassNet (500 classes), we show that (i) using large datasets we can obtain more general representations, (ii) contrastive learning is the best methodology and (iii) meta-learning the worst one, and (iv) while ML tree-based cannot handle large tasks but fits well small tasks, by means of reusing learned representations, DL methods are reaching tree-based models performance also for small tasks.</div>
+                                <hr>
+                                <div>
+                                    <span class="bibtex">@inproceeding{AF:IMC23,</span>
+                                    <span class="bibtex ml-10">title={Replication: Contrastive Learning and Data Augmentation in Traffic Classification Using a Flowpic Input Representation},</span>
+                                    <span class="bibtex ml-10">author=,</span>
+                                    <span class="bibtex ml-10">year={2023},</span>
+                                    
+                                    <span class="bibtex ml-10">booktitle=Internet Measurement Conference (IMC),</span>
+                                    
+                                    
+                                    <span class="bibtex ml-10">location={Montreal, Canada},</span>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <span class="bibtex ml-10">doi={},</span>
+                                    <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/IMC23_replication.pdf"</span>
+                                    <span>}</span>
+                                </div>
+                            </div>
+                    </span>
+                    </li>
+                
+                    <li class="pubs">
+                    <span class="middle pubs"> 
+                        <span class="pubs-title">
+                            
+                            <a href="/pubs/TMA23_manyorfew.pdf">Many or Few Samples? Comparing Transfer, Contrastive and Meta-Learning in Encrypted Traffic Classification</a>
+
+                            <a href="/pubs/TMA23_manyorfew.pdf" class="nostyle">
+                                <span class="tag-box tag-pdf">PDF</span>
+                            </a>
+
+                            
+
+                            
+                            <span class="nostyle">
+                                <span class="tag-box tag-details" id="2023-1">details <i class="fas fa-chevron-down"></i></span>
+                            </span>
+                        </span>
+
                         <div class="pubs-authors">I. Guarino, C. Wang, A. Finamore, A. Pescape, D. Rossi</div>
 
                         <span>IEEE/IFIP Traffic Measurement and Analysis (TMA)</span>
-                            <div class="pubs-details" id="content-2023-0">
-                                <div style="text-align:right"><a href="#ZgotmplZ">preprint :: https://arxiv.org/abs/2305.12432</a></div>
+                            <div class="pubs-details" id="content-2023-1">
+                                
+                                <div style="text-align:right"><a href="https://arxiv.org/abs/2305.12432">preprint :: https://arxiv.org/abs/2305.12432</a></div>
                                 <div>The popularity of Deep Learning (DL), coupled with network traffic visibility reduction due to the increased adoption of HTTPS, QUIC and DNS-SEC, re-ignited interest towards Traffic Classification (TC). However, to tame the dependency from task-specific large labeled datasets we need to find better ways to learn representations that are valid across tasks. In this work we investigate this problem comparing transfer learning, meta-learning and contrastive learning against reference Machine Learning (ML) tree-based and monolithic DL models (16 methods total). Using two publicly available datasets, namely MIRAGE19 (40 classes) and AppClassNet (500 classes), we show that (i) using large datasets we can obtain more general representations, (ii) contrastive learning is the best methodology and (iii) meta-learning the worst one, and (iv) while ML tree-based cannot handle large tasks but fits well small tasks, by means of reusing learned representations, DL methods are reaching tree-based models performance also for small tasks.</div>
                                 <hr>
                                 <div>
@@ -162,15 +214,16 @@
 
                             
                             <span class="nostyle">
-                                <span class="tag-box tag-details" id="2023-1">details <i class="fas fa-chevron-down"></i></span>
+                                <span class="tag-box tag-details" id="2023-2">details <i class="fas fa-chevron-down"></i></span>
                             </span>
                         </span>
 
                         <div class="pubs-authors">R. Azorin, M. Gallo, A. Finamore, D. Rossi, P. Michiardi</div>
 
                         <span>International Workshop on Practical Deep Learning in the Wild (PracticalDL) - colocated with AAAI</span>
-                            <div class="pubs-details" id="content-2023-1">
-                                <div style="text-align:right"><a href="#ZgotmplZ">preprint :: https://arxiv.org/abs/2301.02873</a></div>
+                            <div class="pubs-details" id="content-2023-2">
+                                
+                                <div style="text-align:right"><a href="https://arxiv.org/abs/2301.02873">preprint :: https://arxiv.org/abs/2301.02873</a></div>
                                 <div>While the promises of Multi-Task Learning (MTL) are attractive, characterizing the conditions of its success is still an open problem in Deep Learning. Some tasks may benefit from being learned together while others may be detrimental to one another. From a task perspective, grouping cooperative tasks while separating competing tasks is paramount to reap the benefits of MTL, i.e., reducing training and inference costs. Therefore, estimating task affinity for joint learning is a key endeavor. Recent work suggests that the training conditions themselves have a significant impact on the outcomes of MTL. Yet, the literature is lacking of a benchmark to assess the effectiveness of tasks affinity estimation techniques and their relation with actual MTL performance. In this paper, we take a first step in recovering this gap by (i) defining a set of affinity scores by both revisiting contributions from previous literature as well presenting new ones and (ii) benchmarking them on the Taskonomy dataset. Our empirical campaign reveals how, even in a small-scale scenario, task affinity scoring does not correlate well with actual MTL performance. Yet, some metrics can be more indicative than others.</div>
                                 <hr>
                                 <div>
@@ -227,7 +280,8 @@
 
                         <span>IEEE International Conference on Computer Communications (INFOCOM)</span>
                             <div class="pubs-details" id="content-2022-0">
-                                <div style="text-align:right"><a href="#ZgotmplZ">preprint :: https://arxiv.org/abs/2112.06671</a></div>
+                                
+                                <div style="text-align:right"><a href="https://arxiv.org/abs/2112.06671">preprint :: https://arxiv.org/abs/2112.06671</a></div>
                                 <div>While Deep Learning (DL) technologies are a promising tool to solve networking problems that map to classification tasks, their computational complexity is still too high with respect to real-time traffic measurements requirements. To reduce the DL inference cost, we propose a novel caching paradigm, that we named approximate-key caching, which returns approximate results for lookups of selected input based on cached DL inference results. While approximate cache hits alleviate DL inference workload and increase the system throughput, they however introduce an approximation error. As such, we couple approximate-key caching with an error-correction principled algorithm, that we named auto-refresh. We analytically model our caching system performance for classic LRU and ideal caches, we perform a trace-driven evaluation of the expected performance, and we compare the benefits of our proposed approach with the state-of-the-art similarity caching -- testifying the practical interest of our proposal.</div>
                                 <hr>
                                 <div>
@@ -275,6 +329,7 @@
 
                         <span>ACM Workshop on Hot Topics in Networks (HotNets)</span>
                             <div class="pubs-details" id="content-2022-1">
+                                
                                 <div style="text-align:right"><a href="https://dl.acm.org/doi/abs/10.1145/3563766.3564108">https://dl.acm.org/doi/abs/10.1145/3563766.3564108</a></div>
                                 <div>Learning the right representations from complex input data is the key ability of successful machine learning (ML) models. The latter are often tailored to a specific data modality. For example, recurrent neural networks (RNNs) were designed having sequential data in mind, while convolutional neural networks (CNNs) were designed to exploit spatial correlation in images. Unlike computer vision (CV) and natural language processing (NLP), each of which targets a single well-defined modality, network ML problems often have a mixture of data modalities as input. Yet, instead of exploiting such abundance, practitioners tend to rely on sub-features thereof, reducing the problem to single modality for the sake of simplicity. In this paper, we advocate for exploiting all the modalities naturally present in network data. As a first step, we observe that network data systematically exhibits a mixture of quantities (e.g., measurements), and entities (e.g., IP addresses, names, etc.). Whereas the former are generally well exploited, the latter are often underused or poorly represented (e.g., with one-hot encoding). We propose to systematically leverage language models to learn entity representations, whenever significant sequences of such entities are historically observed. Through two diverse use-cases, we show that such entity encoding can benefit and naturally augment classic quantity-based features.</div>
                                 <hr>
@@ -321,6 +376,7 @@
 
                         <span>ACM Computer Communication Review (CCR)</span>
                             <div class="pubs-details" id="content-2022-2">
+                                
                                 <div style="text-align:right"><a href="https://dl.acm.org/doi/10.1145/3561954.3561958">https://dl.acm.org/doi/10.1145/3561954.3561958</a></div>
                                 <div>The recent success of Artificial Intelligence (AI) is rooted into several concomitant factors, namely theoretical progress coupled with abundance of data and computing power. Large companies can take advantage of a deluge of data, typically withhold from the research community due to privacy or business sensitivity concerns, and this is particularly true for networking data. Therefore, the lack of high quality data is often recognized as one of the main factors currently limiting networking research from fully leveraging AI methodologies potential.  Following numerous requests we received from the scientific community, we release AppClassNet, a commercial-grade dataset for benchmarking traffic classification and management methodologies. AppClassNet is significantly larger than the datasets generally available to the academic community in terms of both the number of samples and classes, and reaches scales similar to the popular ImageNet dataset commonly used in computer vision literature. To avoid leaking user- and business-sensitive information, we opportunely anonymized the dataset, while empirically showing that it still represents a relevant benchmark for algorithmic research. In this paper, we describe the public dataset and our anonymization process. We hope that AppClassNet can be instrumental for other researchers to address more complex commercial-grade problems in the broad field of traffic classification and management.</div>
                                 <hr>
@@ -376,7 +432,8 @@
 
                         <span>IEEE/IFIP Traffic Measurement and Analysis (TMA)</span>
                             <div class="pubs-details" id="content-2021-0">
-                                <div style="text-align:right"><a href="#ZgotmplZ">preprint :: https://arxiv.org/abs/2107.04464</a></div>
+                                
+                                <div style="text-align:right"><a href="https://arxiv.org/abs/2107.04464">preprint :: https://arxiv.org/abs/2107.04464</a></div>
                                 <div>The recent popularity growth of Deep Learning (DL) re-ignited the interest towards traffic classification, with several studies demonstrating the accuracy of DL-based classifiers to identify Internet applications&#39; traffic. Even with the aid of hardware accelerators (GPUs, TPUs), DL model training remains expensive, and limits the ability to operate frequent model updates necessary to fit to the ever evolving nature of Internet traffic, and mobile traffic in particular. To address this pain point, in this work we explore Incremental Learning (IL) techniques to add new classes to models without a full retraining, hence speeding up model&#39;s updates cycle. We consider iCarl, a state of the art IL method, and MIRAGE-2019, a public dataset with traffic from 40 Android apps, aiming to understand &#34;if there is a case for incremental learning in traffic classification&#34;. By dissecting iCarl internals, we discuss ways to improve its design, contributing a revised version, namely iCarl&#43;. Despite our analysis reveals their infancy, IL techniques are a promising research area on the roadmap towards automated DL-based traffic analysis systems.</div>
                                 <hr>
                                 <div>
@@ -424,7 +481,8 @@
 
                         <span>ACM/IEEE Symposium on Edge Computing (SEC)</span>
                             <div class="pubs-details" id="content-2021-1">
-                                <div style="text-align:right"><a href="#ZgotmplZ">preprint :: https://arxiv.org/abs/2105.11738</a></div>
+                                
+                                <div style="text-align:right"><a href="https://arxiv.org/abs/2105.11738">preprint :: https://arxiv.org/abs/2105.11738</a></div>
                                 <div>Live traffic analysis at the first aggregation point in the ISP network enables the implementation of complex traffic engineering policies but is limited by the scarce processing capabilities, especially for Deep Learning (DL) based analytics. The introduction of specialized hardware accelerators i.e., Tensor Processing Unit (TPU), offers the opportunity to enhance the processing capabilities of network devices at the edge. Yet, to date, no packet processing pipeline is capable of offering DL-based analysis capabilities in the data-plane, without interfering with network operations. In this paper, we present FENXI, a system to run complex analytics by leveraging TPU. The design of FENXI decouples forwarding operations and traffic analytics which operates at different granularities i.e., packet and flow levels. We conceive two independent modules that asynchronously communicate to exchange network data and analytics results, and design data structures to extract flow level statistics without impacting per-packet processing. We prototyped and evaluated FENXI on general-purpose servers considering both adversarial and realistic network conditions. Our analysis shows that FENXI can sustain 100 Gbps line rate traffic processing requiring only limited resources, while also dynamically adapting to variable network conditions.</div>
                                 <hr>
                                 <div>
@@ -472,6 +530,7 @@
 
                         <span>IEEE Transactions on Network and Service Management (TNSM)</span>
                             <div class="pubs-details" id="content-2021-2">
+                                
                                 <div style="text-align:right"><a href="https://ieeexplore.ieee.org/document/9585567">https://ieeexplore.ieee.org/document/9585567</a></div>
                                 <div>The increasing success of Machine Learning (ML) and Deep Learning (DL) has recently re-sparked interest towards traffic classification. While classification of known traffic is a well investigated subject with supervised classification tools (such as ML and DL models) are known to provide satisfactory performance, detection of unknown (or zero-day) traffic is more challenging and typically handled by unsupervised techniques (such as clustering algorithms). In this paper, we share our experience on a commercial-grade DL traffic classification engine that is able to (i) identify known applications from encrypted traffic, as well as (ii) handle unknown zero-day applications. In particular, our contribution for (i) is to perform a thorough assessment of state of the art traffic classifiers in commercial-grade settings comprising few thousands of very fine grained application labels, as opposite to the few tens of classes generally targeted in academic evaluations. Additionally, we contribute to the problem of (ii) detection of zero-day applications by proposing a novel technique, tailored for DL models, that is significantly more accurate and light-weight than the state of the art.  Summarizing our main findings, we gather that (i) while ML and DL models are both equally able to provide satisfactory solution for classification of known traffic, however (ii) the non-linear feature extraction process of the DL backbone provides sizeable advantages for the detection of unknown classes.</div>
                                 <hr>
@@ -524,7 +583,8 @@
 
                         <span>ACM CoNEXT Student Workshop</span>
                             <div class="pubs-details" id="content-2021-3">
-                                <div style="text-align:right"><a href="https://conferences2.sigcomm.org/co-next/2021/#!/workshop-student">https://conferences2.sigcomm.org/co-next/2021/#!/workshop-student</a></div>
+                                
+                                <div style="text-align:right"><a href="https://conferences2.sigcomm.org/co-next/2021/#!/workshop-stud">https://conferences2.sigcomm.org/co-next/2021/#!/workshop-student</a></div>
                                 <div>As networks grow bigger, traffic measurements become more and more challenging. Common practices require specialized solutions tied to specific measurements. We aim at automating the design of generic top-down measurements tools thanks to Deep Learning. To this end, we focus our study on (i) researching an appropriate input traffic representation and (ii) comparing Deep Learning pipelines for several measurements. In this paper, we propose an empirical campaign to study a variety of modeling approaches for multiple traffic metrics predictions, with a strong focus on the trade-off between performance and cost that these approaches offer.</div>
                                 <hr>
                                 <div>
@@ -572,6 +632,7 @@
 
                         <span>Journal of Computers, Environment and Urban Systems (CEUS)</span>
                             <div class="pubs-details" id="content-2021-4">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1016/j.compenvurbsys.2020.101585">https://doi.org/10.1016/j.compenvurbsys.2020.101585</a></div>
                                 <div>Segregation often dismantles common activity spaces and isolates people of different backgrounds, leading to irreconcilable inequalities that disfavour the poor and minorities and intensifies societal fragmentation. Therefore, segregation has become an increasing concern and topic of research with studies typically concentrating on the residential communities of a particular racial or socioeconomic group. This paper enhances the residential view of segregation and examines the topic in the context of urban mobility. Specifically, it expands upon prior research by employing large-sample, seamless telecommunication logs of London, UK to provide a holistic view of mobility across the entire socioeconomic spectrum. A method is developed to transform the data to flows between geographic areas with different socioeconomic statuses. Spatial interaction models are then calibrated to examine the impact of both geographical distance and socioeconomic distance on the deterrence of flows and the analysis is extended to analyze the interaction of the two factors. Overall, socioeconomic distance is found to have a subtle effect compared to geographical distance. However, different effects are observed depending on the socioeconomic distance between flows and the deterrence of mobility tends to be the greatest when both physical and socioeconomic distance are high, suggesting that both factors may play a role creating and maintaining segregation.</div>
                                 <hr>
@@ -631,6 +692,7 @@
 
                         <span>ACM Internet Measurement Conference (IMC)</span>
                             <div class="pubs-details" id="content-2020-0">
+                                
                                 <div style="text-align:right"><a href="https://dl.acm.org/doi/10.1145/3419394.3423661">https://dl.acm.org/doi/10.1145/3419394.3423661</a></div>
                                 <div>Support for &#34;things&#34; roaming internationally has become critical for Internet of Things (IoT) verticals, from connected cars to smart meters and wearables, and explains the commercial success of Machine-to-Machine (M2M) platforms. We analyze IoT verticals operating with connectivity via IoT SIMs, and present the first large-scale study of commercially deployed IoT SIMs for energy meters. We also present the first characterization of an operational M2M platform and the first analysis of the rather opaque associated ecosystem. For operators, the exponential growth of IoT has meant increased stress on the infrastructure shared with traditional roaming traffic. Our analysis quantifies the adoption of roaming by M2M platforms and the impact they have on the underlying visited Mobile Network Operators (MNOs). To manage the impact of massive deployments of device operating with an IoT SIM, operators must be able to distinguish between the latter and traditional inbound roamers. We build a comprehensive dataset capturing the device population of a large European MNO over three weeks. With this, we propose and validate a classification approach that can allow operators to distinguish inbound roaming IoT devices.</div>
                                 <hr>
@@ -679,6 +741,7 @@
 
                         <span>IEEE International Conference on Computer Communications (INFOCOM)</span>
                             <div class="pubs-details" id="content-2020-1">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/INFOCOMWKSHPS50562.2020.9162704">https://doi.org/10.1109/INFOCOMWKSHPS50562.2020.9162704</a></div>
                                 <div>Fostered by the tremendous success in the image recognition field, recently there has been a strong push for the adoption of Convolutional Neural Networks (CNN) in networks, especially at the edge, assisted by low-power hardware equipment (known as “tensor processing units”) for the acceleration of CNN-related computations. The availability of such hardware has reignited the interest for traffic classification approaches that are based on Deep Learning. However, unlike tree-based approaches that are easy to interpret, CNNs are in essence represented by a large number of weights, whose interpretation is particularly obscure for the human operators. Since human operators will need to deal, troubleshoot, and maintain these automatically learned models, that will replace the more easily human-readable heuristic rules of DPI classification engine, there is a clear need to open the “deep pandora box”, and make it easily accessible for network domain experts. In this demonstration, we shed light in the inference process of a commercial-grade classification engine dealing with hundreds of classes, enriching the classification workflow with tools to enable better understanding of the inner mechanics of both the traffic and the models.</div>
                                 <hr>
@@ -727,6 +790,7 @@
 
                         <span>ACM Special Interest Group on Data Communications (SIGCOMM)</span>
                             <div class="pubs-details" id="content-2020-2">
+                                
                                 <div style="text-align:right"><a href="https://conferences.sigcomm.org/sigcomm/2020/cf-posters.html">https://conferences.sigcomm.org/sigcomm/2020/cf-posters.html</a></div>
                                 <div>The increased interest towards Deep Learning (DL) tech- nologies has led to the development of a new generation of specialized hardware accelerator [4] such as Graphic Process- ing Unit (GPU) and Tensor Processing Unit (TPU) [1, 2]. The integration of such components in network routers is how- ever not trivial. Indeed, routers typically aim to minimize the overhead of per-packet processing (e.g., Ethernet switching, IP forwarding, telemetry) and design choices (e.g., power, memory consumption) to integrate a new accelerator need to factor in these key requirements. The literature and bench- marks on DL hardware accelerators have overlooked specific router constraints (e.g., strict latency) and focused instead on cloud deployment [3] and image processing. Likewise, there is limited literature regarding DL application on traffic processing at line-rate. Among all hardware accelerators, we are interested in edge TPUs [1, 2]. Since their design focuses on DL inference, edge TPUs matches the vision of operators, who consider running pre-trained DL models in routers with low power drain. Edge TPUs are expected to limit the amount of com- putational resources for inference and to yield a higher ratio of operations per watt footprint than GPUs. This demo aims to investigate the operational points at which edge TPUs become a viable option, using traffic classi- fication as a use case. We sketch the design of a real-time DL traffic classification system, and compare inference speed (i.e., number of classifications per second) of a state-of-the- art Convolutional Neural Network (CNN) model running on different hardware (Central Processing Unit (CPU), GPU, TPU). To constrast their performance, we run stress tests based on synthetic traffic and under different conditions. We collect the results into a dashboard which enables network operators and system designers to both explore the stress test results with regards to their considered operational points, as well as triggering synthetic live tests on top of Ascend 310 TPUs [1].</div>
                                 <hr>
@@ -775,6 +839,7 @@
 
                         <span>arXiv/CoRR</span>
                             <div class="pubs-details" id="content-2020-3">
+                                
                                 <div style="text-align:right"><a href="https://arxiv.org/abs/2012.07695">https://arxiv.org/abs/2012.07695</a></div>
                                 <div></div>
                                 <hr>
@@ -830,6 +895,7 @@
 
                         <span>IEEE Network Traffic Measurement and Analysis Conference (TMA)</span>
                             <div class="pubs-details" id="content-2019-0">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.23919/TMA.2019.8784636">https://doi.org/10.23919/TMA.2019.8784636</a></div>
                                 <div>Critical Path Analysis (CPA) studies the delivery of webpages to identify page resources, their interrelations, as well as their impact on the page loading latency. Despite CPA being a generic methodology, its mechanisms have been applied only to browsers and web traffic, but those do not directly apply to study generic mobile apps. Likewise, web browsing represents only a small fraction of the overall mobile traffic. In this paper, we take a first step towards filling this gap by exploring how CPA can be performed for generic mobile applications. We propose Mobile Critical Path Analysis (MCPA), a methodology based on passive and active network measurements that is applicable to a broad set of apps to expose a fine-grained view of their traffic dynamics. We validate MCPA on popular apps across different categories and usage scenarios. We show that MCPA can identify user interactions with mobile apps only based on traffic monitoring, and the relevant network activities that are bottlenecks. Overall, we observe that apps spend 60% of time and 84% of bytes on critical traffic on average, corresponding to &#43;22% time and &#43;13% bytes than what observed for browsing.</div>
                                 <hr>
@@ -878,6 +944,7 @@
 
                         <span>arXiv/CoRR</span>
                             <div class="pubs-details" id="content-2019-1">
+                                
                                 <div style="text-align:right"><a href="https://arxiv.org/abs/1906.07674">https://arxiv.org/abs/1906.07674</a></div>
                                 <div>Critical Path Analysis (CPA) studies the delivery of webpages to identify page resources, their interrelations, as well as their impact on the page loading latency. Despite CPA being a generic methodology, its mechanisms have been applied only to browsers and web traffic, but those do not directly apply to study generic mobile apps. Likewise, web browsing represents only a small fraction of the overall mobile traffic. In this paper, we take a first step towards filling this gap by exploring how CPA can be performed for generic mobile applications. We propose Mobile Critical Path Analysis (MCPA), a methodology based on passive and active network measurements that is applicable to a broad set of apps to expose a fine-grained view of their traffic dynamics. We validate MCPA on popular apps across different categories and usage scenarios. We show that MCPA can identify user interactions with mobile apps only based on traffic monitoring, and the relevant network activities that are bottlenecks. Overall, we observe that apps spend 60% of time and 84% of bytes on critical traffic on average, corresponding to &#43;22% time and &#43;13% bytes than what observed for browsing.</div>
                                 <hr>
@@ -933,6 +1000,7 @@
 
                         <span>ACM International World Wide Web Conference (WWW)</span>
                             <div class="pubs-details" id="content-2018-0">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1145/3178876.3186035">https://doi.org/10.1145/3178876.3186035</a></div>
                                 <div>While developing mobile apps is becoming easier, testing and characterizing their behavior is still hard. On the one hand, the de facto testing tool, called &#34;Monkey,&#34; scales well due to being based on random inputs, but fails to gather inputs useful in understanding things like user engagement and attention. On the other hand, gathering inputs and data from real users requires distributing instrumented apps, or even phones with pre-installed apps, an expensive and inherently unscaleable task. To address these limitations we present CHIMP, a system that integrates automated tools and large-scale crowdsourced inputs. CHIMP is different from previous approaches in that it runs apps in a virtualized mobile environment that thousands of users all over the world can access via a standard Web browser. CHIMP is thus able to gather the full range of real-user inputs, detailed run-time traces of apps, and network traffic. We thus describe CHIMP»s design and demonstrate the efficiency of our approach by testing thousands of apps via thousands of crowdsourced users. We calibrate CHIMP with a large-scale campaign to understand how users approach app testing tasks. Finally, we show how CHIMP can be used to improve both traditional app testing tasks, as well as more novel tasks such as building a traffic classifier on encrypted network flows.</div>
                                 <hr>
@@ -990,6 +1058,7 @@
 
                         <span>IEEE Communications Magazine</span>
                             <div class="pubs-details" id="content-2017-0">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/MCOM.2017.1600756CM">https://doi.org/10.1109/MCOM.2017.1600756CM</a></div>
                                 <div>In recent years, the progress in both hardware and software allows user-space applications to capture packets at 10 Gb/s line rate or more, with cheap COTS hardware. However, processing packets at such rates with software is still far from being trivial. In the literature, this challenge has been extensively studied for network intrusion detection systems, where per-packet operations are easy to parallelize with support of hardware acceleration. Conversely, the scalability of statistical traffic analyzers (STAs) is intrinsically complicated by the need to track per-flow state to collect statistics. This challenge has received less attention so far, and it is the focus of this work. We present and discuss design choices to enable a STA to collects hundreds of per-flow metrics at a multi-10-Gb/s line rate. We leverage a handful of hardware advancements proposed over the last years (e.g., RSS queues, NUMA architecture), and we provide insights on the trade-offs they imply when combined with state-of-the-art packet capture libraries and the multi-process paradigm. We outline the principles to design an optimized STA, and we implement them to engineer DPDKStat, a solution combining the Intel DPDK framework with the traffic analyzer Tstat. Using traces collected from real networks, we demonstrate that DPDKStat achieves 40 Gb/s of aggregated rate with a single COTS PC</div>
                                 <hr>
@@ -1045,6 +1114,7 @@
 
                         <span>ACM Conference on emerging Networking EXperiments and Technologies (CoNEXT)</span>
                             <div class="pubs-details" id="content-2017-1">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1145/3143361.3143375">https://doi.org/10.1145/3143361.3143375</a></div>
                                 <div>The functioning of mobile apps involves a large number of protocols and entities, with the Domain Name System (DNS) acting as a predominant one. Despite being one of the oldest Internet systems, DNS still operates with semi-obscure interactions among its stakeholders: domain owners, network operators, operating systems, and app developers. The goal of this work is to holistically understand the dynamics of DNS in mobile traffic along with the role of each of its stakeholders. We use two complementary (anonymized) datasets: traffic logs provided by a European mobile network operator (MNO) with 19M customers, and traffic logs from 5,000 users of Lumen, a traffic monitoring app for Android. We complement such passive traffic analysis with active measurements at four European MNOs. Our study reveals that 10k domains (out of 198M) account for 87% of total network flows. The time to live (TTL) values for such domains are mostly short (&amp;lt; 1min), despite domain-to-IPs mapping tends to change on a longer time-scale. Further, depending on the operators recursive resolver architecture, end-user devices receive even smaller TTL values leading to suboptimal effectiveness of the on-device DNS cache. Despite a number of on-device and in-network optimizations available to minimize DNS overhead, which we find corresponding to 10% of page load time (PLT) on average, we have not found wide evidence of their adoption in the wild.</div>
                                 <hr>
@@ -1093,6 +1163,7 @@
 
                         <span>IEEE International Conference on Data Engineering (ICDE)</span>
                             <div class="pubs-details" id="content-2017-2">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/ICDE.2017.89">https://doi.org/10.1109/ICDE.2017.89</a></div>
                                 <div>Mobile network operators collect a humongous amount of network measurements. Among those, sector Key Performance Indicators (KPIs) are used to monitor the radio access, i.e., the &#34;last mile&#34; of mobile networks. Thresholding mechanisms and synthetic combinations of KPIs are used to assess the network health, and rank sectors to identify the underperforming ones. It follows that the available monitoring methodologies heavily rely on the fine grained tuning of thresholds and weights, currently established through domain knowledge of both vendors and operators. In this paper, we study how to bridge sector KPIs to reflect Quality of Experience (QoE) groundtruth measurements, namely throughput, latency and video streaming stall events. We leverage one month of data collected in the operational network of mobile network operator serving more than 10 million subscribers. We extensively investigate up to which extent adopted methodologies efficiently capture QoE. Moreover, we challenge the current state of the art by presenting data-driven approaches based on Particle Swarm Optimization (PSO) metaheuristics and random forest regression algorithms, to better assess sector performance. Results show that the proposed methodologies outperforms state of the art solution improving the correlation with respect to the baseline by a factor of 3, and improving visibility on underperforming sectors. Our work opens new areas for research in monitoring solutions for enriching the quality and accuracy of the network performance indicators collected at the network edge.</div>
                                 <hr>
@@ -1146,6 +1217,7 @@
 
                         <span>Passive and Active Measurement Conference (PAM)</span>
                             <div class="pubs-details" id="content-2017-3">
+                                
                                 <div style="text-align:right"><a href="https://link.springer.com/chapter/10.1007/978-3-319-54328-4_16">https://link.springer.com/chapter/10.1007/978-3-319-54328-4_16</a></div>
                                 <div>Fueled by a plethora of applications and Internet services, mobile data consumption is on the rise. Over the years, mobile operators deployed webproxies to optimize HTTP content delivery. Webproxies also produce HTTP-logs which are a fundamental data source to understand network/services performance and user behavior. The recent surge of HTTPS is progressively reducing such wealth of information, to the point that it is unclear whether HTTP-logs are still representative of the overall traffic. Unfortunately, HTTPS monitoring is challenging and adds some extra cost which refrains operators from “turning on the switch”. In this work, we study the “gap” between HTTP and HTTPS both quantifying their intrinsic traffic characteristics, and investigating the usability of the information that can be logged from their transactions. We leverage a 24-hours dataset collected from a webproxy operated by a European mobile carrier with more than 10M subscribers. Our quantification of this gap suggests that its importance is strictly related to the target analysis.</div>
                                 <hr>
@@ -1194,6 +1266,7 @@
 
                         <span>ACM Internet Measurement Conference (IMC)</span>
                             <div class="pubs-details" id="content-2017-4">
+                                
                                 <div style="text-align:right"><a href=""></a></div>
                                 <div>Users Quality of Experience (QoE) analysis is paramount for telcos to drive business, and for users to verify their SLAs with the operators. Over the years both academia and industry put a lot of efforts to define methodologies and create tools to monitor QoE. In particular, web traffic QoE analysis is a well understood and ``standardized&#39;&#39; research area, and a varied set of tools and metrics are available to understand how content is delivered. For instance, it is easy to capture the interaction of a browser with a website (e.g., as HAR objects), to inspect content delivery critical path via the download waterfall (e.g., via Chrome, or tools like WProf), or quantify webpage retrieval performance via page load time (PLT), or Google speed index. These tools and techniques suit well fixed access networks but cannot be directly applied to analyze mobile user QoE. Indeed, most of mobile traffic is generated by large number of applications and do not resemble to traditional web browsing traffic. Also, mobile architectures are more complex than fixed infrastructures and their main performance bottleneck is latency. In this work, we consider QoE for mobile applications by focusing on network level metrics and taking into account application level information. The main goal is to identify network activities (as DNS lookup, TCP and TLS handshake, content download, etc.) which are bottlenecks for application performance and propose countermeasures. To achieve this objective we combine active and passive on-device measurements. On the one hand, we developed an app that leverages the Android VPN APIs (i.e., it does not require rooted devices) to monitor network traffic, while collecting also info about user activity with the device. This enable us to analyze mobile apps traffic in different scenarios (e.g., application startup, application in background/foreground without user activity, user interaction) and develop techniques to reconstruct the networking waterfall for each of them, similarly to what is currently possible for generic web browsing traffic. However, we envision a generic mobile device system component capable to inspect all traffic, and possibly tapping into user engagement (e.g., interactivity with the screen). By analysing the waterfall we aim to identify activities constituting the critical path for each scenario and application. On the other hand, the monitoring app allows to schedule active experiments. This allows us to define a comparison baseline to contrast against other analysis, as well as further diagnose problems when the waterfall analysis suggests there may be a bottleneck. In the poster, we present the methodology and preliminary results on a small set of applications in a testbed with real devices.</div>
                                 <hr>
@@ -1251,6 +1324,7 @@
 
                         <span>Passive and Active Measurement Conference (PAM)</span>
                             <div class="pubs-details" id="content-2016-0">
+                                
                                 <div style="text-align:right"><a href="https://link.springer.com/chapter/10.1007/978-3-319-30505-9_17">https://link.springer.com/chapter/10.1007/978-3-319-30505-9_17</a></div>
                                 <div>Version 2 of the Hypertext Transfer Protocol (HTTP/2) was finalized in May 2015 as RFC 7540. It addresses well-known problems with HTTP/1.1 (e.g., head of line blocking and redundant headers) and introduces new features (e.g., server push and content priority). Though HTTP/2 is designed to be the future of the web, it remains unclear whether the web will—or should—hop on board. To shed light on this question, we built a measurement platform that monitors HTTP/2 adoption and performance across the Alexa top 1 million websites on a daily basis. Our system is live and up-to-date results can be viewed at [1]. In this paper, we report findings from an 11 month measurement campaign (November 2014 – October 2015). As of October 2015, we find 68,000 websites reporting HTTP/2 support, of which about 10,000 actually serve content with it. Unsurprisingly, popular sites are quicker to adopt HTTP/2 and 31 % of the Alexa top 100 already support it. For the most part, websites do not change as they move from HTTP/1.1 to HTTP/2; current web development practices like inlining and domain sharding are still present. Contrary to previous results, we find that these practices make HTTP/2 more resilient to losses and jitter. In all, we find that 80 % of websites supporting HTTP/2 experience a decrease in page load time compared with HTTP/1.1 and the decrease grows in mobile networks.</div>
                                 <hr>
@@ -1299,6 +1373,7 @@
 
                         <span>International Journal of Computer and Telecommunications Networking (ComNet)</span>
                             <div class="pubs-details" id="content-2016-1">
+                                
                                 <div style="text-align:right"><a href=""></a></div>
                                 <div>When considering to passively collect and then process network traffic traces, the need to analyze raw data at several Gbps and to extract higher level indexes from the stream of packets poses typical BigData-like challenges. In this paper, we engineer a methodology to extract, collect and process passive traffic traces. In particular, we design and implement analytics that, based on a filtering process and on the building of empirical distributions, enable the comparison between two generic collections, e.g., data gathered from two different vantage points, from different populations, or at different times. The ultimate goal is to highlight statistically significant differences that could be useful to flag to incidents for the network manager. After introducing the methodology, we apply it to assess the impact of Carrier-Grade NAT (CGN), a technology that Internet Service Providers (ISPs) deploy to limit the usage of expensive public IP addresses. Since CGN may introduce connectivity issues and performance degradation, we process a large dataset of passive measurements collected from an ISP using CGN for part of its customers. We first extract detailed per-flow information by processing packets from live links. Then, we derive higher level statistics that are significant for the end-users, e.g., TCP connection setup time, HTTP response time, or BitTorrent average download throughput. At last, we contrast figures of customers being offered public or private addresses, and look for statistically significant differences. Results show that CGN does not impair quality of service in the analyzed ISP deployment. In addition, we use the collected data to derive useful figures for the proper dimensioning of the CGN and the configuration of its parameters in order to avoid impairments on end-users’ experience.</div>
                                 <hr>
@@ -1347,6 +1422,7 @@
 
                         <span>International Journal of Computer and Telecommunications Networking (ComNet)</span>
                             <div class="pubs-details" id="content-2016-2">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1016/j.comnet.2016.06.023">https://doi.org/10.1016/j.comnet.2016.06.023</a></div>
                                 <div>Resources such as Web pages or videos that are published in the Internet are referred to by their Uniform Resource Locator (URL). If a user accesses a resource via its URL, the host name part of the URL needs to be translated into a routable IP address. This translation is performed by the Domain Name System service (DNS). DNS also plays an important role when Content Distribution Networks (CDNs) are used to host replicas of popular objects on multiple servers that are located in geographically different areas. A CDN makes use of the DNS service to infer client location and direct the client request to the optimal server. While most Internet Service Providers (ISPs) offer a DNS service to their customers, clients may instead use a public DNS service. The choice of the DNS service can impact the performance of clients when retrieving a resource from a given CDN. In this paper we study the impact on download performance for clients using either the DNS service of their ISP or the public DNS service provided by Google DNS. We adopt a causal approach that exposes the structural dependencies of the different parameters impacted by the DNS service used and we show how to model these dependencies with a Bayesian network. The Bayesian network allows us to explain and quantify the performance benefits seen by clients when using the DNS service of their ISP. We also discuss how the further improve client performance.</div>
                                 <hr>
@@ -1395,6 +1471,7 @@
 
                         <span>IEEE Journal on Selected Areas in Communications (JSAC)</span>
                             <div class="pubs-details" id="content-2016-3">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/JSAC.2016.2559218">https://doi.org/10.1109/JSAC.2016.2559218</a></div>
                                 <div>One challenge in understanding the evolution of the Internet infrastructure is the lack of systematic mechanisms for monitoring the extent to which allocated IP addresses are actually used. In this paper, we advance the science of inferring IPv4 address space utilization by proposing a novel taxonomy and analyzing and correlating results obtained through different types of measurements. We have previously studied an approach based on passive measurements that can reveal used portions of the address space unseen by active approaches. In this paper, we study such passive approaches in detail, extending our methodology to new types of vantage points and identifying traffic components that most significantly contribute to discovering used IPv4 network blocks. We then combine the results we obtained through passive measurements together with data from active measurement studies, as well as measurements from Border Gateway Protocol and additional data sets available to researchers. Through the analysis of this large collection of heterogeneous data sets, we substantially improve the state of the art in terms of: 1) understanding the challenges and opportunities in using passive and active techniques to study address utilization and 2) knowledge of the utilization of the IPv4 space.</div>
                                 <hr>
@@ -1445,6 +1522,7 @@
 
                         <span>IEEE Network Traffic Measurement and Analysis Conference (TMA)</span>
                             <div class="pubs-details" id="content-2016-4">
+                                
                                 <div style="text-align:right"><a href=""></a></div>
                                 <div>IP anycast routes packets to the topologically nearest server according to BGP proximity. In the last years, new players have started adopting this technology to serve web content via Anycast-enabled CDNs (A-CDN). To the best of our knowledge, in the literature, there are studies that focus on a specific A-CDN deployment, but little is known about the users and the services that A-CDNs are serving in the Internet at large. This prompted us to perform a passive characterization study, bringing out the principal A-CDN actors in our monitored setup, the services they offer, their penetration, etc. Results show a very heterogeneous picture, with A-CDN empowered services that are very popular (e.g., Twitter or Bing), serve a lot of different contents (e.g., Wordpress or adult content), and even include audio/video streaming (e.g., Soundcloud, or Vine). Our measurements show that the A-CDN technology is quite mature and popular, with more than 50% of web users that access content served by a A-CDN during peak time.</div>
                                 <hr>
@@ -1502,6 +1580,7 @@
 
                         <span>IEEE International Teletraffic Conference (ITC)</span>
                             <div class="pubs-details" id="content-2015-0">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/ITC.2015.9">https://doi.org/10.1109/ITC.2015.9</a></div>
                                 <div>For a user to access any resource on the Internet, it is necessary to first locate a server hosting the requested resource. The Domain Name System service (DNS) represents the first step in this process, translating a human readable name, the resource host name, into an IP address. With the expansion of Content Distribution Networks (CDNs), the DNS service has seen its importance increase. In a CDN, objects are replicated on different servers to decrease the distance from the client to a server hosting the object that needs to be accessed. The DNS service should improve user experience by directing its demand to the optimal CDN server. While most of the Internet Service Providers (ISPs) offer a DNS service to their customers, it is now common to see clients using a public DNS service instead. This choice may have an impact on Web browsing performance. In this paper we study the impact of choosing one DNS service instead of another and we compare the performance of a large European ISP DNS service with the one of a public DNS service, Google DNS. We propose a causal approach to expose the structural dependencies of the different parameters impacted by the DNS service used and we show how to model these dependencies with a Bayesian network. This model allows us to explain and quantify the benefits obtained by clients using their ISP DNS service and to propose a solution to further improve their performance.</div>
                                 <hr>
@@ -1550,6 +1629,7 @@
 
                         <span>IEEE International Wireless Communications and Mobile Computing Conference (IWCMC)}</span>
                             <div class="pubs-details" id="content-2015-1">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/IWCMC.2015.7289140">https://doi.org/10.1109/IWCMC.2015.7289140</a></div>
                                 <div>Public IPv4 addresses are a scarce resource. While IPv6 adoption is lagging, Network Address Translation (NAT) technologies have been deployed over the last years to alleviate IPv4 exiguity and their high rental cost. In particular, Carrier-Grade NAT (CGN) is a well known solution to mask a whole ISP network behind a limited amount of public IP addresses, significantly reducing expenses.</div>
                                 <hr>
@@ -1600,6 +1680,7 @@
 
                         <span>IEEE Consumer Communications and Networking Conference (CCNC)</span>
                             <div class="pubs-details" id="content-2015-2">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/CCNC.2015.7157987">https://doi.org/10.1109/CCNC.2015.7157987</a></div>
                                 <div>Malicious activities on the Web are increasingly threatening users in the Internet. Home networks are one of the prime targets of the attackers to host malware, commonly exploited as a stepping stone to further launch a variety of attacks. Due to diversification, existing security solutions often fail to detect malicious activities that remain hidden and pose threats to users&#39; security and privacy. Characterizing behavioral patterns of known malware can help to improve the classification accuracy of threats. More importantly, as different malware might share commonalities, studying the behavior of known malware could help the detection of previously unknown malicious activities. We pose the research question if it is possible to characterize such behavioral patterns analyzing the traffic from known infected clients. We present our quest to discover such characterizations. Results show that commonalities arise but their identification may require some ingenuity. We also present our discovery of malicious activities that were left undetected by commercial IDS.</div>
                                 <hr>
@@ -1657,6 +1738,7 @@
 
                         <span>ACM Conference on emerging Networking EXperiments and Technologies. (CoNEXT)</span>
                             <div class="pubs-details" id="content-2014-0">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1145/2674005.2674991">https://doi.org/10.1145/2674005.2674991</a></div>
                                 <div>Increased user concern over security and privacy on the Internet has led to widespread adoption of HTTPS, the secure version of HTTP. HTTPS authenticates the communicating end points and provides confidentiality for the ensuing communication. However, as with any security solution, it does not come for free. HTTPS may introduce overhead in terms of infrastructure costs, communication latency, data usage, and energy consumption. Moreover, given the opaqueness of the encrypted communication, any in-network value added services requiring visibility into application layer content, such as caches and virus scanners, become ineffective. This paper attempts to shed some light on these costs. First, taking advantage of datasets collected from large ISPs, we examine the accelerating adoption of HTTPS over the last three years. Second, we quantify the direct and indirect costs of this evolution. Our results show that, indeed, security does not come for free. This work thus aims to stimulate discussion on technologies that can mitigate the costs of HTTPS while still protecting the user&#39;s privacy.</div>
                                 <hr>
@@ -1705,6 +1787,7 @@
 
                         <span>IEEE International Conference on Big Data (Big Data)</span>
                             <div class="pubs-details" id="content-2014-1">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/BigData.2014.7004227">https://doi.org/10.1109/BigData.2014.7004227</a></div>
                                 <div>The complexity of the Internet has rapidly increased, making it more important and challenging to design scalable network monitoring tools. Network monitoring typically requires rolling data analysis, i.e., continuously and incrementally updating (rolling-over) various reports and statistics over highvolume data streams. In this paper, we describe DBStream, which is an SQL-based system that explicitly supports incremental queries for rolling data analysis. We also present a performance comparison of DBStream with a parallel data processing engine (Spark), showing that, in some scenarios, a single DBStream node can outperform a cluster of ten Spark nodes on rolling network monitoring workloads. Although our performance evaluation is based on network monitoring data, our results can be generalized to other Big Data problems with high volume and velocity.</div>
                                 <hr>
@@ -1753,6 +1836,7 @@
 
                         <span>IEEE International Wireless Communications and Mobile Computing Conference (IWCMC)</span>
                             <div class="pubs-details" id="content-2014-2">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/IWCMC.2014.6906396">https://doi.org/10.1109/IWCMC.2014.6906396</a></div>
                                 <div>Internet-scale services like YouTube are provisioned by large Content Delivery Networks (CDNs), which push content as close as possible to the end-users to improve their Quality of Experience (QoE) and to pursue their own optimization goals. Adopting space and time variant traffic delivery policies, CDNs serve users&#39; requests from multiple servers/caches at different physical locations and different times. CDNs traffic distribution policies can have a relevant impact on the traffic routed through the Internet Service Provider (ISP), as well as unexpected negative effects on the end-user QoE. In the event of poor QoE due to faulty CDN server selection, a major problem for the ISP is to avoid being blamed by its customers. In this paper we show a real case study in which Google CDN server selection policies negatively impact the QoE of the customers of a major European ISP watching YouTube. We argue that it is extremely important for the ISP to rapidly and automatically detect such events to increase its visibility on the overall operation of the network, as well as to promptly answer possible customer complaints. We therefore present an Anomaly Detection (AD) system for detecting unexpected cache-selection changes in the traffic delivered by CDNs. The proposed algorithm improves over traditional AD approaches by analyzing the complete probability distribution of the monitored features, as well as by self-adapting its functioning to dynamic environments, providing better detection capabilities.</div>
                                 <hr>
@@ -1801,6 +1885,7 @@
 
                         <span>International Journal of Computer and Telecommunications Networking (ComNet)</span>
                             <div class="pubs-details" id="content-2014-3">
+                                
                                 <div style="text-align:right"><a href=""></a></div>
                                 <div>Access and aggregation networks account nowadays for a large share of the consumed energy in communication networks, and actions to ameliorate their energy cost are under investigation by the research community. In this work, we present a study of the possible savings that could be achieved if such technologies were in place. We take advantage of large datasets of measurements collected from the network of FASTWEB, a national-wide Internet Service Provider in Italy. We first perform a detailed characterization of the energy consumption of Points of Presence (PoPs) investigating on how factors such as external temperature, cooling technology and traffic load influence the consumed energy. Our measurements precisely quantify how the power consumption in today networks is practically independent from the traffic volume, while it is correlated only with the external temperature. We then narrow down our analysis to consider the traffic generated by each household. More specifically, by observing about 10,000 ADSL customers, we characterize the typical traffic patterns generated by users who access the Internet. Using the available real data, we thus investigate if the energy consumption can be significantly reduced by applying simple energy-efficient policies that are currently under studies. We investigate energy-to-traffic proportional and resource consolidation technologies for the PoP, while sleep modes policies are considered at the ADSL lines. All these energy-efficient policies, even if they are not yet available, are currently being widely investigated by both manufacturers and researchers. At the PoP level, our dataset shows that it would be possible to save up to 50% of energy, and that even simple mechanisms would easily allow to save 30% of energy. Considering the ADSL lines, it results that sleep mode policies can be effectively implemented, reducing the energy consumption of ADSL modems with little or marginal impact on the Quality of Service offered to users. We make available all datasets used in this paper to allow other researchers to benchmark their proposals considering actual traffic traces.</div>
                                 <hr>
@@ -1849,6 +1934,7 @@
 
                         <span>IEEE Transactions on Network and Service Management (TNSM)</span>
                             <div class="pubs-details" id="content-2014-4">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/TNSM.2014.2377691">https://doi.org/10.1109/TNSM.2014.2377691</a></div>
                                 <div>YouTube is the most popular service in today&#39;s Internet. Google relies on its massive content delivery network (CDN) to push YouTube videos as close as possible to the end-users, both to improve their watching experience as well as to reduce the load on the core of the network, using dynamic server selection strategies. However, we show that such a dynamic approach can actually have negative effects on the end-user quality of experience (QoE). Through the comprehensive analysis of one month of YouTube flow traces collected at the network of a large European ISP, we report a real case study in which YouTube QoE-relevant degradation affecting a large number of users occurs as a result of Google&#39;s server selection strategies. We present an iterative and structured process to detect, characterize, and diagnose QoE-relevant anomalies in CDN distributed services such as YouTube. The overall process uses statistical analysis methodologies to unveil the root causes behind automatically detected problems linked to the dynamics of CDNs&#39; server selection strategies.</div>
                                 <hr>
@@ -1899,6 +1985,7 @@
 
                         <span>{IEEE International Conference on Network and Service Management (CNSM)}</span>
                             <div class="pubs-details" id="content-2014-5">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/CNSM.2014.7014135">https://doi.org/10.1109/CNSM.2014.7014135</a></div>
                                 <div>YouTube is the most popular service in today&#39;s Internet. Google relies on its massive Content Delivery Network (CDN) to push YouTube videos as close as possible to the end-users to improve their Quality of Experience (QoE), using dynamic server selection strategies. Such traffic delivery policies can have a relevant impact on the traffic routed through the Internet Service Providers (ISPs) providing the access, but most importantly, they can have negative effects on the end-user QoE. In this paper we shed light on the problem of diagnosing QoE-based performance degradation events in YouTube&#39;s traffic. Through the analysis of one month of YouTube flow traces collected at the network of a large European ISP, we particularly identify and drill down a Google&#39;s CDN server selection policy negatively impacting the watching experience of YouTube users during several days at peak-load times. The analysis combines both the user-side perspective and the CDN perspective of the end-to-end YouTube delivery service to diagnose the problem. The main contributions of the paper are threefold: firstly, we provide a large-scale characterization of the YouTube service in terms of traffic characteristics and provisioning behavior of the Google CDN servers. Secondly, we introduce simple yet effective QoE-based KPIs to monitor YouTube videos from the end-user perspective. Finally and most important, we analyze and provide evidence of the occurrence of QoE-based YouTube anomalies induced by CDN server selection policies, which are somehow normally hidden from the common knowledge of the end-user. This is a main issue for ISPs, who see their reputation degrade when such events occur, even if Google is the culprit.</div>
                                 <hr>
@@ -1949,6 +2036,7 @@
 
                         <span>{IEEE European Conference on Networks and Communications (EuCNC)}</span>
                             <div class="pubs-details" id="content-2014-6">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/EuCNC.2014.6882697">https://doi.org/10.1109/EuCNC.2014.6882697</a></div>
                                 <div>YouTube is the most popular service in today&#39;s Internet. Its own success forces Google to constantly evolve its functioning to cope with the ever growing number of users watching YouTube. Understanding the characteristics of YouTube&#39;s traffic as well as the way YouTube flows are served from the massive Google CDN is paramount for ISPs, specially for mobile operators, who must handle the huge surge of traffic with the capacity constraints of mobile networks. This papers presents a characterization of the YouTube traffic accessed through mobile and fixed-line networks. The analysis specially considers the YouTube content provisioning, studying the characteristics of the hosting servers as seen from both types of networks. To the best of our knowledge, this is the first paper presenting such a simultaneous characterization from mobile and fixed-line vantage points.</div>
                                 <hr>
@@ -1997,6 +2085,7 @@
 
                         <span>IEEE International Wireless Communications and Mobile Computing Conference (IWCMC)</span>
                             <div class="pubs-details" id="content-2014-7">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/IWCMC.2014.6906426">https://doi.org/10.1109/IWCMC.2014.6906426</a></div>
                                 <div>Network traffic monitoring systems generate high volumes of heterogeneous data streams which have to be processed and analyzed with different time constraints for daily network management operations. Some monitoring applications such as anomaly detection, performance tracking and alerting require fast processing of specific incoming real-time data. Other applications like fault diagnosis and trend analysis need to process historical data and perform deep analysis on generally heterogeneous sources of data. The Data Stream Warehousing (DSW) paradigm provides the means to handle both types of monitoring applications within a single system, providing fast and rich data analysis capabilities as well as data persistence. In this paper, we introduce DBStream, a novel online traffic monitoring system based on the DSW paradigm, which allows fast and flexible analysis across multiple heterogeneous data sources. DBStream provides a novel stream processing language for implementing data processing modules, as well as aggregation, filtering, and storage capabilities for further data analysis. We show multiple traffic monitoring applications running on DBStream, processing real traffic from operational ISPs.</div>
                                 <hr>
@@ -2045,6 +2134,7 @@
 
                         <span>IEEE International Teletraffic Congress (ITC)</span>
                             <div class="pubs-details" id="content-2014-8">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/ITC.2014.6932930">https://doi.org/10.1109/ITC.2014.6932930</a></div>
                                 <div>Today&#39;s Internet traffic is largely dominated by major content providers and highly distributed Content Delivery Networks (CDNs). Internet-scale applications like Facebook and YouTube are served by large CDNs like Akamai and Google CDN, which push content as close to end-users as possible to improve the overall performance of the applications, minimize the effects of peering point congestion and enhance the user experience. The load is balanced among multiple servers or caches according to non-disclosed CDN internal policies. As such, adopting space and time variant policies, users&#39; requests are served from different physical locations at different time. Cache selection and load balancing policies can have a relevant impact on the traffic routed by the underlying transport network, as well as on the end-user experience. In this paper, we analyze the provisioning of two major Internet applications, namely Facebook and YouTube, in two datasets collected at major European Internet Service Providers (ISPs). First, we show how the cache selection performed by Akamai might result in higher transport costs for the ISP. Second, we present evidence on large-scale outages occurring in the Facebook traffic distribution. Finally, we characterize the variation of YouTube cache selection strategies and their impact on the users&#39; quality of experience. We argue that it is important for the ISP to rapidly and automatically detect such events. Therefore, we present an Anomaly Detection (AD) system for detecting unexpected cache-selection events and changes in the traffic delivered by CDNs. The proposed algorithm improves over traditional AD approaches by analyzing the complete probability distribution of the monitored features, providing higher visibility and better detection capabilities.</div>
                                 <hr>
@@ -2093,6 +2183,7 @@
 
                         <span>TMA</span>
                             <div class="pubs-details" id="content-2014-9">
+                                
                                 <div style="text-align:right"><a href="https://link.springer.com/chapter/10.1007/978-3-642-54999-1_8">https://link.springer.com/chapter/10.1007/978-3-642-54999-1_8</a></div>
                                 <div>With the advent of Over-The-Top content providers (OTTs), Internet Service Providers (ISPs) saw their portfolio of services shrink to the low margin role of data transporters. In order to counter this effect, some ISPs started to follow big OTTs like Facebook and Google in trying to turn their data into a valuable asset. In this paper, we explore the questions of what meaningful information can be extracted from network data, and what interesting insights it can provide. To this end, we tackle the first challenge of detecting “user-URLs”, i.e., those links that were clicked by users as opposed to those objects automatically downloaded by browsers and applications. We devise algorithms to pinpoint such URLs, and validate them on manually collected ground truth traces. We then apply them on a three-day long traffic trace spanning more than 19,000 residential users that generated around 190 million HTTP transactions. We find that only 1.6% of these observed URLs were actually clicked by users. As a first application for our methods, we answer the question of which platforms participate most in promoting the Internet content. Surprisingly, we find that, despite its notoriety, only 11% of the user URL visits are coming from Google Search.</div>
                                 <hr>
@@ -2150,6 +2241,7 @@
 
                         <span>ACM Conference on emerging Networking EXperiments and Technologies (CoNEXT)</span>
                             <div class="pubs-details" id="content-2013-0">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1145/2535372.2535414">https://doi.org/10.1145/2535372.2535414</a></div>
                                 <div>Content caching is a fundamental building block of the Internet. Caches are widely deployed at network edges to improve performance for end-users, and to reduce load on web servers and the backbone network. Considering mobile 3G/4G networks, however, the bottleneck is at the access link, where bandwidth is shared among all mobile terminals. As such, per-user capacity cannot grow to cope with the traffic demand. Unfortunately, caching policies would not reduce the load on the wireless link which would have to carry multiple copies of the same object that is being downloaded by multiple mobile terminals sharing the same access link. In this paper we investigate if it is worth to push the caching paradigm even farther. We hypothesize a system in which mobile terminals implement a local cache, where popular content can be pushed/pre-staged. This exploits the peculiar broadcast capability of the wireless channels to replicate content &#34;for free&#34; on all terminals, saving the cost of transmitting multiple copies of those popular objects. Relying on a large data set collected from a European mobile carrier, we analyse the content popularity characteristics of mobile traffic, and quantify the benefit that the push-to-mobile system would produce. We found that content pre-staging, by proactively and periodically broadcasting &#34;bundles&#34; of popular objects to devices, allows to both greatly i) improve users&#39; performance and ii) reduce up to 20% (40%) the downloaded volume (number of requests) in optimistic scenarios with a bundle of 100 MB. However, some technical constraints and content characteristics could question the actual gain such system would reach in practice.</div>
                                 <hr>
@@ -2198,6 +2290,7 @@
 
                         <span>ACM SIGMOBILE Mobile Computing and Communications Review (MCCR)</span>
                             <div class="pubs-details" id="content-2013-1">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1145/2557968.2557970">https://doi.org/10.1145/2557968.2557970</a></div>
                                 <div>Location based services are a vital component of the mobile ecosystem. Among all the location technologies used behind the scenes, A-GPS (Assisted-GPS) is considered to be the most accurate. Unlike standalone GPS systems, A-GPS uses network support to speed nup position fix. However, it can be a dangerous strategy due to varying cell conditions which may impair performance, sometimes potentially neglecting the expected benefits of the original design. We present the characterization of the accuracy, location acquisition speed, energy cost, and network dependency of the state of the art A-GPS receivers shipped in popular mobile devices. Our analysis is based on active measurements, an exhaustive on-device analysis, and cellular traffic traces processing. The results reveals a number of inefficiencies as a result of the strong dependence on the cellular network to obtain assisting data, implementation, and integration problems.</div>
                                 <hr>
@@ -2248,6 +2341,7 @@
 
                         <span>IEEE International Conference on Peer-to-Peer Computing (P2P)</span>
                             <div class="pubs-details" id="content-2013-2">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/P2P.2013.6688724">https://doi.org/10.1109/P2P.2013.6688724</a></div>
                                 <div>The last few years have seen an explosion of video on demand traffic carried over the Internet infrastructure. While P2P applications have been proposed to carry VoD and TV content, they have so far encountered limited adoption except in Asian countries. Part of why this happens is explained with the fact that (i) the current asymmetric network infrastructure does not offer enough system capacity needed to let a fully P2P-VoD/TV to be self-sustainable, (ii) that the actual capacity at nominal peers is often smaller than the available one due to inefficiency in NAT punching[1], and (iii) the very same nonelastic nature of the service, that makes the system inherently less robust w.r.t elastic file-sharing to dynamic changes in the istantaneously available bandwidth. The other part of the story can be summarized with the success of CDN-managed services such as Netflix, Hulu and especially YouTube - according to [2], about 3 billion YouTube videos are viewed and 100&#39;s of thousand videos are uploaded every day, with independent research confirming YouTube to represent 20-30% of ISPs incoming traffic[3].</div>
                                 <hr>
@@ -2296,6 +2390,7 @@
 
                         <span>Data Traffic Monitoring and Analysis [book]</span>
                             <div class="pubs-details" id="content-2013-3">
+                                
                                 <div style="text-align:right"><a href="https://link.springer.com/chapter/10.1007/978-3-642-36784-7_6">https://link.springer.com/chapter/10.1007/978-3-642-36784-7_6</a></div>
                                 <div>Traffic classification has received increasing attention in the last years. It aims at offering the ability to automatically recognize the application that has generated a given stream of packets from the direct and passive observation of the individual packets, or stream of packets, flowing in the network. This ability is instrumental to a number of activities that are of extreme interest to carriers, Internet service providers and network administrators in general. Indeed, traffic classification is the basic block that is required to enable any traffic management operations, from differentiating traffic pricing and treatment (e.g., policing, shaping, etc.), to security operations (e.g., firewalling, filtering, anomaly detection, etc.). Up to few years ago, almost any Internet application was using well-known transport layer protocol ports that easily allowed its identification. More recently, the number of applications using random or non-standard ports has dramatically increased (e.g. Skype, BitTorrent, VPNs, etc.). Moreover, often network applications are configured to use well-known protocol ports assigned to other applications (e.g. TCP port 80 originally reserved for Web traffic) attempting to disguise their presence. For these reasons, and for the importance of correctly classifying traffic flows, novel approaches based respectively on packet inspection, statistical and machine learning techniques, and behavioral methods have been investigated and are becoming standard practice. In this chapter, we discuss the main trend in the field of traffic classification and we describe some of the main proposals of the research community. We complete this chapter by developing two examples of behavioral classifiers: both use supervised machine learning algorithms for classifications, but each is based on different features to describe the traffic. After presenting them, we compare their performance using a large dataset, showing the benefits and drawback of each approach.</div>
                                 <hr>
@@ -2342,6 +2437,7 @@
 
                         <span>Corr/arxiv</span>
                             <div class="pubs-details" id="content-2013-4">
+                                
                                 <div style="text-align:right"><a href=""></a></div>
                                 <div></div>
                                 <hr>
@@ -2395,6 +2491,7 @@
 
                         <span>IEEE Transactions on Network and Service Management (TNSM)</span>
                             <div class="pubs-details" id="content-2012-0">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/TNSM.2012.022412.110184">https://doi.org/10.1109/TNSM.2012.022412.110184</a></div>
                                 <div>In the recent years, the research community has increased its focus on network monitoring which is seen as a key tool to understand the Internet and the Internet users. Several studies have presented a deep characterization of a particular application, or a particular network, considering the point of view of either the ISP, or the Internet user. In this paper, we take a different perspective. We focus on three European countries where we have been collecting traffic for more than a year and a half through 5 vantage points with different access technologies. This humongous amount of information allows us not only to provide precise, multiple, and quantitative measurements of &#34;What the user do with the Internet&#34; in each country but also to identify common/uncommon patterns and habits across different countries and nations. Considering different time scales, we start presenting the trend of application popularity; then we focus our attention to a one-month long period, and further drill into a typical daily characterization of users activity. Results depict an evolving scenario due to the consolidation of new services as Video Streaming and File Hosting and to the adoption of new P2P technologies. Despite the heterogeneity of the users, some common tendencies emerge that can be leveraged by the ISPs to improve their service.</div>
                                 <hr>
@@ -2445,6 +2542,7 @@
 
                         <span>IMC</span>
                             <div class="pubs-details" id="content-2012-1">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1145/2398776.2398812">https://doi.org/10.1145/2398776.2398812</a></div>
                                 <div>Mobile phones and tablets can be considered as the first incarnation of the post-PC era. Their explosive adoption rate has been driven by a number of factors, with the most signifcant influence being applications (apps) and app markets. Individuals and organizations are able to develop and publish apps, and the most popular form of monetization is mobile advertising. The mobile advertisement (ad) ecosystem has been the target of prior research, but these works typically focused on a small set of apps or are from a user privacy perspective. In this work we make use of a unique, anonymized data set corresponding to one day of traffic for a major European mobile carrier with more than 3 million subscribers. We further take a principled approach to characterize mobile ad traffic along a number of dimensions, such as overall traffic, frequency, as well as possible implications in terms of energy on a mobile device. Our analysis demonstrates a number of inefficiencies in today&#39;s ad delivery. We discuss the benefits of well-known techniques, such as pre-fetching and caching, to limit the energy and network signalling overhead caused by current systems. A prototype implementation on Android devices demonstrates an improvement of 50% in terms of energy consumption for offline ad-sponsored apps while limiting the amount of ad related traffic.</div>
                                 <hr>
@@ -2493,6 +2591,7 @@
 
                         <span>IEEE Traffic Monitoring and Analysis Conference (TMA)</span>
                             <div class="pubs-details" id="content-2012-2">
+                                
                                 <div style="text-align:right"><a href="https://link.springer.com/chapter/10.1007/978-3-642-28534-9_2">https://link.springer.com/chapter/10.1007/978-3-642-28534-9_2</a></div>
                                 <div>In this paper we aim at observing how today the Internet large organizations deliver web content to end users. Using one-week long data sets collected at three vantage points aggregating more than 30,000 Internet customers, we characterize the offered services precisely quantifying and comparing the performance of different players. Results show that today 65% of the web traffic is handled by the top 10 organizations. We observe that, while all of them serve the same type of content, different server architectures have been adopted considering load balancing schemes, servers number and location: some organizations handle thousands of servers with the closest being few milliseconds far away from the end user, while others manage few data centers. Despite this, the performance of bulk transfer rate offered to end users are typically good, but impairment can arise when content is not readily available at the server and has to be retrieved from the CDN back-end.</div>
                                 <hr>
@@ -2550,6 +2649,7 @@
 
                         <span>IEEE Network magazine</span>
                             <div class="pubs-details" id="content-2011-0">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/MNET.2011.5772055">https://doi.org/10.1109/MNET.2011.5772055</a></div>
                                 <div>Since the early days of the Internet, network traffic monitoring has always played a strategic role in understanding and characterizing users¿ activities. In this article, we present our experience in engineering and deploying Tstat, an open source passive monitoring tool that has been developed in the past 10 years. Started as a scalable tool to continuously monitor packets that flow on a link, Tstat has evolved into a complex application that gives network researchers and operators the possibility to derive extended and complex measurements thanks to advanced traffic classifiers. After discussing Tstat capabilities and internal design, we present some examples of measurements collected deploying Tstat at the edge of several ISP networks in past years. While other works report a continuous decline of P2P traffic with streaming and file hosting services rapidly increasing in popularity, the results presented in this article picture a different scenario. First, P2P decline has stopped, and in the last months of 2010 there was a counter tendency to increase P2P traffic over UDP, so the common belief that UDP traffic is negligible is not true anymore. Furthermore, streaming and file hosting applications have either stabilized or are experiencing decreasing traffic shares. We then discuss the scalability issues software-based tools have to cope with when deployed in real networks, showing the importance of properly identifying bottlenecks.</div>
                                 <hr>
@@ -2600,6 +2700,7 @@
 
                         <span>IEEE International Conference on Distributed Computing Systems (ICDCS)</span>
                             <div class="pubs-details" id="content-2011-1">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/ICDCS.2011.43">https://doi.org/10.1109/ICDCS.2011.43</a></div>
                                 <div>In this paper, we conduct a detailed study of the YouTube CDN with a view to understanding the mechanisms and policies used to determine which data centers users download video from. Our analysis is conducted using week-long datasets simultaneously collected from the edge of five networks - two university campuses and three ISP networks - located in three different countries. We employ state-of-the-art delay-based geolocation techniques to find the geographical location of YouTube servers. A unique aspect of our work is that we perform our analysis on groups of related YouTube flows. This enables us to infer key aspects of the system design that would be difficult to glean by considering individual flows in isolation. Our results reveal that while the RTT between users and data centers plays a role in the video server selection process, a variety of other factors may influence this selection including load-balancing, diurnal effects, variations across DNS servers within a network, limited availability of rarely accessed video, and the need to alleviate hot-spots that may arise due to popular video content.</div>
                                 <hr>
@@ -2648,6 +2749,7 @@
 
                         <span>ACM Internet Measurement Conference (IMC)</span>
                             <div class="pubs-details" id="content-2011-2">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1145/2068816.2068849">https://doi.org/10.1145/2068816.2068849</a></div>
                                 <div>In this paper we present a complete measurement study that compares YouTube traffic generated by mobile devices (smart-phones,tablets) with traffic generated by common PCs (desktops, notebooks, netbooks). We investigate the users&#39; behavior and correlate it with the system performance. Our measurements are performed using unique data sets which are collected from vantage points in nation-wide ISPs and University campuses from two countries in Europe and the U.S. Our results show that the user access patterns are similar across a wide range of user locations, access technologies and user devices. Users stick with default player configurations, e.g., not changing video resolution or rarely enabling full screen playback. Furthermore it is very common that users abort video playback, with 60% of videos watched for no more than 20% of their duration. We show that the YouTube system is highly optimized for PC access and leverages aggressive buffering policies to guarantee excellent video playback. This however causes 25%-39% of data to be unnecessarily transferred, since users abort the playback very early. This waste of data transferred is even higher when mobile devices are considered. The limited storage offered by those devices makes the video download more complicated and overall less efficient, so that clients typically download more data than the actual video size. Overall, this result calls for better system optimization for both, PC and mobile accesses.</div>
                                 <hr>
@@ -2696,6 +2798,7 @@
 
                         <span>IEEE Traffic Monitoring and Analysis Conference (TMA)</span>
                             <div class="pubs-details" id="content-2011-3">
+                                
                                 <div style="text-align:right"><a href="https://link.springer.com/chapter/10.1007/978-3-642-20305-3_13">https://link.springer.com/chapter/10.1007/978-3-642-20305-3_13</a></div>
                                 <div>In this paper we present a fully unsupervised algorithm to identify classes of traffic inside an aggregate. The algorithm leverages on the K-means clustering algorithm, augmented with a mechanism to automatically determine the number of traffic clusters. The signatures used for clustering are statistical representations of the application layer protocols. The proposed technique is extensively tested considering UDP traffic traces collected from operative networks. Performance tests show that it can clusterize the traffic in few tens of pure clusters, achieving an accuracy above 95%. Results are promising and suggest that the proposed approach might effectively be used for automatic traffic monitoring, e.g., to identify the birth of new applications and protocols, or the presence of anomalous or unexpected traffic.</div>
                                 <hr>
@@ -2753,6 +2856,7 @@
 
                         <span>IEEE/ACM Transactions on Networking (ToN)</span>
                             <div class="pubs-details" id="content-2010-0">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/TNET.2010.2044046">https://doi.org/10.1109/TNET.2010.2044046</a></div>
                                 <div>This paper proposes KISS, a novel Internet classification engine. Motivated by the expected raise of UDP traffic, which stems from the momentum of Peer-to-Peer (P2P) streaming applications, we propose a novel classification framework that leverages on statistical characterization of payload. Statistical signatures are derived by the means of a Chi-Square (χ 2 )-like test, which extracts the protocol “format,” but ignores the protocol “semantic” and “synchronization” rules. The signatures feed a decision process based either on the geometric distance among samples, or on Support Vector Machines. KISS is very accurate, and its signatures are intrinsically robust to packet sampling, reordering, and flow asymmetry, so that it can be used on almost any network. KISS is tested in different scenarios, considering traditional client-server protocols, VoIP, and both traditional and new P2P Internet applications. Results are astonishing. The average True Positive percentage is 99.6%, with the worst case equal to 98.1,% while results are almost perfect when dealing with new P2P streaming applications.</div>
                                 <hr>
@@ -2803,6 +2907,7 @@
 
                         <span>International Conference on Communications (ICC)</span>
                             <div class="pubs-details" id="content-2010-1">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/ICC.2010.5501744">https://doi.org/10.1109/ICC.2010.5501744</a></div>
                                 <div>Peer-to-Peer IP Television (P2PTV) applications represent one of the fastest growing application classes on the Internet, both in terms of their popularity and in terms of the amount of traffic they generate. While network operators require monitoring tools that can effectively analyze the traffic produced by these systems, few techniques have been tested on these mostly closed-source, proprietary applications. In this paper we examine the properties of three traffic classifiers applied to the problem of identifying P2PTV traffic. We report on extensive experiments conducted on traffic traces with reliable ground truth information, highlighting the benefits and shortcomings of each approach. The results show that not only their performance in terms of accuracy can vary significantly, but also that their usability features suggest different effective aspects that can be integrated.</div>
                                 <hr>
@@ -2851,6 +2956,7 @@
 
                         <span>IEEE International Conference on Communications (ICC)</span>
                             <div class="pubs-details" id="content-2010-2">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1109/ICC.2010.5502280">https://doi.org/10.1109/ICC.2010.5502280</a></div>
                                 <div>In this paper, we extend the concept of Stochastic Packet Inspection (SPI) to support TCP traffic classification. SPI is a method based on the statistical fingerprint of the application-layer headers: by characterizing the frequencies of observed symbols, SPI can identify application protocol formats by automatically recognizing group of bits that take e.g., constant values, or random values, or are part of a counter. To correctly characterize symbol frequencies, SPI needs volumes of traffic to obtain statistically significant signatures. Earlier proposed for UDP traffic, SPI has to be modified to cope with the connection oriented service offered by TCP, in which application-layer headers are only found at the beginning of a TCP connection. In this paper, we extend SPI to support TCP traffic, and analyze its performance on real network data. The key idea is to move the classification target from single flows to endpoints, which aggregates all traffic sent/received by the same IP address and TCP port pair. The first few packets of flows sent from (or destined to) the same endpoint are then aggregated to yield a single SPI signature. Results show that SPI is able to achieve remarkably good results, with an average true positive rate of about 98%.</div>
                                 <hr>
@@ -2899,6 +3005,7 @@
 
                         <span>IEEE Traffic Monitoring and Analysis Conference (TMA)</span>
                             <div class="pubs-details" id="content-2010-3">
+                                
                                 <div style="text-align:right"><a href="https://link.springer.com/chapter/10.1007%2F978-3-642-12365-8_9">https://link.springer.com/chapter/10.1007%2F978-3-642-12365-8_9</a></div>
                                 <div>In the last few years the research community has proposed several techniques for network traffic classification. While the performance of these methods is promising especially for specific classes of traffic and particular network conditions, the lack of accurate comparisons among them makes it difficult to choose between them and find the most suitable technique for given needs. Motivated also by the increase of P2P-TV traffic, this work compares Abacus, a novel behavioral classification algorithm specific for P2P-TV traffic, and Kiss, an extremely accurate statistical payload-based classifier. We first evaluate their performance on a common set of traces and later we analyze their requirements in terms of both memory occupation and CPU consumption. Our results show that the behavioral classifier can be as accurate as the payload-based with also a substantial gain in terms of computational cost, although it can deal only with a very specific type of traffic.</div>
                                 <hr>
@@ -2947,6 +3054,7 @@
 
                         <span>WWIC</span>
                             <div class="pubs-details" id="content-2010-4">
+                                
                                 <div style="text-align:right"><a href="https://link.springer.com/chapter/10.1007%2F978-3-642-13315-2_24">https://link.springer.com/chapter/10.1007%2F978-3-642-13315-2_24</a></div>
                                 <div>Network monitoring has always played a key role in understanding telecommunication networks since the pioneering time of the Internet. Today, monitoring traffic has become a key element to characterize network usage and users’ activities, to understand how complex applications work, to identify anomalous or malicious behaviors, etc. In this paper we present our experience in engineering and deploying Tstat, a passive monitoring tool that has been developed in the past ten years. Started as a scalable tool to continuously monitor packets that flow on a link, Tstat has evolved into a complex application that gives to network researchers and operators the possibility to derive extended and complex measurements. Tstat offers the capability to track traffic flows, it integrates advanced behavioral classifiers that identify the application that has generated a flow, and automatically derives performance indexes that allow to easily characterize both network usage and users’ activity. After describing Tstat capabilities and internal design, in this paper we present some examples of measurements collected deploying Tstat at the edge of our campus network for the past years.</div>
                                 <hr>
@@ -3004,6 +3112,7 @@
 
                         <span>IEEE Traffic Monitoring and Analysis Conference (TMA)</span>
                             <div class="pubs-details" id="content-2009-0">
+                                
                                 <div style="text-align:right"><a href="https://link.springer.com/chapter/10.1007/978-3-642-01645-5_14">https://link.springer.com/chapter/10.1007/978-3-642-01645-5_14</a></div>
                                 <div>This paper proposes KISS, a new Internet classification method. Motivated by the expected raise of UDP traffic volume, which stems from the momentum of P2P streaming applications, we propose a novel statistical payload-based classification framework, targeted to UDP traffic. Statistical signatures are automatically inferred from training data, by the means of a Chi-Square like test, which extracts the protocol “syntax”, but ignores the protocol semantic and synchronization rules. The signatures feed a decision engine based on Support Vector Machines. KISS is tested in different scenarios, considering both data, VoIP, and traditional P2P Internet applications. Results are astonishing. The average True Positive percentage is 99.6%, with the worst case equal 98.7%. Less than 0.05% of False Positives are detected.</div>
                                 <hr>

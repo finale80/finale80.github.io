@@ -28,7 +28,7 @@
   
   
   
-<link rel="stylesheet" href="https://afinamore.io/sass/main.min.0e074b797dae88b7d8abb7c38185c8131cfabbcd7d1a26205cb24ec3a3bedede.css">
+<link rel="stylesheet" href="https://afinamore.io/sass/main.min.fb68689a5d4e876bb1023640caaceef0175cc14036e94a308d4704dda2ec7603.css">
 
   <link rel="preload" href="https://afinamore.io/css/tweaks.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://afinamore.io/css/tweaks.css"></noscript>
@@ -56,6 +56,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
         <li class="nav-item"><a href="/#home" class="navbar-link">Home</a></li>
+        <li class="nav-item"><a href="/#projects" class="navbar-link">Projects</a></li>
         <li class="nav-item"><a href="/#talks" class="navbar-link">Talks</a></li>
         <li class="nav-item"><a href="/#research" class="navbar-link">Research</a></li>
         <li class="nav-item"><a href="/#experience" class="navbar-link">Experience</a></li>
@@ -68,6 +69,7 @@
     
     
         <span class="navbar-link-marker" id="navbar-link-home">•</span><a href="/#home">Home</a>
+        <span class="navbar-link-marker" id="navbar-link-projects">•</span><a href="/#projects">Projects</a>
         <span class="navbar-link-marker" id="navbar-link-talks">•</span><a href="/#talks">Talks</a>
         <span class="navbar-link-marker" id="navbar-link-research">•</span><a href="/#research">Research</a>
         <span class="navbar-link-marker" id="navbar-link-experience">•</span><a href="/#experience">Experience</a>
@@ -149,6 +151,17 @@
                   </a>
                 </li>
             
+                <li class="list-inline-item">
+                  <a href="https://github.com/finale80" data-toggle="tooltip" title="Github" data-offset="0,10" rel="me">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      
+                      <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                      
+                    </span>
+                  </a>
+                </li>
+            
           </ul>
         </div>
       </div>
@@ -156,6 +169,32 @@
 
    
    
+   
+              
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+          <div class="my-auto">
+            <h2 class="mb-5">Projects</h2>
+
+            <div class="project-section">
+                <table>
+                <tr>
+                <td>
+                <a href="https://tcbenchstack.github.io/tcbench/"><img src="img/tcbench_logo.svg"/></a>
+                </td>
+                <td>
+                A Machine Learning and Deep Learning modeling framework for Traffic Classification
+                <br>
+                <a href="https://github.com/tcbenchstack/tcbench">Github <i class="fab fa-github"></i></a>
+                <a href="https://tcbenchstack.github.io/tcbench/">Documentation <i class="fas fa-book"></i></a>
+                </td>
+                <tr>
+                </table>
+            </div>
+
+           </div>
+        </section>
+
+
    
    
    
@@ -246,9 +285,9 @@
                     <span class="middle pubs"> 
                         <span class="pubs-title">
                             
-                            <a href="/pubs/TMA23_manyorfew.pdf">Many or Few Samples? Comparing Transfer, Contrastive and Meta-Learning in Encrypted Traffic Classification</a>
+                            <a href="/pubs/IMC23_replication.pdf">Replication: Contrastive Learning and Data Augmentation in Traffic Classification Using a Flowpic Input Representation</a>
 
-                            <a href="/pubs/TMA23_manyorfew.pdf" class="nostyle">
+                            <a href="/pubs/IMC23_replication.pdf" class="nostyle">
                                 <span class="tag-box tag-pdf">PDF</span>
                             </a>
 
@@ -260,11 +299,61 @@
                             </span>
                         </span>
 
+                        <div class="pubs-authors">A. Finamore, C. Wang, J. Krolikowski, J. M. Navarro, F. Chen, D. Rossi</div>
+
+                        <span>ACM Internet Measurement Conference (IMC)</span>
+                            <div class="pubs-details" id="content-2023-0">
+                                
+                                <div style="text-align:right"><a href="https://arxiv.org/abs/2309.09733">preprint :: https://arxiv.org/abs/2309.09733</a></div>
+                                <div>The popularity of Deep Learning (DL), coupled with network traffic visibility reduction due to the increased adoption of HTTPS, QUIC and DNS-SEC, re-ignited interest towards Traffic Classification (TC). However, to tame the dependency from task-specific large labeled datasets we need to find better ways to learn representations that are valid across tasks. In this work we investigate this problem comparing transfer learning, meta-learning and contrastive learning against reference Machine Learning (ML) tree-based and monolithic DL models (16 methods total). Using two publicly available datasets, namely MIRAGE19 (40 classes) and AppClassNet (500 classes), we show that (i) using large datasets we can obtain more general representations, (ii) contrastive learning is the best methodology and (iii) meta-learning the worst one, and (iv) while ML tree-based cannot handle large tasks but fits well small tasks, by means of reusing learned representations, DL methods are reaching tree-based models performance also for small tasks.</div>
+                                <hr>
+                                <div>
+                                    <span class="bibtex">@inproceeding{AF:IMC23,</span>
+                                    <span class="bibtex ml-10">title={Replication: Contrastive Learning and Data Augmentation in Traffic Classification Using a Flowpic Input Representation},</span>
+                                    <span class="bibtex ml-10">author=,</span>
+                                    <span class="bibtex ml-10">year={2023},</span>
+                                    
+                                    <span class="bibtex ml-10">booktitle=Internet Measurement Conference (IMC),</span>
+                                    
+                                    
+                                    <span class="bibtex ml-10">location={Montreal, Canada},</span>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    <span class="bibtex ml-10">doi={},</span>
+                                    <span class="bibtex ml-10">howpublished="https://afinamore.io/pubs/IMC23_replication.pdf"</span>
+                                    <span>}</span>
+                                </div>
+                            </div>
+                    </span>
+                    </li>
+                
+                    <li class="pubs">
+                    <span class="middle pubs"> 
+                        <span class="pubs-title">
+                            
+                            <a href="/pubs/TMA23_manyorfew.pdf">Many or Few Samples? Comparing Transfer, Contrastive and Meta-Learning in Encrypted Traffic Classification</a>
+
+                            <a href="/pubs/TMA23_manyorfew.pdf" class="nostyle">
+                                <span class="tag-box tag-pdf">PDF</span>
+                            </a>
+
+                            
+
+                            
+                            <span class="nostyle">
+                                <span class="tag-box tag-details" id="2023-1">details <i class="fas fa-chevron-down"></i></span>
+                            </span>
+                        </span>
+
                         <div class="pubs-authors">I. Guarino, C. Wang, A. Finamore, A. Pescape, D. Rossi</div>
 
                         <span>IEEE/IFIP Traffic Measurement and Analysis (TMA)</span>
-                            <div class="pubs-details" id="content-2023-0">
-                                <div style="text-align:right"><a href="#ZgotmplZ">preprint :: https://arxiv.org/abs/2305.12432</a></div>
+                            <div class="pubs-details" id="content-2023-1">
+                                
+                                <div style="text-align:right"><a href="https://arxiv.org/abs/2305.12432">preprint :: https://arxiv.org/abs/2305.12432</a></div>
                                 <div>The popularity of Deep Learning (DL), coupled with network traffic visibility reduction due to the increased adoption of HTTPS, QUIC and DNS-SEC, re-ignited interest towards Traffic Classification (TC). However, to tame the dependency from task-specific large labeled datasets we need to find better ways to learn representations that are valid across tasks. In this work we investigate this problem comparing transfer learning, meta-learning and contrastive learning against reference Machine Learning (ML) tree-based and monolithic DL models (16 methods total). Using two publicly available datasets, namely MIRAGE19 (40 classes) and AppClassNet (500 classes), we show that (i) using large datasets we can obtain more general representations, (ii) contrastive learning is the best methodology and (iii) meta-learning the worst one, and (iv) while ML tree-based cannot handle large tasks but fits well small tasks, by means of reusing learned representations, DL methods are reaching tree-based models performance also for small tasks.</div>
                                 <hr>
                                 <div>
@@ -304,15 +393,16 @@
 
                             
                             <span class="nostyle">
-                                <span class="tag-box tag-details" id="2023-1">details <i class="fas fa-chevron-down"></i></span>
+                                <span class="tag-box tag-details" id="2023-2">details <i class="fas fa-chevron-down"></i></span>
                             </span>
                         </span>
 
                         <div class="pubs-authors">R. Azorin, M. Gallo, A. Finamore, D. Rossi, P. Michiardi</div>
 
                         <span>International Workshop on Practical Deep Learning in the Wild (PracticalDL) - colocated with AAAI</span>
-                            <div class="pubs-details" id="content-2023-1">
-                                <div style="text-align:right"><a href="#ZgotmplZ">preprint :: https://arxiv.org/abs/2301.02873</a></div>
+                            <div class="pubs-details" id="content-2023-2">
+                                
+                                <div style="text-align:right"><a href="https://arxiv.org/abs/2301.02873">preprint :: https://arxiv.org/abs/2301.02873</a></div>
                                 <div>While the promises of Multi-Task Learning (MTL) are attractive, characterizing the conditions of its success is still an open problem in Deep Learning. Some tasks may benefit from being learned together while others may be detrimental to one another. From a task perspective, grouping cooperative tasks while separating competing tasks is paramount to reap the benefits of MTL, i.e., reducing training and inference costs. Therefore, estimating task affinity for joint learning is a key endeavor. Recent work suggests that the training conditions themselves have a significant impact on the outcomes of MTL. Yet, the literature is lacking of a benchmark to assess the effectiveness of tasks affinity estimation techniques and their relation with actual MTL performance. In this paper, we take a first step in recovering this gap by (i) defining a set of affinity scores by both revisiting contributions from previous literature as well presenting new ones and (ii) benchmarking them on the Taskonomy dataset. Our empirical campaign reveals how, even in a small-scale scenario, task affinity scoring does not correlate well with actual MTL performance. Yet, some metrics can be more indicative than others.</div>
                                 <hr>
                                 <div>
@@ -369,7 +459,8 @@
 
                         <span>IEEE International Conference on Computer Communications (INFOCOM)</span>
                             <div class="pubs-details" id="content-2022-0">
-                                <div style="text-align:right"><a href="#ZgotmplZ">preprint :: https://arxiv.org/abs/2112.06671</a></div>
+                                
+                                <div style="text-align:right"><a href="https://arxiv.org/abs/2112.06671">preprint :: https://arxiv.org/abs/2112.06671</a></div>
                                 <div>While Deep Learning (DL) technologies are a promising tool to solve networking problems that map to classification tasks, their computational complexity is still too high with respect to real-time traffic measurements requirements. To reduce the DL inference cost, we propose a novel caching paradigm, that we named approximate-key caching, which returns approximate results for lookups of selected input based on cached DL inference results. While approximate cache hits alleviate DL inference workload and increase the system throughput, they however introduce an approximation error. As such, we couple approximate-key caching with an error-correction principled algorithm, that we named auto-refresh. We analytically model our caching system performance for classic LRU and ideal caches, we perform a trace-driven evaluation of the expected performance, and we compare the benefits of our proposed approach with the state-of-the-art similarity caching -- testifying the practical interest of our proposal.</div>
                                 <hr>
                                 <div>
@@ -417,6 +508,7 @@
 
                         <span>ACM Workshop on Hot Topics in Networks (HotNets)</span>
                             <div class="pubs-details" id="content-2022-1">
+                                
                                 <div style="text-align:right"><a href="https://dl.acm.org/doi/abs/10.1145/3563766.3564108">https://dl.acm.org/doi/abs/10.1145/3563766.3564108</a></div>
                                 <div>Learning the right representations from complex input data is the key ability of successful machine learning (ML) models. The latter are often tailored to a specific data modality. For example, recurrent neural networks (RNNs) were designed having sequential data in mind, while convolutional neural networks (CNNs) were designed to exploit spatial correlation in images. Unlike computer vision (CV) and natural language processing (NLP), each of which targets a single well-defined modality, network ML problems often have a mixture of data modalities as input. Yet, instead of exploiting such abundance, practitioners tend to rely on sub-features thereof, reducing the problem to single modality for the sake of simplicity. In this paper, we advocate for exploiting all the modalities naturally present in network data. As a first step, we observe that network data systematically exhibits a mixture of quantities (e.g., measurements), and entities (e.g., IP addresses, names, etc.). Whereas the former are generally well exploited, the latter are often underused or poorly represented (e.g., with one-hot encoding). We propose to systematically leverage language models to learn entity representations, whenever significant sequences of such entities are historically observed. Through two diverse use-cases, we show that such entity encoding can benefit and naturally augment classic quantity-based features.</div>
                                 <hr>
@@ -463,6 +555,7 @@
 
                         <span>ACM Computer Communication Review (CCR)</span>
                             <div class="pubs-details" id="content-2022-2">
+                                
                                 <div style="text-align:right"><a href="https://dl.acm.org/doi/10.1145/3561954.3561958">https://dl.acm.org/doi/10.1145/3561954.3561958</a></div>
                                 <div>The recent success of Artificial Intelligence (AI) is rooted into several concomitant factors, namely theoretical progress coupled with abundance of data and computing power. Large companies can take advantage of a deluge of data, typically withhold from the research community due to privacy or business sensitivity concerns, and this is particularly true for networking data. Therefore, the lack of high quality data is often recognized as one of the main factors currently limiting networking research from fully leveraging AI methodologies potential.  Following numerous requests we received from the scientific community, we release AppClassNet, a commercial-grade dataset for benchmarking traffic classification and management methodologies. AppClassNet is significantly larger than the datasets generally available to the academic community in terms of both the number of samples and classes, and reaches scales similar to the popular ImageNet dataset commonly used in computer vision literature. To avoid leaking user- and business-sensitive information, we opportunely anonymized the dataset, while empirically showing that it still represents a relevant benchmark for algorithmic research. In this paper, we describe the public dataset and our anonymization process. We hope that AppClassNet can be instrumental for other researchers to address more complex commercial-grade problems in the broad field of traffic classification and management.</div>
                                 <hr>
@@ -518,7 +611,8 @@
 
                         <span>IEEE/IFIP Traffic Measurement and Analysis (TMA)</span>
                             <div class="pubs-details" id="content-2021-0">
-                                <div style="text-align:right"><a href="#ZgotmplZ">preprint :: https://arxiv.org/abs/2107.04464</a></div>
+                                
+                                <div style="text-align:right"><a href="https://arxiv.org/abs/2107.04464">preprint :: https://arxiv.org/abs/2107.04464</a></div>
                                 <div>The recent popularity growth of Deep Learning (DL) re-ignited the interest towards traffic classification, with several studies demonstrating the accuracy of DL-based classifiers to identify Internet applications&#39; traffic. Even with the aid of hardware accelerators (GPUs, TPUs), DL model training remains expensive, and limits the ability to operate frequent model updates necessary to fit to the ever evolving nature of Internet traffic, and mobile traffic in particular. To address this pain point, in this work we explore Incremental Learning (IL) techniques to add new classes to models without a full retraining, hence speeding up model&#39;s updates cycle. We consider iCarl, a state of the art IL method, and MIRAGE-2019, a public dataset with traffic from 40 Android apps, aiming to understand &#34;if there is a case for incremental learning in traffic classification&#34;. By dissecting iCarl internals, we discuss ways to improve its design, contributing a revised version, namely iCarl&#43;. Despite our analysis reveals their infancy, IL techniques are a promising research area on the roadmap towards automated DL-based traffic analysis systems.</div>
                                 <hr>
                                 <div>
@@ -566,7 +660,8 @@
 
                         <span>ACM/IEEE Symposium on Edge Computing (SEC)</span>
                             <div class="pubs-details" id="content-2021-1">
-                                <div style="text-align:right"><a href="#ZgotmplZ">preprint :: https://arxiv.org/abs/2105.11738</a></div>
+                                
+                                <div style="text-align:right"><a href="https://arxiv.org/abs/2105.11738">preprint :: https://arxiv.org/abs/2105.11738</a></div>
                                 <div>Live traffic analysis at the first aggregation point in the ISP network enables the implementation of complex traffic engineering policies but is limited by the scarce processing capabilities, especially for Deep Learning (DL) based analytics. The introduction of specialized hardware accelerators i.e., Tensor Processing Unit (TPU), offers the opportunity to enhance the processing capabilities of network devices at the edge. Yet, to date, no packet processing pipeline is capable of offering DL-based analysis capabilities in the data-plane, without interfering with network operations. In this paper, we present FENXI, a system to run complex analytics by leveraging TPU. The design of FENXI decouples forwarding operations and traffic analytics which operates at different granularities i.e., packet and flow levels. We conceive two independent modules that asynchronously communicate to exchange network data and analytics results, and design data structures to extract flow level statistics without impacting per-packet processing. We prototyped and evaluated FENXI on general-purpose servers considering both adversarial and realistic network conditions. Our analysis shows that FENXI can sustain 100 Gbps line rate traffic processing requiring only limited resources, while also dynamically adapting to variable network conditions.</div>
                                 <hr>
                                 <div>
@@ -614,6 +709,7 @@
 
                         <span>IEEE Transactions on Network and Service Management (TNSM)</span>
                             <div class="pubs-details" id="content-2021-2">
+                                
                                 <div style="text-align:right"><a href="https://ieeexplore.ieee.org/document/9585567">https://ieeexplore.ieee.org/document/9585567</a></div>
                                 <div>The increasing success of Machine Learning (ML) and Deep Learning (DL) has recently re-sparked interest towards traffic classification. While classification of known traffic is a well investigated subject with supervised classification tools (such as ML and DL models) are known to provide satisfactory performance, detection of unknown (or zero-day) traffic is more challenging and typically handled by unsupervised techniques (such as clustering algorithms). In this paper, we share our experience on a commercial-grade DL traffic classification engine that is able to (i) identify known applications from encrypted traffic, as well as (ii) handle unknown zero-day applications. In particular, our contribution for (i) is to perform a thorough assessment of state of the art traffic classifiers in commercial-grade settings comprising few thousands of very fine grained application labels, as opposite to the few tens of classes generally targeted in academic evaluations. Additionally, we contribute to the problem of (ii) detection of zero-day applications by proposing a novel technique, tailored for DL models, that is significantly more accurate and light-weight than the state of the art.  Summarizing our main findings, we gather that (i) while ML and DL models are both equally able to provide satisfactory solution for classification of known traffic, however (ii) the non-linear feature extraction process of the DL backbone provides sizeable advantages for the detection of unknown classes.</div>
                                 <hr>
@@ -666,7 +762,8 @@
 
                         <span>ACM CoNEXT Student Workshop</span>
                             <div class="pubs-details" id="content-2021-3">
-                                <div style="text-align:right"><a href="https://conferences2.sigcomm.org/co-next/2021/#!/workshop-student">https://conferences2.sigcomm.org/co-next/2021/#!/workshop-student</a></div>
+                                
+                                <div style="text-align:right"><a href="https://conferences2.sigcomm.org/co-next/2021/#!/workshop-stud">https://conferences2.sigcomm.org/co-next/2021/#!/workshop-student</a></div>
                                 <div>As networks grow bigger, traffic measurements become more and more challenging. Common practices require specialized solutions tied to specific measurements. We aim at automating the design of generic top-down measurements tools thanks to Deep Learning. To this end, we focus our study on (i) researching an appropriate input traffic representation and (ii) comparing Deep Learning pipelines for several measurements. In this paper, we propose an empirical campaign to study a variety of modeling approaches for multiple traffic metrics predictions, with a strong focus on the trade-off between performance and cost that these approaches offer.</div>
                                 <hr>
                                 <div>
@@ -714,6 +811,7 @@
 
                         <span>Journal of Computers, Environment and Urban Systems (CEUS)</span>
                             <div class="pubs-details" id="content-2021-4">
+                                
                                 <div style="text-align:right"><a href="https://doi.org/10.1016/j.compenvurbsys.2020.101585">https://doi.org/10.1016/j.compenvurbsys.2020.101585</a></div>
                                 <div>Segregation often dismantles common activity spaces and isolates people of different backgrounds, leading to irreconcilable inequalities that disfavour the poor and minorities and intensifies societal fragmentation. Therefore, segregation has become an increasing concern and topic of research with studies typically concentrating on the residential communities of a particular racial or socioeconomic group. This paper enhances the residential view of segregation and examines the topic in the context of urban mobility. Specifically, it expands upon prior research by employing large-sample, seamless telecommunication logs of London, UK to provide a holistic view of mobility across the entire socioeconomic spectrum. A method is developed to transform the data to flows between geographic areas with different socioeconomic statuses. Spatial interaction models are then calibrated to examine the impact of both geographical distance and socioeconomic distance on the deterrence of flows and the analysis is extended to analyze the interaction of the two factors. Overall, socioeconomic distance is found to have a subtle effect compared to geographical distance. However, different effects are observed depending on the socioeconomic distance between flows and the deterrence of mobility tends to be the greatest when both physical and socioeconomic distance are high, suggesting that both factors may play a role creating and maintaining segregation.</div>
                                 <hr>

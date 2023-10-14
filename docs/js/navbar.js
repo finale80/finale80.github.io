@@ -25,6 +25,7 @@ marker activation based on scrolling
 
 const sectionData = {
     "home": 0.7,
+    "projects": 0.7, 
     "talks": 0.7,
     "research": 0.4,
     "experience": 0.2,
