@@ -44,7 +44,8 @@
 
                         <span>{{ $entry.venue }}</span>
                             <div class="pubs-details" id="content-{{ $tagid }}">
-                                <div style="text-align:right"><a href="{{ $entry.officialurl }}">{{ $entry.officialurl }}</a></div>
+                                {{ $officialurl := trim $entry.officialurl "preprint ::" }}
+                                <div style="text-align:right"><a href="{{ $officialurl }}">{{ $entry.officialurl }}</a></div>
                                 <div>{{ $entry.abstract }}</div>
                                 <hr>
                                 <div>

@@ -13,6 +13,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
         <li class="nav-item"><a href="/#home" class="navbar-link">Home</a></li>
+        <li class="nav-item"><a href="/#projects" class="navbar-link">Projects</a></li>
         <li class="nav-item"><a href="/#talks" class="navbar-link">Talks</a></li>
         <li class="nav-item"><a href="/#research" class="navbar-link">Research</a></li>
         <li class="nav-item"><a href="/#experience" class="navbar-link">Experience</a></li>
@@ -29,12 +30,14 @@
     {{ $currURL := .Permalink | relURL }}
     {{ if eq $currURL "/" }}
         <span class="navbar-link-marker" id="navbar-link-home">•</span><a href="/#home">Home</a>
+        <span class="navbar-link-marker" id="navbar-link-projects">•</span><a href="/#projects">Projects</a>
         <span class="navbar-link-marker" id="navbar-link-talks">•</span><a href="/#talks">Talks</a>
         <span class="navbar-link-marker" id="navbar-link-research">•</span><a href="/#research">Research</a>
         <span class="navbar-link-marker" id="navbar-link-experience">•</span><a href="/#experience">Experience</a>
         <span class="navbar-link-marker" id="navbar-link-education">•</span><a href="/#education">Education</a>
     {{ else }}
         <a href="/#home" class="navbar-link">Home</a>
+        <a href="/#projects" class="navbar-link">Projects</a>
         <a href="/#talks" class="navbar-link">Talks</a>
         <a href="/#research" class="navbar-link">Research</a>
         <a href="/#experience" class="navbar-link">Experience</a>

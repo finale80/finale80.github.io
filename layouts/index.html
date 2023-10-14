@@ -13,10 +13,7 @@
       {{ partial "posts_summary.html" . }}
    {{ end }}
    {{ if .Site.Params.showProjects }}
-      {{ with .Site.GetPage "section" "projects/creations" }}
-         {{ .Scratch.Set "sectionId" "projects" }}
-         {{ partial "sectionSummary" . }}
-      {{ end }}
+      {{ partial "portfolio/projects.html" . }}
    {{ end }}
    {{ if .Site.Params.showOpenSource }}
       {{ with .Site.GetPage "section" "projects/contributions" }}

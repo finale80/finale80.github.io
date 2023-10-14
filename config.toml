@@ -25,7 +25,7 @@ showEmail = true
 showEducation = true
 showExperience = true
 showOpenSource = false
-showProjects = false
+showProjects = true
 showPublications = false
 showAcademicPublications = true
 showTalks = true
@@ -58,9 +58,9 @@ name = "Twitter"
 link = "mailto:mail@afinamore.io"
 name = "Mail"
 
-#[[params.handles]]
-#link = "https://bitbucket.org/eddiewebb/"
-#name = "Bitbucket"
+[[params.handles]]
+link = "https://github.com/finale80"
+name = "Github"
 
 #[[params.handles]]
 #link = "https://stackoverflow.com/users/story/82880"

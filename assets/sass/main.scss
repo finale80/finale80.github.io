@@ -859,3 +859,11 @@ nav.navbar-reduced-size {
         margin-top: 1em !important;
     }
 }
+
+.project-section {
+    border: solid 3px rgba( $color_text, 0.05 );
+    border-radius: 15px;
+    background-color: rgba( $color_background_right, .3 );
+    padding: 10px;
+}
+
