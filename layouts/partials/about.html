@@ -33,6 +33,8 @@
                       <span class="fab fa-scholar fa-stack-2x"></span>
                       {{ else if eq .name "Mail" }}
                       <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                      {{ else if eq .name "Twitter" }}
+                      <i class="fab fa-brands fa-x-twitter fa-stack-1x fa-inverse"></i>
                       {{ else }}
                       <i class="fab {{ if .icon}}fa-{{ .icon }}{{ else }}fa-{{ lower .name }}{{ end }} fa-stack-1x fa-inverse"></i>
                       {{ end }}

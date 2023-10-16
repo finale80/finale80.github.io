@@ -43,6 +43,10 @@ maxResearchPaperYearsInHome = 3
 #trackerID = "XX-123446-01"
 
 [[params.handles]]
+link = "mailto:mail@afinamore.io"
+name = "Mail"
+
+[[params.handles]]
 link = "https://www.linkedin.com/in/alessandro-finamore-a741a45/"
 name = "LinkedIn"
 
@@ -54,9 +58,6 @@ name = "GoogleScholar"
 link = "https://twitter.com/finale80"
 name = "Twitter"
 
-[[params.handles]]
-link = "mailto:mail@afinamore.io"
-name = "Mail"
 
 [[params.handles]]
 link = "https://github.com/finale80"
