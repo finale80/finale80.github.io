@@ -2,8 +2,26 @@
     {"year": "2023",
      "entries": [
         {
+            "title" : "Toward Generative Data Augmentation for Traffic Classification",
+            "authors" : "C.Wang, A. Finamore, P. Michiardi, M. Gallo, D. Rossi",
+            "venue" :  "Student workshop at ACM Conference on emerging Networking Experiments and Technologies (CoNEXT)",
+            "venueurl" : "https://conferences.sigcomm.org/co-next/2023/#!/home",
+            "pdffname" : "CoNEXT23_sw_handcrafted_da.pdf",
+            "abstract": "Data Augmentation (DA)--augmenting training data with synthetic samples—is wildly adopted in Computer Vision (CV) to improve models performance. Conversely, DA has not been yet popularized in networking use cases, including Traffic Classification (TC). In this work, we present a preliminary study of 14 hand-crafted DAs applied on the MIRAGE19 dataset. Our results (i) show that DA can reap benefits previ- ously unexplored in TC and (ii) foster a research agenda on the use of generative models to automate DA design.",
+            "bibtex": {
+                "name": "AF:CoNEXT23",
+                "command": "@inproceeding{",
+                "author" : "{C. {Wang} and A. {Finamore} and P. {Michiardi} and M. {Gallo} and D. {Rossi}}",
+                "title" : "{Toward Generative Data Augmentation for Traffic Classification}",
+                "year": "{2023}",
+                "doi": "{}",
+                "booktitle": "{Conference on emerging Networking Experiments and Technologies (CoNEXT), Student workshop}",
+                "location": "{Paris, France}"
+            }
+        },
+        {
             "title" : "Replication: Contrastive Learning and Data Augmentation in Traffic Classification Using a Flowpic Input Representation",
-            "authors" : "A. Finamore, C. Wang, J. Krolikowski, J. M. Navarro, F. Chen, D. Rossi",
+            "author" : "A. Finamore, C. Wang, J. Krolikowski, J. M. Navarro, F. Chen, D. Rossi",
             "venue" :  "ACM Internet Measurement Conference (IMC)",
             "venueurl" : "https://conferences.sigcomm.org/imc/2023/",
             "officialurl" : "preprint :: https://arxiv.org/abs/2309.09733",
@@ -17,7 +35,7 @@
                 "title" : "{Replication: Contrastive Learning and Data Augmentation in Traffic Classification Using a Flowpic Input Representation}",
                 "year": "{2023}",
                 "doi": "{}",
-                "booktitle": "Internet Measurement Conference (IMC)",
+                "booktitle": "{Internet Measurement Conference (IMC)}",
                 "location": "{Montreal, Canada}"
             }
         },
@@ -32,7 +50,7 @@
             "bibtex": {
                 "name": "AF:TMA23",
                 "command": "@article{",
-                "authors" : "{I. {Guarino} and C. {Wang} and A. {Finamore} and A. {Pescape} and D. {Rossi}}",
+                "author" : "{I. {Guarino} and C. {Wang} and A. {Finamore} and A. {Pescape} and D. {Rossi}}",
                 "title" : "{Many or Few Samples? Comparing Transfer, Contrastive and Meta-Learning in Encrypted Traffic Classification}",
                 "year": "{2023}",
                 "doi": "{10.48550/arXiv.2305.12432}",
@@ -51,7 +69,7 @@
             "bibtex": {
                 "name": "AF:PracticalDL23",
                 "command": "@article{",
-                "authors" : "{R. {Azorin} and M. {Gallo} and A. {Finamore} and D. {Rossi} and P. {Michiardi}}",
+                "author" : "{R. {Azorin} and M. {Gallo} and A. {Finamore} and D. {Rossi} and P. {Michiardi}}",
                 "title" : "{\"It's a Match!\" -- A Benchmark of Task Affinity Scores for Joint Learning}",
                 "year": "{2023}",
                 "doi": "{10.48550/arXiv.2301.02873}",
@@ -74,7 +92,7 @@
             "bibtex": {
                 "name": "AF:INFOCOM22",
                 "command": "@inproceedings{",
-                "authors" : "{A. {Finamore} and J. {Roberts} and M. {Gallo} and D. {Rossi}}",
+                "author" : "{A. {Finamore} and J. {Roberts} and M. {Gallo} and D. {Rossi}}",
                 "title" : "{Accelerating Deep Learning Classification with Error-controlled Approximate-key Caching}",
                 "year": "{2022}",
                 "doi": "{10.1109/INFOCOM48880.2022.9796677}",
@@ -92,7 +110,7 @@
             "bibtex": {
                 "name": "AF:HotNets22",
                 "command": "@inproceedings{",
-                "authors" : "{Z. B. {Houidi} and R. {Azorin} and M. {Gallo} and A. {Finamore} and D. {Rossi}}",
+                "author" : "{Z. B. {Houidi} and R. {Azorin} and M. {Gallo} and A. {Finamore} and D. {Rossi}}",
                 "title" : "{Towards a systematic multi-modal representation learning for network data}",
                 "year": "{2022}",
                 "doi": "{10.1145/3563766.3564108}",
@@ -110,7 +128,7 @@
             "bibtex": {
                 "name": "AF:CCR22",
                 "command": "@article{",
-                "authors" : "{C. {Wang} and A. {Finamore} and L. {Yang} and K. {Fauvel} and D. {Rossi}}",
+                "author" : "{C. {Wang} and A. {Finamore} and L. {Yang} and K. {Fauvel} and D. {Rossi}}",
                 "title" : "{AppClassNet: a commercial-grade dataset for application identification research}",
                 "year": "{2022}",
                 "doi": "{10.1145/3561954.3561958}",
