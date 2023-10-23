@@ -24,7 +24,7 @@
             "author" : "A. Finamore, C. Wang, J. Krolikowski, J. M. Navarro, F. Chen, D. Rossi",
             "venue" :  "ACM Internet Measurement Conference (IMC)",
             "venueurl" : "https://conferences.sigcomm.org/imc/2023/",
-            "officialurl" : "preprint :: https://arxiv.org/abs/2309.09733",
+            "officialurl" : "https://dl.acm.org/doi/10.1145/3618257.3624820",
             "pdffname" : "IMC23_replication.pdf",
             "pptfname" : "IMC23_replication_slides_long.pdf",
             "abstract": "The popularity of Deep Learning (DL), coupled with network traffic visibility reduction due to the increased adoption of HTTPS, QUIC and DNS-SEC, re-ignited interest towards Traffic Classification (TC). However, to tame the dependency from task-specific large labeled datasets we need to find better ways to learn representations that are valid across tasks. In this work we investigate this problem comparing transfer learning, meta-learning and contrastive learning against reference Machine Learning (ML) tree-based and monolithic DL models (16 methods total). Using two publicly available datasets, namely MIRAGE19 (40 classes) and AppClassNet (500 classes), we show that (i) using large datasets we can obtain more general representations, (ii) contrastive learning is the best methodology and (iii) meta-learning the worst one, and (iv) while ML tree-based cannot handle large tasks but fits well small tasks, by means of reusing learned representations, DL methods are reaching tree-based models performance also for small tasks.",
