@@ -6,6 +6,7 @@
             "authors" : "C.Wang, A. Finamore, P. Michiardi, M. Gallo, D. Rossi",
             "venue" :  "Student workshop at ACM Conference on emerging Networking Experiments and Technologies (CoNEXT)",
             "venueurl" : "https://conferences.sigcomm.org/co-next/2023/#!/home",
+            "officialurl" : "preprint :: http://arxiv.org/abs/2310.13935",
             "pdffname" : "CoNEXT23_sw_handcrafted_da.pdf",
             "abstract": "Data Augmentation (DA)--augmenting training data with synthetic samples—is wildly adopted in Computer Vision (CV) to improve models performance. Conversely, DA has not been yet popularized in networking use cases, including Traffic Classification (TC). In this work, we present a preliminary study of 14 hand-crafted DAs applied on the MIRAGE19 dataset. Our results (i) show that DA can reap benefits previ- ously unexplored in TC and (ii) foster a research agenda on the use of generative models to automate DA design.",
             "bibtex": {
