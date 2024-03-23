@@ -1,4 +1,26 @@
 [
+    {"year": "2024",
+     "entries": [
+        {
+            "title" : "Data Augmentation for Traffic Classification",
+            "authors" : "C.Wang, A. Finamore, P. Michiardi, M. Gallo, D. Rossi",
+            "venue" :  "Passive and Active Measurements (PAM)",
+            "venueurl" : "https://pam2024.cs.northwestern.edu/program/",
+            "officialurl" : "preprint :: https://arxiv.org/abs/2401.10754",
+            "pdffname" : "PAM24_data-augmentation.pdf",
+            "abstract": "Data Augmentation (DA) -- enriching training data by adding synthetic samples -- is a technique widely adopted in Computer Vision (CV) and Natural Language Processing (NLP) tasks to improve models performance. Yet, DA has struggled to gain traction in networking contexts, particularly in Traffic Classification (TC) tasks. In this work, we fulfill this gap by benchmarking 18 augmentation functions applied to 3 TC datasets using packet time series as input representation and considering a variety of training conditions. Our results show that (i) DA can reap benefits previously unexplored, (ii) augmentations acting on time series sequence order and masking are better suited for TC than amplitude augmentations and (iii) basic models latent space analysis can help understanding the positive/negative effects of augmentations on classification performance.",
+            "bibtex": {
+                "name": "AF:PAM24",
+                "command": "@inproceeding{",
+                "author" : "{C. {Wang} and A. {Finamore} and P. {Michiardi} and M. {Gallo} and D. {Rossi}}",
+                "title" : "{Toward Generative Data Augmentation for Traffic Classification}",
+                "year": "{2024}",
+                "doi": "{10.1007/978-3-031-56249-5_7}",
+                "booktitle": "{Passive and Active Measurements (PAM)}",
+                "location": "{Virtual}"
+            }
+        }
+    ]},
     {"year": "2023",
      "entries": [
         {
