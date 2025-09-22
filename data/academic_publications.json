@@ -7,7 +7,7 @@
             "venue" :  "International Conference on Representation Learning (ICLR)",
             "venueurl" : "",
             "officialurl" : "preprint :: https://arxiv.org/abs/2405.20759",
-            "pdffname" : "ICLR25_mitune.pdf",
+            "pdffname" : "ICLR25_mitune_no-appendices.pdf",
             "abstract": "Diffusion models for Text-to-Image (T2I) conditional generation have seen tremendous success recently. Despite their success, accurately capturing user intentions with these models still requires a laborious trial and error process. This challenge is commonly identified as a model alignment problem, an issue that has attracted considerable attention by the research community. Instead of relying on fine-grained linguistic analyses of prompts, human annotation, or auxiliary vision-language models to steer image generation, in this work we present a novel method that relies on an information-theoretic alignment measure. In a nutshell, our method uses self-supervised fine-tuning and relies on point-wise mutual information between prompts and images to define a synthetic training set to induce model alignment. Our comparative analysis shows that our method is on-par or superior to the state-of-the-art, yet requires nothing but a pre-trained denoising network to estimate MI and a lightweight fine-tuning strategy.",
             "bibtex": {
                 "name": "AF:ICLR25",
@@ -16,6 +16,25 @@
                 "title" : "{Information Theoretic Text-to-Image Alignment}",
                 "year": "{2025}",
                 "doi": "https://doi.org/10.48550/arXiv.2405.20759",
+                "booktitle": "",
+                "location": ""
+            }
+        },
+        {
+            "title" : "RFMI: Estimating Mutual Information on Rectified Flow for Text-to-Image Alignment",
+            "authors" : "C. Wang, G. Franzese, A. Finamore, P. Michiardi",
+            "venue" :  "Workshop on Deep Generative Model in Machine Learning: Theory, Principle and Efficacy (ICLR - DeLTa)",
+            "venueurl" : "https://delta-workshop.github.io",
+            "officialurl" : "preprint :: https://arxiv.org/abs/2503.14358",
+            "pdffname" : "ICLR25_DeLTa-rfmi.pdf",
+            "abstract": "Rectified Flow (RF) models trained with a Flow matching framework have achieved state-of-the-art performance on Text-to-Image (T2I) conditional generation. Yet, multiple benchmarks show that synthetic images can still suffer from poor alignment with the prompt, i.e., images show wrong attribute binding, subject positioning, numeracy, etc. While the literature offers many methods to improve T2I alignment, they all consider only Diffusion Models, and require auxiliary datasets, scoring models, and linguistic analysis of the prompt. In this paper we aim to address these gaps. First, we introduce RFMI, a novel Mutual Information (MI) estimator for RF models that uses the pre-trained model itself for the MI estimation. Then, we investigate a self-supervised fine-tuning approach for T2I alignment based on RFMI that does not require auxiliary information other than the pre-trained model itself. Specifically, a fine-tuning set is constructed by selecting synthetic images generated from the pre-trained RF model and having high point-wise MI between images and prompts. Our experiments on MI estimation benchmarks demonstrate the validity of RFMI, and empirical fine-tuning on SD3.5-Medium confirms the effectiveness of RFMI for improving T2I alignment while maintaining image quality.",
+            "bibtex": {
+                "name": "AF:ICLR25-DELTA",
+                "command": "@misc{",
+                "author" : "{C. {Wang} and G. {Franzese} and A. {Finamore} and P. {Michiardi}}",
+                "title" : "{RFMI: Estimating Mutual Information on Rectified Flow for Text-to-Image Alignment}",
+                "year": "{2025}",
+                "doi": "https://arxiv.org/abs/2503.14358",
                 "booktitle": "",
                 "location": ""
             }
